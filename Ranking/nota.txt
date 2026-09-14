@@ -1,0 +1,7 @@
+Vista 6: Tabla de Clasificación (Ranking / Leaderboard) 
+Muestra la posición competitiva del alumno respecto a otros estudiantes. Requerimientos: 
+● Mismo menú de navegación superior que la pantalla principal. 
+● Selector de liga actual (Ej. Liga Bronce, Plata, Oro). 
+● Tabla o lista ordenada que muestre: Posición (#1, #2, etc.), Avatar, Nombre de Usuario, e Integración de 
+Puntos de Experiencia (XP). 
+● Resaltado especial para la fila perteneciente al usuario actualmente autenticado.
