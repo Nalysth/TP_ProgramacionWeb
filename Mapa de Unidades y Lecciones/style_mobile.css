@@ -1,0 +1,109 @@
+@media screen and (max-width: 500px) {
+    *{
+    box-sizing: border-box;
+    }
+    p,h2{
+        margin: 0;
+        padding: 0;
+    }
+    html, body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    body{
+        height: 97dvh;
+        display: flex;
+        flex-direction: column;
+    }
+    .cabecera{
+        display: flex;
+    }
+    .sector_retroceso{
+        width: 20%;
+        display: flex;
+        align-items: center;
+    }
+    .boton_retroceso{
+        font-size: 2em;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30%;
+        border: none;
+        box-shadow: 5px 5px 10px #0000009c;
+    }
+    .sector_titulo_unidad{
+        text-align: center;
+        width: 80%;
+    }
+    /*importante*/
+    .sector_targetas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex:1;
+        gap: 2%;
+    }
+    .segundo_titulo{
+        text-align: center;
+        width: 100%;
+    }
+    .targeta{
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr;
+        width: 100%;
+        flex: 1;
+        border-radius: 2%;
+    }
+    .texto_nombre_estado{
+        grid-column: 2/4;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+    }
+    .estado1{
+        color: #51ff00;
+    }
+    .estado2{
+        color:#e9c600;
+    }
+    .estado3{
+        color:#610000 ;
+    }
+    .sector_emoji{
+        grid-column: 1;
+        height: 100%;
+        font-size: 2em;
+
+    }
+    .boton_iniciar{
+        background-color: #d1d351;
+        font-size: 1em;
+        font-weight: bold;
+        color: #d1740a;
+        border-radius: 10%;
+        grid-column: 4;
+        width: 85%;
+        height: 40%;
+        
+    }
+    .sector_emoji, .texto_nombre_estado{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #lex1{
+        background: linear-gradient(to right, #61c56e, #14851a);
+    }
+    #lex2{
+        background: linear-gradient(to right, #f3a743, #a14f02);
+    }
+    #lex3{
+        background: linear-gradient(to right, #ca5e5a, #a11d0b);
+    }
+}
