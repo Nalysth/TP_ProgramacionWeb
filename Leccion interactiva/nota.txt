@@ -1,0 +1,8 @@
+Vista 2: Dashboard / Pantalla Principal de Cursos 
+Debe actuar como la pantalla central una vez autenticado el usuario. Requerimientos: 
+● Barra de navegación principal fija con accesos a: Cursos, Perfil, Clasificación y Tienda/Rachas. 
+● Sección de selección de idiomas disponibles: Tarjetas destacadas para Inglés, Alemán y Chino Mandarín. 
+Cada tarjeta debe mostrar bandera, nivel y porcentaje de progreso. 
+● Al hacer clic en una tarjeta de idioma, debe navegar al Mapa de Unidades de dicho curso. 
+● Sección lateral de resumen con racha actual de días (días seguidos aprendiendo) y experiencia acumulada 
+(XP).

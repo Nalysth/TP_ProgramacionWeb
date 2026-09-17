@@ -1,0 +1,9 @@
+Representa la página personal del estudiante. Requerimientos: 
+● Mismo menú de navegación superior presente en la vista principal. 
+● Avatar de usuario en formato circular e información personal (Nombre completo, Nombre de usuario, Email 
+institucional). 
+● Formulario para actualización de contraseña (campo de contraseña actual, nueva contraseña y 
+confirmación). 
+● Selector/Combo para definir el Idioma Preferido de la Interfaz. 
+● Resumen de logros académicos obtenidos (insignias, medallas de racha, total de XP). 
+● Botón para Guardar Cambios y botón secundario para Cerrar Sesión.

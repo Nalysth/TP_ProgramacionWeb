@@ -1,0 +1,7 @@
+Vista 1: Login / Inicio de Sesión 
+Esta vista representa la puerta de entrada a la plataforma. Debe incluir: 
+● Un banner o cabecera institucional de la plataforma con su correspondiente imagotipo. 
+● Un formulario de credenciales (Nombre de usuario / Email y Contraseña). 
+● Un botón primario para Iniciar Sesión, el cual debe navegar al Dashboard Principal. 
+● Un enlace o botón funcional para redirigir a la vista de Recuperación de Contraseña. 
+● Un enlace etiquetado como "¿No tienes cuenta? Créala aquí". 
