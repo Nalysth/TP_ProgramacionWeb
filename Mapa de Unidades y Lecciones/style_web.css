@@ -102,9 +102,9 @@
         font-size: 2em;
         background-color: #d1d351;
         font-weight: bold;
-        color: #d1740a;
         border-radius: 5%;
-
+        height: 100%;
+        width: 100%;
     }
     .estado1{
         color: #51ff00;
