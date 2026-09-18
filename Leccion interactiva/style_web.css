@@ -12,7 +12,7 @@ body{
     grid-template-rows: 1fr 1fr 6fr 1fr 1fr;
     height: 100%;
     padding: 2%;
-    gap:2%;
+    gap:1%;
 }
 .cabecera{
     display: grid;
