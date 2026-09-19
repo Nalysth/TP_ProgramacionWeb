@@ -3,10 +3,30 @@
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Page Title</title>
-    <link rel='stylesheet' href='main.css'>
+    <title>PAGINA PRINCIPAL</title>
+    <link rel='stylesheet' href='style_web.css'>
+    <link rel="stylesheet" href="navprincipal.css">
 </head>
 <body>
-    
+    <!--la idea con este header con nav
+    es que se pueda modificar despues.
+    por ejemplo si estamos en la pagina del perfil,
+    que desaparezca el boton de perfil,
+    pero necesito que este estadarizado
+    porque se tiene que repetir en todas las
+    paginas, es un navegador
+    esta pensado para que se copie y pegue en cada
+    header de cada pagina-->
+    <header class="cabecera">
+        <nav class="navegador">
+            <a href="" class="atras">ATRAS</a>
+        </nav>
+        <h1 class="titulo">TITULO</h1>
+        <nav class="navegador"> 
+            <a href="../Perfil de usuario y ajustes/perfil_usuario.html" class="perfil">PERFIL</a>
+            <a href="../Ranking/ranking.html" class="ranking">RANKING</a>
+            <a href="../index.html" class="home">LOG-IN</a>
+        </nav>
+    </header>
 </body>
 </html>

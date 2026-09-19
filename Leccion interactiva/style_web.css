@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 html,body{
@@ -9,87 +8,74 @@ html,body{
 }
 body{
     display: grid;
-    grid-template-rows: 1fr 1fr 6fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
     height: 100%;
-    padding: 2%;
     gap:1%;
 }
-.cabecera{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
-.sector_retroceso{
-    grid-column: 1;
-    width: 20%;
-    height: 100%;
-}
-.sector_boton_home {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    grid-column: 3;
-    width: 100%;
-    height: 100%;
-}
-.boton_home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 20%;
-    font-size: 3em;
-}
-.boton_retroceso{
-    font-size: 2em;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
 
-    border: 1px solid #ccc;
-    border-radius: 8%;
-    background-color: #f5f5f5;
-    color: #737373;
-}
-
-.sector_titulo_unidad{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .sector1_vidas_progreso{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3%;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
 }
 .vidas{
+    justify-self: end;
     font-size: 4em;
     display: flex;
     grid-column: 2;
     height: 100%;
+    width: 50%;
     align-items: center;
-    justify-content: center;
-    color: #960808;
+    justify-content: end;
+    
+}
+.vida{
+    background: linear-gradient(64deg,rgba(255, 255, 31, 1) 0%, rgba(255, 166, 0, 1) 35%, rgba(222, 51, 51, 1) 78%);    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 2px 2px #0005);
 }
 .progreso{
+    width: 50%;
+    padding: 1%;
     display: flex;
     grid-column: 1;
     height: 100%;
     align-items: center;
+    justify-content:  left;
+    border: 1px solid;
+    box-shadow: 1px 2px 1px #030101;    
+    border-radius: 10px;
+}
+.barra_progreso{
+    border-radius:5px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    border: 1px dashed;
+    height: 100%;
+    width: 60%;
+    background-color: #87ff87;
+}
+.text_progreso, .porcentaje{
+    color: #627fff;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.porcentaje{
+    text-align: right;
 }
 .sector2_contenido{
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: inset 0 0 5px #00000065;
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     grid-template-rows: 1fr 4fr 1fr;
 }
 .titulo_sec2_cont{
+    border-bottom: 1px dashed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,20 +104,30 @@ body{
     align-items: center;
 }
 .palabra{
-    border-start-start-radius: 40%;
-    border-end-end-radius: 40%;
+    border: 1px solid;
+    border-radius: 10px;
     height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.palabra:hover{
+    transform: scale(1.03);
+    box-shadow: 0 5px 10px #00000079;
 }
 .sector4_boton{
     display: flex;
     justify-content: right;
 }
 .boton_respuesta{
-    height: 70%;
-    background: linear-gradient(90deg,#3bf774 0%, #94d900 50%);
-    border-radius: 5%;
+    color: #075507;
+    padding: 1%;
+    height: 100%;
+    width: 325px;
+    border: 1px solid;
+    box-shadow: 1px 2px 1px #047910;    
+    border-radius: 10px;
+    background-color: #87ff87;
 }
 
