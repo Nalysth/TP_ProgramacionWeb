@@ -32,8 +32,8 @@ body{
     
 }
 .vida{
-    background: linear-gradient(64deg,rgba(255, 255, 31, 1) 0%, rgba(255, 166, 0, 1) 35%, rgba(222, 51, 51, 1) 78%);    background-clip: text;
-    -webkit-background-clip: text;
+    background: linear-gradient(64deg,#ffff1f 0%, #ffa600 35%, #de3333 78%);    
+    background-clip: text;
     color: transparent;
     filter: drop-shadow(0 2px 2px #0005);
 }
@@ -75,6 +75,7 @@ body{
     grid-template-rows: 1fr 4fr 1fr;
 }
 .titulo_sec2_cont{
+    font-size: 3em;
     border-bottom: 1px dashed;
     display: flex;
     align-items: center;
@@ -83,6 +84,7 @@ body{
     grid-row: 1;
 }
 .bloque_oracion{
+    font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,6 +106,7 @@ body{
     align-items: center;
 }
 .palabra{
+    font-size: 2em;
     border: 1px solid;
     border-radius: 10px;
     height: 50%;
@@ -121,6 +124,7 @@ body{
     justify-content: right;
 }
 .boton_respuesta{
+    font-size: 2em;
     color: #075507;
     padding: 1%;
     height: 100%;

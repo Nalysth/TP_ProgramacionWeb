@@ -25,8 +25,8 @@
         grid-template-columns: 1fr 2fr 1fr;
         align-items: center;
         grid-row: 1;
+        height: 50%;
     }
-
     .titulo{
         grid-column: 2;
         text-align: center;
@@ -70,17 +70,18 @@
     }
 
     .texto_nombre_estado {
+        display: flex;
         grid-row: 1;
         grid-column: 2;
-        font-size: 1em;
+
         display: grid;
         align-items: center;
         justify-content: center;
     }
 
     .boton_iniciar {
+        margin: 3%;
         text-decoration: none;
-        margin-right: 2%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -91,7 +92,5 @@
         grid-column: 3;
         font-size: 1em;
     }
-
-    
 }
    

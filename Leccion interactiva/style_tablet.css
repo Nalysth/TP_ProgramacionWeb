@@ -1,0 +1,71 @@
+@media screen and (min-width:700px) and (max-width:1064px){
+
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+    }    
+    .cabecera{
+        grid-column: span 2;
+        grid-row: 1;
+        height: 70%;
+    }
+    .perfil,.ranking{
+        display: none;
+        visibility: hidden;
+    }
+    .atras{
+        grid-column: span 2;
+    }
+    .home{
+        grid-column: 3;
+        grid-column: span 2;
+        grid-row: span 2;
+        height: 100%;
+    }
+    .sector1_vidas_progreso{
+        grid-column: span 2;
+        grid-row: 2;
+        grid-template-columns: repeat(2,1fr);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .vidas{
+        grid-column: 2;
+        grid-row: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .vida,.vida_vacia{
+        font-size: 2em;
+        width: 100%;
+    }
+    .progreso{
+        grid-column: 1;
+        grid-row: 2;
+        width: 50%;
+        height: 70%;
+    }
+    .sector2_contenido{
+        grid-column: span 2;
+        grid-row: 3;
+    }
+    .sector3_palabras{
+        grid-column: span 2;
+        grid-row: 4;
+    }
+
+    .sector4_boton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        grid-column: 2;
+        grid-row: 5;
+    }
+    .boton_respuesta{
+        height: 100px;
+    }
+}

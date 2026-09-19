@@ -1,4 +1,4 @@
-    *{
+;;  *{
     margin: 0;
     padding: 0;
     }
@@ -63,12 +63,19 @@
         font-size: 2em;
     }
     .boton_iniciar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 2em;
-        background-color: #d1d351;
+        background-color: #fcfcf9;
         font-weight: bold;
-        border-radius: 5%;
-        height: 100%;
+        border-radius:10px;
+        height: 50%;
         width: 100%;
+
+        text-decoration: none;
+        border: 1px solid;
+        box-shadow: 1px 5px black;
     }
     .estado1{
         color: #51ff00;

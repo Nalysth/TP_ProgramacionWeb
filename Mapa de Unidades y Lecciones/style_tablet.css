@@ -1,4 +1,9 @@
-@media screen and (min-width: 500px) and (max-width: 1024px) {
+@media screen and (min-width: 701px) and (max-width: 1023px) {
+    .cabecera{
+        display: grid;
+        height: 70%;
+    }
+
     .sector_targetas{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -12,6 +17,9 @@
     .targeta {
         margin: 0;
         padding: 2%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        height: 100%;
     }
     #lex2{
         grid-column: 1 / 3;
