@@ -1,107 +1,97 @@
-@media screen and (max-width: 500px) {
-    *{
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    }
-    p,h2{
-        margin: 0;
+}
+@media screen and (max-width: 700px){
+    .home,.perfil,.ranking,#nav2{
+        visibility: hidden;
+        display: none;
         padding: 0;
+        margin: 0;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100vh;
     }
     body{
-        height: 97dvh;
-        display: flex;
-        flex-direction: column;
-        font-family: 'Montserrat', sans-serif;
-        padding: 5%;
+        display: grid;
+        grid-template-rows: 1fr 7fr;
     }
     .cabecera{
-        display: flex;
-    }
-    .sector_retroceso{
-        width: 10%;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
         align-items: center;
+        grid-row: 1;
     }
-    .boton_retroceso{
-        font-size: 2em;
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        background-color: #f5f5f5;
-        color: #737373;
-    }
-    .sector_titulo_unidad{
+
+    .titulo{
+        grid-column: 2;
         text-align: center;
-        width: 80%;
     }
-    /*importante*/
     .sector_targetas{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        flex:1;
-        gap: 3%;
-        padding: 0 4%;
-        margin-bottom: 10px ;
-    }
-    .segundo_titulo{
-        text-align: center;
-        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 2fr 2fr;
+        grid-row: 2;
     }
     .targeta{
-        align-items: center;
-        justify-content: center;
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr 1fr;
-        width: 100%;
-        flex: 1;
-        border-radius: 2%;
-        padding-right:2% ;
-    }
-    .texto_nombre_estado{
-        grid-column: 2/4;
-        display: flex;
-        flex-direction: column;
-        font-weight: bold;
-    }
-    .estado1{
-        color: #51ff00;
-    }
-    .estado2{
-        color:#e9c600;
-    }
-    .estado3{
-        color:#610000 ;
-    }
-    .sector_emoji{
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(3,1fr);
+        height: 100%;
         grid-column: 1;
-        height: 100%;
-        font-size: 3em;
-    }
-    .boton_iniciar{
-        background-color: #d1d351;
-        font-weight: bold;
-        border-radius: 10%;
-        grid-column: 4;
-        height: 25%;
-    }
-    .sector_emoji, .texto_nombre_estado{
-        height: 100%;
-        display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
+    }
+    .segundo_titulo{
+        grid-column: 1;
+        grid-row: 1;
     }
     #lex1{
-        background: linear-gradient(to right, #61c56e, #14851a);
+        grid-row: 2;
+
     }
     #lex2{
-        background: linear-gradient(to right, #f3a743, #a14f02);
+        grid-row: 3;
+
     }
     #lex3{
-        background: linear-gradient(to right, #ca5e5a, #a11d0b);
+        grid-row: 4;
+
     }
+    .sector_emoji {
+        grid-row: 1;
+        grid-column: 1;
+        font-size: 2em;
+    }
+
+    .texto_nombre_estado {
+        grid-row: 1;
+        grid-column: 2;
+        font-size: 1em;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boton_iniciar {
+        text-decoration: none;
+        margin-right: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-self: end;
+        width: 50%;
+        height: 50%;
+        grid-row: 1;
+        grid-column: 3;
+        font-size: 1em;
+    }
+
+    
 }
+   

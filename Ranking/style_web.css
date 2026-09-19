@@ -1,0 +1,11 @@
+html,body{
+    height: 100vh;
+}
+body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 3fr;
+
+}
+.atras{
+    visibility: hidden;
+}
