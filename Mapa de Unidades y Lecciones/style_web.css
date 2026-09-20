@@ -60,13 +60,13 @@
         font-size: 4em;
     }
     .texto_nombre_estado{
-        font-size: 2em;
+        font-size: 1em;
     }
     .boton_iniciar{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2em;
+        font-size: 1em;
         background-color: #fcfcf9;
         font-weight: bold;
         border-radius:10px;
