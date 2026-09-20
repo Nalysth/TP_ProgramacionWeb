@@ -6,16 +6,12 @@ body {
 body {
     display: grid;
     grid-template-rows: auto auto 1fr;
-       border: 0.15em black solid;
-    border-radius: 0.5em;  
 }
 
 .cabecera {
     display: flex;
     align-items: center;
     justify-content: space-between;
-       border: 0.15em black solid;
-    border-radius: 0.5em;  
 }
 
 th, td {
