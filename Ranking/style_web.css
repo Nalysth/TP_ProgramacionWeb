@@ -1,11 +1,70 @@
-html,body{
-    height: 100vh;
+html,
+body {
+    min-height: 100vh;
 }
+
 body {
     display: grid;
-    grid-template-rows: 1fr 1fr 3fr;
-
+    grid-template-rows: auto auto 1fr;
+       border: 0.15em black solid;
+    border-radius: 0.5em;  
 }
-.atras{
-    visibility: hidden;
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+       border: 0.15em black solid;
+    border-radius: 0.5em;  
+}
+
+th, td {
+    border: 0.1em solid black;
+    padding: 0.5em 1em;      
+    text-align: center;      
+}
+
+.cabezera_tabla_clasificacion {
+    text-align: center;
+    margin: 2em 0;
+    border: 0.15em black solid;
+    border-radius: 0.5em;   
+}
+
+.tabla_clasificacion {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+     border: 0.15em black solid;
+    border-radius: 0.5em;   
+}
+
+.cuerpo_tabla_clasificacion {
+    text-align: center;
+     border: 0.15em black solid;
+    border-radius: 0.5em;   
+}
+
+.primera_fila_cabezera_tabla_clasificacion {
+    background-color: #f2f2f2;
+    border: 0.15em black solid;
+    border-radius: 0.5em;   
+}
+
+.segunda_fila_tabla_clasificacion {
+    background-color: #e6f7ff;
+    border: 0.15em black solid;
+    border-radius: 0.5em;   
+}
+
+.tercera_fila_tabla_clasificacion {
+    background-color: #e6f7ff;
+    border: 0.15em black solid;
+    border-radius: 0.5em;   
+}
+
+.cuarta_fila_tabla_clasificacion {
+    background-color: #f2f2f2;
+    border: 0.15em black solid;
+    border-radius: 0.5em;   
 }
