@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background-color: rgb(59, 59, 143);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+h1{
+    color: rgb(232, 240, 255);
+}
+
+.boton-registro{
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 10em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(232, 240, 255);
+}
+
+.banner{
+    background-image: url(img/banneroficial.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 30em;
+    padding-top: 3em;
+    
+}
+
+.form-titulo{
+    background-color: rgba(232, 240, 255,0.9);
+    width: 30%;
+    margin-left: 5em;
+    padding: 1.5em;
+    border-radius: 2em;
+}
+.banner h2{
+    font-size: 2em;
+    color: rgb(59, 59, 143);
+    margin-bottom: 0.3m;
+}
+
+.banner h3{
+    font-size: 1em;
+    color: rgb(59, 59, 143);
+}
+
+.banner label{
+    color: rgb(59, 59, 143);
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+.form-inicio{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    padding: 1em;
+    border-radius: 1em;
+    border: 2px solid rgb(59, 59, 143);
+}
+
+.boton-form{
+    padding: 1em ;
+    margin: 1em;
+    background-color: rgb(59, 59, 143) ;
+    border-radius: 1em;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.form-inicio a{
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.sub-titulo{
+    margin-top: 1em;
+    text-align: center;
+    color:  rgb(59, 59, 143);
+    font-size: 1.8em;
+}
+
+.cursos{
+    display: flex;
+}
+
+.curso{
+    display: flex;
+    margin: 3em;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-color: rgb(232, 240, 255);
+    border-radius: 1em;
+    text-decoration: none;
+    border: 3px solid rgb(59, 59, 143);
+}
+
+.curso img{
+    width: 25%;
+    border-radius: 0.5em;
+    
+}
+
+.curso h3{
+    margin: 0.5em;
+    color: rgb(59, 59, 143);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 59, 143);
+    padding: 2em 0;
+    gap: 4em;
+}
+
+.imagen img{
+    width: 30%;
+    
+}
+
+.imagen h3{
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+    color: rgb(255, 213, 79);
+}
+
+.imagen p{
+    font-size: 1em;
+    color: white;
+}
+
+.imagen-titulo{
+    width: 35%;
+}
+
+.invertido{
+    flex-direction: row-reverse;
+    background-color: rgb(255, 213, 79);
+}
+
+.invertido h3{
+    color: rgb(59, 59, 143);
+}
+
+.seccion-registro{
+    background-color: rgb(59, 59, 143);
+}
+
+.seccion-registro h3{
+    font-size: 3em;
+    max-width: 10em;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 0.5em;
+}
+
+.seccion-registro a{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 10em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(232, 240, 255);
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 59, 143);
+    gap: 5em;
+    padding: 2em;
+}
+
+.info-footer h3{
+    color:rgb(255, 213, 79);
+    font-size: 1.5em;
+}
+
+.info-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.info-footer ul{
+    list-style: none;
+}
+
+.info-footer li{
+    padding: 0.5em;
+}
