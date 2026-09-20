@@ -21,9 +21,7 @@
     .titulo{
         grid-column: span 2;
         padding: 1.5%;
-
     }
-
     .sector1_vidas_progreso{
         display: grid;
         grid-template-columns: 1fr;
