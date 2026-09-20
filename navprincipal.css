@@ -6,20 +6,24 @@ body{
 }
 .cabecera{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
     grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
     justify-content: center;
 }
-.navegador,.titulo{
+.navegador1,.navegador2,.titulo{
+    width: 100%;
     display: grid;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height:100%;
 }
-.navegador{
+.titulo{
+    font-size: 1.5em;
+    padding: 1.5%;
+}
+.atras{width: 100px;}
+.navegador2{
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1%;
 }
 .home, .perfil, .ranking, .atras{
     display: flex;

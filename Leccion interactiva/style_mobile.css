@@ -1,74 +1,77 @@
 @media screen and (max-width: 700px) {
-    .home,.ranking,.perfil{
-        display: none;
-        visibility: hidden;
+    *{
+        padding: 0;
+        margin: 0;
     }
     body{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
-    }
-    .cabecera{
-        grid-column: 1;
-        grid-row: 1;
-    }
-    .atras{
-        grid-column: span 2;
-    }
-    .sector1_vidas_progreso{
-        grid-column: 1;
-        grid-row: 2;
+        grid-template-rows:
+        1fr 
+        1fr
+        5fr
+        1fr
+        1fr;
 
-        display: flex;
-        flex-direction: row;
-        gap:5%;
     }
-    .vidas,.vida{
-        grid-column: 1;
+    .home,.ranking,.perfil{
+        display: none;
+        visibility: hidden;
+    }
+    .titulo{
+        grid-column: span 2;
+        padding: 1.5%;
+
+    }
+
+    .sector1_vidas_progreso{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .vidas{
+        grid-column: span 2;
         grid-row: 1;
-        width: 100%;
         justify-content: center;
-        align-items: center;
+        justify-self: center;
+        width: 100%;
+        font-size: 2em;
     }
     .progreso{
-        grid-column: 1;
-        grid-row: 2;
         width: 100%;
+        grid-column: span 2;
+        grid-row: 2;
+    }
+    .text_progreso{
+        display: none;
+        visibility: hidden;
     }
     .sector2_contenido{
-        grid-column: 1;
-        grid-row: 3;
-
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 4fr 1fr;
+        height: 100%;
     }
     .titulo_sec2_cont{
-        grid-column: 1 ;
-        grid-row: 1;
+        grid-column: span 3;
+        font-size: 2em;
     }
     .bloque_oracion{
-        grid-column: 1;
-        grid-row: 2;
-    }
-    .respesta{
-        grid-column: 1;
-        grid-row: 3;
+        height: 100%;
+        font-size: 1.5em;
     }
     .sector3_palabras{
-        grid-column: 1;
-        grid-row: 4;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
 
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 3%;            
     }
-    .palabra {
-        width: 25%;
-        height: 40%;
-
+    .palabra{
+        height: 100%;
         font-size: 1em;
     }
-    
+    .sector4_boton{
+        display: inline;
+        width: 100%;
+    }
+    .boton_respuesta{
+        width: 100%;
+        font-size: 1em;
+    }
 }

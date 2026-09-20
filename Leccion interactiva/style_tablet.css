@@ -1,5 +1,4 @@
-@media screen and (min-width:700px) and (max-width:1064px){
-
+@media screen and (min-width: 701px) and (max-width: 1376px){
     body{
         display: grid;
         grid-template-columns: 1fr 1fr ;
@@ -14,11 +13,7 @@
         display: none;
         visibility: hidden;
     }
-    .atras{
-        grid-column: span 2;
-    }
     .home{
-        grid-column: 3;
         grid-column: span 2;
         grid-row: span 2;
         height: 100%;
@@ -26,7 +21,6 @@
     .sector1_vidas_progreso{
         grid-column: span 2;
         grid-row: 2;
-        grid-template-columns: repeat(2,1fr);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -34,13 +28,13 @@
     .vidas{
         grid-column: 2;
         grid-row: 2;
+    }
+    .vida,.vida_vacia{
+        font-size: 1em;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .vida,.vida_vacia{
-        font-size: 2em;
-        width: 100%;
     }
     .progreso{
         grid-column: 1;
@@ -56,7 +50,9 @@
         grid-column: span 2;
         grid-row: 4;
     }
-
+    .palabra{
+        height: 70%;
+    }
     .sector4_boton {
         display: flex;
         align-items: center;
