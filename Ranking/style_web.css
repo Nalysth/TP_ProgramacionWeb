@@ -5,7 +5,10 @@ body {
 
 body {
     display: grid;
-    grid-template-rows: auto auto 1fr;
+    grid-template-rows: 1fr 1fr 3fr;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(232, 240, 255);
 }
 
 .cabecera {
@@ -14,53 +17,38 @@ body {
     justify-content: space-between;
 }
 
-th, td {
-    border: 0.1em solid black;
-    padding: 0.5em 1em;      
-    text-align: center;      
-}
-
-.cabezera_tabla_clasificacion {
+.cabezera_clasificacion {
     text-align: center;
+    h2 {
+        color: rgb(59, 59, 143);
+    }
+    h3 {
+        color: #F6F6F6;
+    }
     margin: 2em 0;
-    border: 0.15em black solid;
+    border: 0.15em #95870b solid;
     border-radius: 0.5em;   
+    background-color: #FDD052;
 }
 
 .tabla_clasificacion {
-    width: 100%;
     border-collapse: collapse;
-    margin-bottom: 2em;
-     border: 0.15em black solid;
-    border-radius: 0.5em;   
+    display: table;
+    border: 0.10em solid;
+    border-color: #3b3b8f;
 }
 
 .cuerpo_tabla_clasificacion {
     text-align: center;
-     border: 0.15em black solid;
-    border-radius: 0.5em;   
 }
 
 .primera_fila_cabezera_tabla_clasificacion {
-    background-color: #f2f2f2;
-    border: 0.15em black solid;
-    border-radius: 0.5em;   
+    background-color: #3b3b8f;
+    color: rgb(232, 240, 255);
 }
 
-.segunda_fila_tabla_clasificacion {
-    background-color: #e6f7ff;
-    border: 0.15em black solid;
-    border-radius: 0.5em;   
-}
-
-.tercera_fila_tabla_clasificacion {
-    background-color: #e6f7ff;
-    border: 0.15em black solid;
-    border-radius: 0.5em;   
-}
-
-.cuarta_fila_tabla_clasificacion {
-    background-color: #f2f2f2;
-    border: 0.15em black solid;
-    border-radius: 0.5em;   
+.celda
+ {
+    border: 0.10em solid;
+    border-color: #3b3b8f;
 }
