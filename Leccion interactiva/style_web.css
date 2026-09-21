@@ -7,10 +7,16 @@ html,body{
     height: 100vh;
 }
 body{
+    gap:3%;
     display: grid;
-    grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr 7fr;
+}
+main{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
     height: 100%;
-    gap: 0.5%;
+    gap:3%;
+
 }
 
 .sector1_vidas_progreso{
@@ -29,7 +35,6 @@ body{
     width: 50%;
     align-items: center;
     justify-content: end;
-    
 }
 .vida{
     background: linear-gradient(64deg,#ffff1f 0%, #ffa600 35%, #de3333 78%);    
@@ -97,6 +102,12 @@ body{
     justify-content: center;
     grid-column: 2;
     grid-row: 3;
+}
+.text_area_respuesta{
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    margin-bottom: 2%;
 }
 .sector3_palabras{
     display: grid;

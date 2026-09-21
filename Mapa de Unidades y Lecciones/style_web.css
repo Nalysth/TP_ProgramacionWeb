@@ -1,16 +1,22 @@
-;;  *{
+    *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     }
     html, body{
         height: 100dvh;
-        box-sizing: border-box;
+       
     }
     body{
         height: 100%;
-        font-family: 'Montserrat', sans-serif;
         display: grid;
-        grid-template-rows: 1fr 5fr;
+        grid-template-rows: 1fr 8fr;
+        gap: 1%;
+    }
+    main{
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr;
     }
     .sector_targetas{
         align-items: center;
@@ -32,6 +38,8 @@
         width: 100%;
     }
     .targeta{
+        justify-content: center;
+        align-items: center;
         text-align: center;
         height: 80%;
         display: grid;
@@ -63,19 +71,24 @@
         font-size: 1em;
     }
     .boton_iniciar{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1em;
-        background-color: #fcfcf9;
-        font-weight: bold;
-        border-radius:10px;
-        height: 50%;
-        width: 100%;
 
+        display: grid;
+        justify-self: center;
+        align-items: center;
+
+        background-color: #fcfcf9;
+
+        text-align: center;
         text-decoration: none;
+        font-weight: bold;
+        font-size: 1em;
+        height: 50%;
+        width: 91%;
+
+        border-radius:10px;
         border: 1px solid;
-        box-shadow: 1px 5px black;
+        box-shadow: 1px 3px black;
+
     }
     .estado1{
         color: #51ff00;
