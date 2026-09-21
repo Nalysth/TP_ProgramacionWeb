@@ -5,29 +5,46 @@ body {
 
 body {
     display: grid;
-    grid-template-rows: 1fr 1fr 3fr;
+    grid-template-rows: 0.5fr 1fr 3fr;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(232, 240, 255);
+}
+
+
+
+.titulo {
+    font-family: 'Chango';
+    text-align: center;
+    font-size: 10em;
+    color: #3b3b8f;
+    font-size: 3em;
+    margin: 0.5em 0;
+
 }
 
 .cabecera {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #D4CFFB;
+    color: #F6F6F6;
 }
 
 .cabezera_clasificacion {
     text-align: center;
+
     h2 {
-        color: rgb(59, 59, 143);
+        color: #3b3b8f;
     }
+
     h3 {
         color: #F6F6F6;
     }
+
     margin: 2em 0;
     border: 0.15em #95870b solid;
-    border-radius: 0.5em;   
+    border-radius: 0.5em;
     background-color: #FDD052;
 }
 
@@ -45,10 +62,15 @@ body {
 .primera_fila_cabezera_tabla_clasificacion {
     background-color: #3b3b8f;
     color: rgb(232, 240, 255);
+    font-size: 1.5em;
+    padding: 1em;
 }
 
-.celda
- {
+.celda {
     border: 0.10em solid;
     border-color: #3b3b8f;
+}
+
+.atras {
+    width: 100%;
 }
