@@ -11,7 +11,7 @@ body{
 .navegador{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(59, 59, 143);
+    background-color: #3b3b8f;
     padding: 1.5em;
 }
 

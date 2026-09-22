@@ -4,18 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Usuario</title>
+    <link rel="stylesheet" href="../css/navegador.css"/>
+    <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="style_web.css">
     <link rel="stylesheet" href="style_tablet.css">
     <link rel="stylesheet" href="style_mobile.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"/>
+
 </head>
 <body>
     <header>
+        <nav class="navegador">
+            <a href="pantallaPrincipal.html" class="volver-inicio">
+                <h1>GuanaTalk</h1>
+            </a>
+            <section>
+                <ul class="opciones">
+                    <li>
+                        <a href="../cursos.html">
+                            <i class="fa-solid fa-book-open"></i>
+                            <span>Cursos</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="perfil.html">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Perfil</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="ranking.html">
+                            <i class="fa-solid fa-star"></i>
+                            <span>Ranking</span> 
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="racha">
+                <i class="fa-solid fa-fire"></i>
+                    <h3>5 Días</h3>
+                <i class="fa-solid fa-bolt"></i>
+                <h3>350 XP</h3>
+                <details>
+                <summary class="salida">
+                    <i class="fa-solid fa-bars"></i>
+                </summary>
+                    <a href="../index.html" class="boton-cerrar">Cerrar Sesión</a>
+                </details>
+            </section>
+        </nav>
     </header>
     <main>
         <section class="foto_nombre_perfil">
             <article class="bloque_foto_perfil"></article>
             <article class="bloque_nombre">
-                <h2 class="text_nombre">NALYST</h2>
+                <h2 class="text_nombre">GUANA</h2>
             </article>
         </section>
         <section class="estadisticas">
@@ -35,23 +84,58 @@
         <section class="informacion_personal">
             <article class="bloque_mail">
                 <h3>MAIL</h3>
-                <span class="mail_dato">agustina@gmail.com</span>
+                <span class="mail_dato">guanni@gmail.com</span>
                 <a href="" class="link_cambiar">CAMBIAR MAIL</a>
-                <h3>TELEFONO</h3>
-                <span class="tel_dato">1123810078</span>
+                <h3 class="titulo_dato">TELEFONO</h3>
+                <span class="tel_dato">1123771343</span>
                 <a href="" class="link_cambiar">CAMBIAR TELEFONO</a>
             </article>
             <article class="bloque_contraseña">
                 <h3>CONTRASEÑA</h3>
                 <span class="clave_dato">..............</span>
                 <a href="" class="link_cambiar">CAMBIAR CONTRASEÑA</a>
-                <h3>NACIONALIDAD</h3>
+                <h3 class="titulo_dato">NACIONALIDAD</h3>
                 <span class="nacioa_dato">Argentia</span>
                 <a href="" class="link_cambiar">CAMBIAR CONTRASEÑA</a>
             </article>
         </section>
     </main>
     <footer>
+        <h2>GuanaTalk</h2>  
+        <section class="columnas-footer">
+            <section class="info-footer" id="contacto-footer">
+                <h3>Informacion</h3>
+                <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Quiénes somos</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                </ul>
+            </section>
+            <section class="info-footer">
+                <article class="footer-redes">
+                    <h3>Redes</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/login/?locale=es_ES">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/?lang=es">Twitter</a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section class="info-footer" id="menu-footer">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
+                    <li><a href="ranking.html">Ranking</a></li>
+                </ul>
+            </section>
+        </section>
     </footer>
 </body>
 </html>

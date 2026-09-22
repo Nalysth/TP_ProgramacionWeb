@@ -1,5 +1,5 @@
 footer{
-    background-color: rgb(59, 59, 143);
+    background-color: #3b3b8f;
     margin-top: 2em;
     padding-bottom: 2em;
 }
@@ -17,12 +17,12 @@ footer h2{
 }
 
 footer h3{
-    color: rgb(255, 213, 79);
+    color: #ffd54f;
     font-size: 1.4em;
 }
 
 footer a{
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
