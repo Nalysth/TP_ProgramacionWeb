@@ -10,6 +10,9 @@
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 2fr 4fr;
     }
+    .text_nombre{
+        font-size: 2em;
+    }
     .foto_nombre_perfil{
         grid-column: 1;
         grid-row: 1;
@@ -23,13 +26,13 @@
         grid-row: 2;
     }
     .informacion_personal{
-        font-size: 0.8em;
+        font-size: 0.5em;
         grid-column: 1;
         grid-row: 3;
     }
     .link_cambiar{
         width: 100%;
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
 
     .footer-redes{
