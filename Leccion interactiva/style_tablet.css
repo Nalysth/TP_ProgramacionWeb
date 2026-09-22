@@ -1,18 +1,10 @@
-@media screen and (min-width: 701px) and (max-width: 1376px){
+@media screen and (min-width: 700px) and (max-width: 1376px){
+    header{grid-row: 1; height: 60%;}
     body{
         display: grid;
         grid-template-rows: 1fr 8fr;
     }
-   
-    .cabecera{
-        grid-column: span 2;
-        grid-row: 1;
-        height: 70%;
-    }
-    .perfil,.ranking{
-        display: none;
-        visibility: hidden;
-    }
+
     .home{
         grid-column: span 2;
         grid-row: span 2;
@@ -20,16 +12,26 @@
     }
     main{
         display: grid;
-        grid-template-rows: 1fr 2fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
     } 
+    h2{
+        grid-row: 1;
+        grid-column: span 2;
+        display: grid;
+        justify-self: center;
+        align-self: center;
+        font-size:3em;
+    }
+    
     .sector1_vidas_progreso{
         grid-column: span 2;
-        grid-row: 1;
+        grid-row: 2;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .vidas{
+        font-size: 7em;
         grid-column: 2;
         grid-row: 2;
     }
@@ -48,11 +50,11 @@
     }
     .sector2_contenido{
         grid-column: span 2;
-        grid-row: 2;
+        grid-row: 3;
     }
     .sector3_palabras{
         grid-column: span 2;
-        grid-row: 3;
+        grid-row: 4;
     }
     .palabra{
         height: 70%;
@@ -63,11 +65,12 @@
         justify-content: center;
         height: 100%;
         grid-column: 2;
-        grid-row: 4;
+        grid-row: 5;
     }
     .boton_respuesta{
+        align-items: center;
+        justify-content: center;
         height: 100px;
         display: grid;
-        
     }
 }
