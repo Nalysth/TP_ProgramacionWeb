@@ -46,6 +46,7 @@
     .segundo_titulo{
         grid-column: 1;
         grid-row: 1;
+        font-size: 2em;
     }
     #lex1{
         grid-row: 2;
