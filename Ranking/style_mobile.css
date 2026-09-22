@@ -1,0 +1,29 @@
+@media screen and (max-width: 767px) {
+
+    .tabla_liga {
+    font-size: 1.2em;
+}
+
+.liga_descripcion {
+    font-size: 0.9em;
+}
+
+.cabezera_clasificacion {
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.celda {
+    padding: 0.5em;
+    font-size: 0.85em;
+}
+
+.primera_fila_cabezera_tabla_clasificacion th {
+    font-size: 0.9em;
+    padding: 0.3em;
+}
+
+main {
+    padding: 0.5em 1em;
+}
+}
