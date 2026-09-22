@@ -1,26 +1,28 @@
 @media screen and (min-width: 700px) and (max-width: 1376px){
-    header{grid-row: 1; height: 60%;}
+
     body{
         display: grid;
-        grid-template-rows: 1fr 8fr;
+        grid-template-rows: 1fr 8fr 1fr;
     }
-
+    header{grid-row: 1;}
     .home{
         grid-column: span 2;
         grid-row: span 2;
         height: 100%;
     }
     main{
+        grid-row: 2;
         display: grid;
         grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
-    } 
+    }
+    footer{grid-row: 3;}
     h2{
         grid-row: 1;
         grid-column: span 2;
         display: grid;
         justify-self: center;
         align-self: center;
-        font-size:3em;
+        font-size:2em;
     }
     
     .sector1_vidas_progreso{
@@ -31,7 +33,7 @@
         align-items: center;
     }
     .vidas{
-        font-size: 7em;
+        font-size: 4em;
         grid-column: 2;
         grid-row: 2;
     }
@@ -51,6 +53,13 @@
     .sector2_contenido{
         grid-column: span 2;
         grid-row: 3;
+
+    }
+    .titulo_sec2_cont{
+        font-size: 2em;
+    }
+    .bloque_oracion{
+        font-family: 1em;
     }
     .sector3_palabras{
         grid-column: span 2;

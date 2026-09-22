@@ -117,7 +117,7 @@ footer{grid-row: 3;}
     gap: 3%;
 }
 .bloque_mail,.bloque_contraseña{
-    font-size: 1.5em;
+    font-size: 1em;
     display: grid;
     gap: 5%;
 }

@@ -8,34 +8,37 @@ html,body{
 }
 body{
     display: grid;
-    grid-template-rows: 1fr 7fr;
+    grid-template-rows: 1fr 5fr 2fr;
 }
+
 main{
     grid-row: 2;
-    padding: 3%;
     display: grid;
-    grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
-    height: 100%;
-    gap:3%;
-
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    gap: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
+footer{grid-row: 3; margin: 0; padding: 0;}
 .titulo{
+    padding: 0;
+    margin: 0;
     display: grid;
     justify-self: center;
     align-self: center;
     font-size: 2em;
 }
 header{grid-row: 1;}
+
 .sector1_vidas_progreso{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3%;
+    gap: 1%;
     width: 100%;
-    height: 100%;
 }
 .vidas{
     justify-self: end;
-    font-size: 6.5em;
+    font-size: 5em;
     display: flex;
     grid-column: 2;
     height: 100%;
@@ -54,7 +57,6 @@ header{grid-row: 1;}
     padding: 1%;
     display: flex;
     grid-column: 1;
-    height: 100%;
     align-items: center;
     justify-content:  left;
     border: 1px solid;
@@ -87,7 +89,7 @@ header{grid-row: 1;}
     grid-template-rows: 1fr 4fr 1fr;
 }
 .titulo_sec2_cont{
-    font-size: 3em;
+    font-size: 2em;
     border-bottom: 1px dashed;
     display: flex;
     align-items: center;
@@ -96,7 +98,7 @@ header{grid-row: 1;}
     grid-row: 1;
 }
 .bloque_oracion{
-    font-size: 3em;
+    font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,11 +109,9 @@ header{grid-row: 1;}
     grid-column: 2;
     grid-row: 3;
 }
-
 .text_area_respuesta{
     width: 100%;
     height: 100%;
-    margin-bottom: 2%;
 }
 .text_area_respuesta::placeholder {
     color: transparent;
@@ -119,12 +119,12 @@ header{grid-row: 1;}
 .sector3_palabras{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap: 3%;
+    gap: 1%;
     justify-content: center;
     align-items: center;
 }
 .palabra{
-    font-size: 2em;
+    font-size: 1.5em;
     border: 1px solid;
     border-radius: 10px;
     height: 50%;
@@ -138,15 +138,15 @@ header{grid-row: 1;}
     box-shadow: 0 5px 10px #00000079;
 }
 .sector4_boton{
-    display: flex;
-    justify-content: right;
+    display: grid;
+    align-items: center;
+    justify-content: end;
 }
 .boton_respuesta{
     font-size: 2em;
     color: #075507;
     padding: 1%;
     height: 100%;
-    width: 325px;
     border: 1px solid;
     box-shadow: 1px 2px 1px #047910;    
     border-radius: 10px;

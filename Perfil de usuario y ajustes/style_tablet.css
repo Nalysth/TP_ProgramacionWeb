@@ -1,0 +1,56 @@
+@media screen and (min-width: 701px) and (max-width: 1376px){
+        footer,header{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        grid-template-rows: 0.5fr 5fr 1fr;
+    }
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 2fr 4fr;
+    }
+    footer{
+        padding: 2%;
+    }
+    .foto_nombre_perfil{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .bloque_foto_perfil{
+        width: 20.9%;
+    }
+    .estadisticas{
+        font-size: 0.8em;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .informacion_personal{
+        font-size: 0.8em;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .link_cambiar{
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .footer-redes{
+        display: none;
+        visibility: hidden;
+    }
+    .columnas-footer{
+        display: grid; 
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+
+    }
+    #contacto-footer{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #menu-footer{
+        grid-column: 2;
+        grid-row: 1 ;
+    }
+}

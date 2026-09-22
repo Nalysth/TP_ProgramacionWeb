@@ -6,6 +6,7 @@
     body{
         height: 100vh;
         display: grid;
+        grid-template-rows: 1fr 8fr;
     }
     main{
         display: grid;
@@ -75,5 +76,9 @@
         text-decoration: none;
         width: 100%;
         font-size: 1em;
+    }
+    footer{
+        display: none;
+        visibility: hidden;
     }
 }

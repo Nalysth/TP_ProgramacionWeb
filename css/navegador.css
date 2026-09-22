@@ -14,7 +14,6 @@ body{
     background-color: #3b3b8f;
     padding: 1.5em;
 }
-header{grid-row: 1; height: 60%;}
 .volver-inicio{
     text-decoration: none;
 }
