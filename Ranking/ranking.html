@@ -4,25 +4,32 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Ranking</title>
-    <link rel='stylesheet' href='style_web.css'>
     <link rel="stylesheet" href="../navprincipal.css">
+    <link rel='stylesheet' href='style_web.css'>
+    <link rel="stylesheet" href="style_tablet.css" media="(min-width: 48em)">
+    <link rel="stylesheet" href="style_mobile.css" media="(max-width: 767px)"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <header class="cabecera">
+   <!-- <header class="cabecera">
          <nav class="navegador1">
             <a href="" class="atras">ATRAS</a>
         </nav>
-        <h1 class="titulo">TITULO</h1>
+        <h1 class="guanaTalk">GUANATALK</h1>
         <nav class="navegador2">
-            <a href="../Pantalla principal/pantalla_principal.html" class="home">HOME</a>
-            <a href="../Perfil de usuario y ajustes/perfil_usuario.html" class="perfil">PERFIL</a>
-            <a href="../Ranking/ranking.html" class="ranking">RANKING</a>
+            <a class="home" href="../Pantalla principal/pantalla_principal.html">HOME</a>
+            <a class="perfil" href="../Perfil de usuario y ajustes/perfil_usuario.html">PERFIL</a>
+            <a class="ranking" href="../Ranking/ranking.html">RANKING</a>
         </nav>
     </header>
+  !-->
+    <main>  
     <section class="cabezera_clasificacion">
-        <h2> 🏆 Tabla de Clasificación - Liga de Bronce </h2>
-        <h3>Los 5 primeros ascienden a la Liga de Plata esta semana </h3>
+        <h2 class="tabla_liga"> 🏆 Tabla de Clasificación - Liga de Bronce </h2>
+        <h3 class="liga_descripcion">Los 5 primeros ascienden a la Liga de Plata esta semana </h3>
     </section>
     <table class="tabla_clasificacion">
         <thead class="primera_fila_cabezera_tabla_clasificacion">
@@ -33,10 +40,12 @@
         </thead>
         <tbody class="cuerpo_tabla_clasificacion">
         <tr class="segunda_fila_tabla_clasificacion">
-            <td class="celda">🥇1</td>
-            <td class="celda">Estudiante 1</td>
-            <td class="celda">850 XP</td>
-            <td class="celda">Zona de Ascenso</td>
+           <tr>
+             <td class="celda">🥇1</td>
+             <td class="celda">Estudiante 1</td>
+             <td class="celda">850 XP</td>
+             <td class="celda">Zona de Ascenso</td>
+           </tr>
         </tr>
         <tr class="tercera_fila_tabla_clasificacion">
             <td class="celda">🥈2</td>
@@ -52,5 +61,6 @@
         </tr>
     </tbody>
     </table>
+    </main>
 </body>
 </html>

@@ -1,33 +1,42 @@
 html,
 body {
-    min-height: 100vh;
+    height: 100%;
 }
 
 body {
     display: grid;
-    grid-template-rows: 1fr 1fr 3fr;
+    grid-template-rows: 0.5fr 8fr;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(232, 240, 255);
+    background-color: #e8f0ff;
+
 }
 
 .cabecera {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #D4CFFB;
+    color: #F6F6F6;
 }
+
 
 .cabezera_clasificacion {
     text-align: center;
-    h2 {
-        color: rgb(59, 59, 143);
+
+    .tabla_liga {
+        color: #3b3b8f;
+        font-weight: bold;
+        text-shadow: 0.04em 0.04em 0 #95870b;
     }
-    h3 {
-        color: #F6F6F6;
+
+    .liga_descripcion {
+        color: #423d09;
     }
+
     margin: 2em 0;
     border: 0.15em #95870b solid;
-    border-radius: 0.5em;   
+    border-radius: 0.5em;
     background-color: #FDD052;
 }
 
@@ -40,6 +49,7 @@ body {
 
 .cuerpo_tabla_clasificacion {
     text-align: center;
+    background-color: #F6F6F6;
 }
 
 .primera_fila_cabezera_tabla_clasificacion {
@@ -47,8 +57,76 @@ body {
     color: rgb(232, 240, 255);
 }
 
-.celda
- {
+.primera_fila_cabezera_tabla_clasificacion th {
+    padding: 0.5em;
+
+    font-size: 1.2em;
+}
+
+.celda {
     border: 0.10em solid;
     border-color: #3b3b8f;
 }
+
+ /*
+.guanaTalk {
+    font-family: 'Chango';
+    text-align: center;
+    color: #3b3b8f;
+    font-size: 3em;
+    text-shadow: 
+        0.04em 0.04em 0 #232360,
+        0.08em 0.08em 0 #181845;
+}
+
+.navegador2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1em;
+}
+
+ .navegador2 a {
+    color: #F6F6F6;
+    text-decoration: none;
+    width: 6em;
+    text-align: center;
+    padding: 0.5em 0;          
+    font-weight: bold;
+    border-radius: 0.5em;
+    border: 0.1em solid #1a1a50;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.atras {
+     color: #F6F6F6;
+    text-decoration: none;
+    background-color: #3b3b8f;       
+    font-weight: bold;
+    border: 0.1em solid #1a1a50;
+}
+
+.home {
+    background-color: #3b3b8f;
+}
+.perfil {
+    background-color: #5DC5F8;
+}
+
+.ranking {
+    background-color: #FE7AB4;
+}
+
+.navegador2 a.home:hover {
+    background-color: #5353ba;  
+}
+
+.navegador2 a.perfil:hover {
+    background-color: #a3e8ff;    
+}
+
+.navegador2 a.ranking:hover {
+    background-color: #ffb3d6;
+}
+*/
