@@ -1,0 +1,172 @@
+.banner{
+    background-image: url(../img/bannerPP.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner h2{
+    font-size: 2em;
+    color: rgb(59, 59, 143);
+}
+
+.banner p{
+    color: rgb(59, 59, 143);
+}
+
+.titulo-curso{
+    display: flex;
+    color: rgb(59, 59, 143);
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.titulo-curso i {
+    font-size: 1.5em;
+    color: rgb(255, 213, 79);
+}
+
+.cursos-estadisticas{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 2em;
+    padding: 0 2em;
+}
+
+.tarjeta-cursos{
+    display: flex;
+    gap: 2em;
+}
+
+.curso{
+    background-color: rgb(214, 222, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    border-radius: 1em;
+}
+.curso img{
+    width: 50%;
+    border-radius: 1em;
+}
+
+.curso h3{
+    font-size: 1.5em;
+    margin: 0.5em;
+    color: rgb(59, 59, 143);
+}
+
+.curso p{
+    color: black;
+    padding-bottom: 0.5em;
+}
+
+.curso span{
+    font-weight: bold;
+}
+
+.curso a{
+    background-color: rgb(59, 59, 143);
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.estadisticas{
+    background-color: rgb(59, 59, 143);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.titulo-estadistica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.titulo-estadistica i{
+    color: rgb(255, 213, 79) ;
+    font-size: 1.8em;
+    padding: 0;
+}
+
+.titulo-estadistica h3{
+    color: white;
+}
+
+.estadisticas i{
+    font-size: 1.8em;
+    color: rgb(255, 213, 79) ;
+}
+
+.datos-estadisticas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mensaje{
+    color: rgb(255, 213, 79);
+    font-weight: bold;
+    margin: 0.5em;
+}
+
+@media screen and (max-width: 700px){
+    .cursos-estadisticas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .tarjeta-cursos{
+        flex-direction: column;
+    }
+
+    .curso i{
+        display: none;
+    }
+    .estadisticas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .datos-estadisticas{
+        gap: 1em;
+    }
+
+   
+} 
+
+@media screen and (min-width: 701px) and (max-width: 1376px){
+        
+        .tarjeta-cursos{
+            flex-wrap: wrap;
+        }
+
+         .estadisticas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .datos-estadisticas{
+        gap: 1em;
+        margin-top: 1em;
+    }
+
+    .mensaje{
+        margin-top: 1em;
+    }
+
+}
