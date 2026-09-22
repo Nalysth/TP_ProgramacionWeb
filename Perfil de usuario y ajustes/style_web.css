@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
+
 }
 html,body{
     height: 100vh;
@@ -43,9 +44,8 @@ footer{grid-row: 3;}
     justify-self: center;
 
     grid-row: 1;
-    height: 100%;
 
-    background-image: url("../img/guanaco-del-bebé-10295400.webp");
+    background-image: url("../img/logo.png");
     background-size: cover; 
     background-position: center;
 
@@ -54,7 +54,7 @@ footer{grid-row: 3;}
     color: #ffffff;
     box-shadow: 1px 1px 15px #00000026;
 
-    width: 70%;
+    width: 50%;
     height: 90%;
 }
 .bloque_nombre{
@@ -64,7 +64,9 @@ footer{grid-row: 3;}
 
     grid-row: 2;
 }
-
+.text_nombre{
+    font-size: 2em;
+}
 .estadisticas{
     grid-column: 2;
     grid-row: 1;
@@ -95,7 +97,7 @@ footer{grid-row: 3;}
     text-decoration: none;
 
     font-weight: bold;
-    color: rgb(42, 69, 165);
+    color: #2a45a5;
     font-size: 2em;
     
     display: grid;
@@ -115,18 +117,15 @@ footer{grid-row: 3;}
     gap: 3%;
 }
 .bloque_mail,.bloque_contraseña{
+    font-size: 1.5em;
     display: grid;
-    gap: 3%;
+    gap: 5%;
 }
 .bloque_mail{
     padding-left: 2%;
 }
 
-.mail_dato,.tel_dato,.clave_dato,.nacioa_dato{
-    font-size: 1em;
-}
 .link_cambiar{
-    font-size: 0.7em;
     text-decoration: none;
     color: #2c2c2c;
     width: 50%;
