@@ -19,7 +19,7 @@
         2fr;
     }
     .titulo{
-        font-size: 0.7em;
+        font-size: 1em;
         grid-column: span 2;
     }
     .sector1_vidas_progreso{
@@ -34,7 +34,7 @@
         justify-content: center;
         justify-self: center;
         width: 100%;
-        font-size: 2.7em;
+        font-size: 2em;
     }
     .progreso{
         width: 100%;
@@ -51,11 +51,11 @@
     }
     .titulo_sec2_cont{
         grid-column: span 3;
-        font-size: 2em;
+        font-size: 1em;
     }
     .bloque_oracion{
         height: 100%;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .sector3_palabras{
         grid-row: 4;
