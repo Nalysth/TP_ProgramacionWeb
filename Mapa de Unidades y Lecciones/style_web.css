@@ -42,6 +42,7 @@
         width: 100%;
     }
     .targeta{
+        background-color: #3b3b8fc7;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -50,6 +51,7 @@
         grid-template-rows: 1fr 2fr 1fr;
         grid-row: 2;
         border-radius: 5%;
+        color: #ffffff;
 
         /*se puede sacar
         lo que hace es trasformar la targeta, estos son los valores de la transicion*/
@@ -69,10 +71,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 4em;
+        font-size: 5em;
     }
     .texto_nombre_estado{
-        font-size: 1em;
+        font-size: 2em;
     }
     .boton_iniciar{
 
@@ -80,7 +82,7 @@
         justify-self: center;
         align-items: center;
 
-        background-color: #fcfcf9;
+        background-color: #ffd54f;
 
         text-align: center;
         text-decoration: none;
@@ -95,30 +97,27 @@
 
     }
     .estado1{
-        color: #51ff00;
+        color: #51ff01;
     }
     .estado2{
         color:#e9c600;
     }
     .estado3{
-        color:#610000 ;
+        color:#ff0000 ;
     }
     .estado1,.estado2,.estado3,.boton_iniciar{
         font-weight: bold;
 
     }
     #lex1{
-        background: linear-gradient(to right, #61c56e, #14851a);
         border: 5px dashed;
-        border-color: #39ff54;
+        border-color: #00ff22;
     }
     #lex2{
-        background: linear-gradient(to right, #f3a743, #a14f02);
         border: 5px dashed;
-        border-color: #ff9100;
+        border-color: #ffd900;
     }
     #lex3{
-        background: linear-gradient(to right, #ca5e5a, #a11d0b);
         border: 5px dashed;
-        border-color: #ff352e;
+        border-color: #ff0a02;
     }

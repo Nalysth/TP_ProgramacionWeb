@@ -4,25 +4,25 @@
         margin: 0;
     }
     body{
+        height: 100vh;
+        display: grid;
+    }
+    main{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows:
-        1fr 
         1fr
+        2fr
         5fr
-        1fr
-        1fr;
-
-    }
-    .home,.ranking,.perfil{
-        display: none;
-        visibility: hidden;
+        2fr
+        2fr;
     }
     .titulo{
+        font-size: 2em;
         grid-column: span 2;
-        padding: 1.5%;
     }
     .sector1_vidas_progreso{
+        grid-row: 2;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -33,7 +33,7 @@
         justify-content: center;
         justify-self: center;
         width: 100%;
-        font-size: 2em;
+        font-size: 2.7em;
     }
     .progreso{
         width: 100%;
@@ -45,6 +45,7 @@
         visibility: hidden;
     }
     .sector2_contenido{
+        grid-row: 3;
         height: 100%;
     }
     .titulo_sec2_cont{
@@ -56,6 +57,7 @@
         font-size: 1.5em;
     }
     .sector3_palabras{
+        grid-row: 4;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
 
@@ -65,10 +67,12 @@
         font-size: 1em;
     }
     .sector4_boton{
+        grid-row: 5;
         display: inline;
         width: 100%;
     }
     .boton_respuesta{
+        text-decoration: none;
         width: 100%;
         font-size: 1em;
     }
