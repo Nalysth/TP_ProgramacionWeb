@@ -112,6 +112,7 @@ header{grid-row: 1;}
 .text_area_respuesta{
     width: 100%;
     height: 100%;
+    resize: none;
 }
 .text_area_respuesta::placeholder {
     color: transparent;
