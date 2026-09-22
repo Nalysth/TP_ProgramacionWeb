@@ -4,27 +4,62 @@
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <title>MAPA DE UNIDADES ALEMAN</title>
+
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/navegador.css">
         <link rel='stylesheet' href='style_web.css'>
         <link rel='stylesheet' href='style_tablet.css'>
-        <link rel="stylesheet" href="../navprincipal.css">
         <link rel='stylesheet' href='style_mobile.css'>
 
         <!--GOOGLE FONT-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     </head>
     <body>
-        <header class="cabecera">
-            <nav class="navegador1">
-                <a href="../Pantalla principal/pantalla_principal.html" class="atras">ATRAS</a>
-            </nav>
-            <h1 class="titulo">ALEMAN UNIDAD 1</h1>
-            <nav class="navegador2" id="nav2">
-                <a href="../Pantalla principal/pantalla_principal.html" class="home">HOME</a>
-                <a href="../Perfil de usuario y ajustes/perfil_usuario.html" class="perfil">PERFIL</a>
-                <a href="../Ranking/ranking.html" class="ranking">RANKING</a>
+        <header>
+            <nav class="navegador">
+                <a href="../index.html" class="volver-inicio">
+                <h1>GuanaTalk</h1>
+                </a>
+                <section>
+                <ul class="opciones">
+                    <li>
+                    <a href="../html/pantallaPrincipal.html">
+                        <i class="fa-solid fa-book-open"></i>
+                        <span>Cursos</span> 
+                    </a>
+                    </li>
+                    <li>
+                    <a href="../Perfil de usuario y ajustes/perfil_usuario.html">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Perfil</span> 
+                    </a>
+                    </li>
+                    <li>
+                    <a href="../Ranking/ranking.html">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Ranking</span> 
+                    </a>
+                    </li>
+                </ul>
+                </section>
+
+                <section class="racha">
+                <i class="fa-solid fa-fire"></i>
+                <h3>5 Días</h3>
+                <i class="fa-solid fa-bolt"></i>
+                <h3>350 XP</h3>
+
+                <details>
+                    <summary class="salida">
+                    <i class="fa-solid fa-bars"></i>
+                    </summary>
+                    <a href="../index.html" class="boton-cerrar">Cerrar Sesión</a>
+                </details>
+                </section>
             </nav>
         </header>
         <main>
@@ -67,5 +102,6 @@
                 </article>
             </section>
         </main>
+
     </body>
 </html>

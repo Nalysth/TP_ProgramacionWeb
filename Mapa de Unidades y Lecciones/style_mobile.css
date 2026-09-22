@@ -15,7 +15,7 @@
     }
     body{
         display: grid;
-        grid-template-rows: 1fr 8fr;
+        grid-template-rows: 1fr 8fr 1fr;
     }
     main{
         grid-row: 2;
@@ -23,15 +23,6 @@
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
 
-    }
-    .cabecera{
-        display: grid;
-        align-items: center;
-        grid-row: 1;
-    }
-    .titulo{
-        grid-column: span 2;
-        text-align: center;
     }
     .sector_targetas{
         grid-column: 1;
