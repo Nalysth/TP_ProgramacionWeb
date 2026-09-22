@@ -19,7 +19,7 @@
         2fr;
     }
     .titulo{
-        font-size: 2em;
+        font-size: 0.5em;
         grid-column: span 2;
     }
     .sector1_vidas_progreso{
