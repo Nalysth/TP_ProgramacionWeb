@@ -144,3 +144,25 @@ main {
 .segunda_fila_tabla_clasificacion_plata{
     font-weight: bolder;
 }
+
+.celda {
+  border: 0.10em solid;
+  border-color: #3b3b8f;
+  padding: 0.75em;
+  vertical-align: middle;
+}
+
+.celda-estudiante {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625em;
+}
+
+.avatar-estudiante {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
