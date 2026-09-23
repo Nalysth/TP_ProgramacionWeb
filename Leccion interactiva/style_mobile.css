@@ -6,30 +6,33 @@
     body{
         height: 100vh;
         display: grid;
-        grid-template-rows: 1fr 8fr;
+        grid-template-rows: 0.5fr 8fr;
+    }
+    header{
+        grid-row: 1;
+        margin: 0;
+        padding: 0;
     }
     main{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows:
-        1fr
-        2fr
-        5fr
-        2fr
-        2fr;
+        grid-template-rows: 0.3fr 0.5fr 1fr 4fr 1fr 1fr;
+    }
+    h2{
+        margin: 0;
+        padding: 0;
     }
     .titulo{
         font-size: 1em;
-        grid-column: span 2;
+        grid-row: 2;
     }
     .sector1_vidas_progreso{
-        grid-row: 2;
+        grid-row: 3;
         display: grid;
-        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     .vidas{
-        grid-column: 1;
         grid-row: 1;
         justify-content: center;
         justify-self: center;
@@ -38,7 +41,6 @@
     }
     .progreso{
         width: 100%;
-        grid-column: span 2;
         grid-row: 2;
     }
     .text_progreso{
@@ -46,11 +48,10 @@
         visibility: hidden;
     }
     .sector2_contenido{
-        grid-row: 3;
+        grid-row: 4;
         height: 100%;
     }
     .titulo_sec2_cont{
-        grid-column: span 3;
         font-size: 1em;
     }
     .bloque_oracion{
@@ -58,17 +59,16 @@
         font-size: 1.2em;
     }
     .sector3_palabras{
-        grid-row: 4;
+        grid-row: 5;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-
     }
     .palabra{
         height: 100%;
         font-size: 1em;
     }
     .sector4_boton{
-        grid-row: 5;
+        grid-row: 6;
         display: inline;
         width: 100%;
     }
