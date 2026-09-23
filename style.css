@@ -218,13 +218,14 @@ footer{
     padding: 0.5em;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 750px){
+   
     h1{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .boton-registro{
-        font-size: 1em;
+        font-size: 0.6em;
     }
 
     .banner{
@@ -232,10 +233,17 @@ footer{
     }
 
     .form-titulo{
-        width: 60%;
+        width:60%;
         background-color: rgba(232, 240, 255,0.7);
     }
 
+    .form-titulo h3{
+        display: none;
+    }
+
+    .form-titulo a{
+        text-align: center;
+    }
     .sub-titulo{
         font-size: 1.3em;
     }
@@ -275,4 +283,5 @@ footer{
     .banner{
         background-position: right;
     }
+
 }

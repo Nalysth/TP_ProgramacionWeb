@@ -8,18 +8,25 @@ html,body{
 }
 body{
     display: grid;
-    grid-template-rows: 1fr 5fr 2fr;
+    grid-template-rows: 1fr 6fr 1.5fr;
 }
-
 main{
     grid-row: 2;
     display: grid;
-    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 4fr 1fr 1fr;
     gap: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 1%;
 }
 footer{grid-row: 3; margin: 0; padding: 0;}
+.cruz{
+    display: grid;
+    align-self: end;
+    justify-self: right;
+    text-decoration: none;
+}
+.cruz i{
+    color: #000000;
+}
 .titulo{
     padding: 0;
     margin: 0;
@@ -32,7 +39,8 @@ header{grid-row: 1;}
 
 .sector1_vidas_progreso{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
     gap: 1%;
     width: 100%;
 }
@@ -40,8 +48,6 @@ header{grid-row: 1;}
     justify-self: end;
     font-size: 5em;
     display: flex;
-    grid-column: 2;
-    height: 100%;
     width: 50%;
     align-items: center;
     justify-content: end;
@@ -50,21 +56,20 @@ header{grid-row: 1;}
     background: linear-gradient(64deg,#ffff1f 0%, #ffa600 35%, #de3333 78%);    
     background-clip: text;
     color: transparent;
-    filter: drop-shadow(0 2px 2px #0005);
 }
 .progreso{
     width: 50%;
     padding: 1%;
     display: flex;
-    grid-column: 1;
     align-items: center;
     justify-content:  left;
     border: 1px solid;
-    box-shadow: 1px 2px 1px #030101;    
+    border-color: #03010156;
+    box-shadow: 1px 2px 1px #03010156;    
     border-radius: 10px;
 }
 .barra_progreso{
-    border-radius:5px;
+    border-radius:0.5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,11 +86,13 @@ header{grid-row: 1;}
     text-align: right;
 }
 .sector2_contenido{
-    border-radius: 10px;
-    border: 1px solid;
-    box-shadow: inset 0 0 5px #00000065;
+    border-radius: 1em;
+    box-shadow: 1px 1px 5px #0000005b;
+    border: 2px solid;
+    border-color:white ;
+
+    padding: 1%;
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
     grid-template-rows: 1fr 4fr 1fr;
 }
 .titulo_sec2_cont{
@@ -94,7 +101,6 @@ header{grid-row: 1;}
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-column: 2;
     grid-row: 1;
 }
 .bloque_oracion{
@@ -102,14 +108,13 @@ header{grid-row: 1;}
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-column: 2;
     grid-row: 2;
 }
 .respesta{
-    grid-column: 2;
     grid-row: 3;
 }
 .text_area_respuesta{
+    border-radius: 1em;
     width: 100%;
     height: 100%;
     resize: none;
@@ -126,7 +131,8 @@ header{grid-row: 1;}
 }
 .palabra{
     font-size: 1.5em;
-    border: 1px solid;
+    border: 1px solid ;
+    border-color: #0000003a;
     border-radius: 10px;
     height: 50%;
     display: flex;

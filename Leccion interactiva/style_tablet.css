@@ -2,7 +2,7 @@
 
     body{
         display: grid;
-        grid-template-rows: 1fr 8fr 1fr;
+        grid-template-rows: 0.5fr 8fr 1fr;
     }
     header{grid-row: 1;}
     .home{
@@ -13,11 +13,23 @@
     main{
         grid-row: 2;
         display: grid;
-        grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+        grid-template-rows: 0.5fr 1fr 1fr 2fr 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     footer{grid-row: 3;}
-    h2{
+    .cruz{
+        grid-column: span 2;
         grid-row: 1;
+        display: grid;
+        align-self: end;
+        justify-self: right;
+        text-decoration: none;
+    }
+    .cruz i{
+        color: #000000;
+    }
+    h2{
+        grid-row: 2;
         grid-column: span 2;
         display: grid;
         justify-self: center;
@@ -27,7 +39,7 @@
     
     .sector1_vidas_progreso{
         grid-column: span 2;
-        grid-row: 2;
+        grid-row: 3;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -52,7 +64,7 @@
     }
     .sector2_contenido{
         grid-column: span 2;
-        grid-row: 3;
+        grid-row: 4;
 
     }
     .titulo_sec2_cont{
@@ -62,24 +74,25 @@
         font-family: 1em;
     }
     .sector3_palabras{
-        grid-column: span 2;
-        grid-row: 4;
+        grid-row: 5;
     }
     .palabra{
         height: 70%;
     }
     .sector4_boton {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        grid-column: 2;
-        grid-row: 5;
+        display: grid;
+        align-items: end;
+        justify-content: right;
+        grid-row: 6;
     }
     .boton_respuesta{
+
         align-items: center;
         justify-content: center;
         height: 100px;
         display: grid;
+    }
+    a{
+        text-decoration: none;
     }
 }

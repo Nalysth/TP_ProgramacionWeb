@@ -142,9 +142,12 @@
 
     .datos-estadisticas{
         gap: 1em;
+        text-align: center;
     }
 
-   
+    .titulo-estadistica{
+        display: none;
+    }
 } 
 
 @media screen and (min-width: 701px) and (max-width: 1376px){
@@ -163,6 +166,7 @@
     .datos-estadisticas{
         gap: 1em;
         margin-top: 1em;
+        
     }
 
     .mensaje{

@@ -13,18 +13,18 @@ body{
     display: grid;
     grid-template-rows: 1fr 5fr 1fr;
 }
-header{grid-row: 1;}
+
 main{
     grid-row: 2;
-    padding-left: 1%;
-    padding-right: 1%;
-
+    padding: 2em;
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 2fr 2fr;
     gap: 3%;
+
+
 }
-footer{grid-row: 3;}
+
 
 .foto_nombre_perfil{
     grid-column: 1;
@@ -37,6 +37,10 @@ footer{grid-row: 3;}
     height: 100%;
     padding: 0;
 
+}
+
+.foto_nombre_perfil h2{
+    color: rgb(255, 213, 79);
 }
 .bloque_foto_perfil{
     display: grid;
@@ -56,6 +60,10 @@ footer{grid-row: 3;}
 
     width: 50%;
     height: 90%;
+}
+
+.informacion_personal h3{
+    color: rgb(59, 59, 143);
 }
 .bloque_nombre{
     display: grid;
@@ -110,29 +118,26 @@ footer{grid-row: 3;}
     grid-row: 2;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-
-    box-shadow: 1px 1px 15px #00000026;
     border-radius: 24px;
-    padding: 2%;
     gap: 3%;
+    padding: 4em;
+    background-color: rgba(232, 240, 255,0.7);
 }
 .bloque_mail,.bloque_contraseña{
     font-size: 1em;
     display: grid;
     gap: 5%;
 }
-.bloque_mail{
-    padding-left: 2%;
-}
 
 .link_cambiar{
     text-decoration: none;
-    color: #2c2c2c;
+    background-color: rgb(59, 59, 143);
     width: 50%;
-
+    color: white;
+    font-weight: bold;
+    padding: 0.5em;
     display: grid;
     align-items: center;
     justify-content: center;
-    box-shadow: 1px 1px 15px #00000026;
     border-radius: 24px;
 }
