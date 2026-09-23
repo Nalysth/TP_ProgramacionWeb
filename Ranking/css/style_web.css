@@ -23,7 +23,7 @@ main {
     height: 100%;
     padding: 1em 2em;
     box-sizing: border-box;
-   
+
 }
 
 
@@ -42,9 +42,6 @@ main {
 }
 
 
-
-
-
 .cabezera_clasificacion {
     text-align: center;
     padding: 2em;
@@ -61,7 +58,7 @@ main {
         font-size: 1.2em;
     }
 
-     margin: 1em 0;
+    margin: 1em 0;
     border: 0.15em #95870b solid;
     border-radius: 0.5em;
     background-color: #FDD052;
@@ -103,7 +100,7 @@ main {
 .primera_fila_cabezera_tabla_clasificacion {
 
     background-color: #3b3b8f;
-
+    font-weight: bold;
     color: #e8f0ff;
 
 }
@@ -128,4 +125,22 @@ main {
 
     border-color: #3b3b8f;
 
+}
+
+.contenedor_botones_liga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.boton_volver_liga,
+.boton_siguiente_liga {
+
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.segunda_fila_tabla_clasificacion_plata{
+    font-weight: bolder;
 }

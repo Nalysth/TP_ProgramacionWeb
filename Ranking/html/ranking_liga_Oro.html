@@ -4,12 +4,14 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Ranking</title>
-    <link rel='stylesheet' href='../css/navegador.css'>
+    <link rel="stylesheet" href="../../css/navegador.css">
     <link rel='stylesheet'
       href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css'>
-    <link rel='stylesheet' href='style_web.css'>
-    <link rel="stylesheet" href="style_tablet.css" media="(min-width: 48em)">
-    <link rel="stylesheet" href="style_mobile.css" media="(max-width: 767px)">
+    <link rel="stylesheet" href="../css/style_web.css">
+    <link rel="stylesheet" href="../css/style_tablet.css"
+      media="(min-width: 48em)">
+    <link rel="stylesheet" href="../css/style_mobile.css"
+      media="(max-width: 767px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap"
@@ -24,27 +26,27 @@
 
   </head>
   <body>
-    <header>
+   <header>
       <nav class="navegador">
-        <a href="../html/pantallaPrincipal.html" class="volver-inicio">
+        <a href="../../html/pantallaPrincipal.html" class="volver-inicio">
           <h1>GuanaTalk</h1>
         </a>
         <section>
           <ul class="opciones">
             <li>
-              <a href="../html/pantallaPrincipal.html">
+              <a href="../../html/pantallaPrincipal.html">
                 <i class="fa-solid fa-book-open"></i>
                 <span>Cursos</span>
               </a>
             </li>
             <li>
-              <a href="../Perfil de usuario y ajustes/perfil_usuario.html">
+              <a href="../../Perfil de usuario y ajustes/perfil_usuario.html">
                 <i class="fa-solid fa-user"></i>
                 <span>Perfil</span>
               </a>
             </li>
             <li>
-              <a href="../Ranking/ranking.html">
+              <a href="../html/ranking_liga_Plata.html">
                 <i class="fa-solid fa-star"></i>
                 <span>Ranking</span>
               </a>
@@ -62,16 +64,20 @@
             <summary class="salida">
               <i class="fa-solid fa-bars"></i>
             </summary>
-            <a href="../index.html" class="boton-cerrar">Cerrar Sesión</a>
+            <a href="../../index.html" class="boton-cerrar">Cerrar Sesión</a>
           </details>
         </section>
       </nav>
     </header>
     <main>
       <section class="cabezera_clasificacion">
-        <h2 class="tabla_liga"> 🏆 Tabla de Clasificación - Liga de Bronce </h2>
-        <h3 class="liga_descripcion">Los 5 primeros ascienden a la Liga de Plata
-          esta semana </h3>
+        <div class="contenedor_botones_liga">
+          <a class="boton_volver_liga" href="ranking_liga_Plata.html">⬅️</a>
+          <h2 class="tabla_liga"> 🏆 Tabla de Clasificación - Liga de Oro 🥇
+          </h2>
+        </div>
+        <h3 class="liga_descripcion">Los 5 primeros ascienden a Liga de Diamante
+        </h3>
       </section>
       <table class="tabla_clasificacion">
         <thead class="primera_fila_cabezera_tabla_clasificacion">
@@ -83,20 +89,20 @@
         <tbody class="cuerpo_tabla_clasificacion">
           <tr class="segunda_fila_tabla_clasificacion">
             <td class="celda">🥇1</td>
-            <td class="celda">Hideo Kojima</td>
-            <td class="celda">850 XP</td>
+            <td class="celda">Leonel Messi</td>
+            <td class="celda">5500 XP</td>
             <td class="celda">Zona de Ascenso</td>
           </tr>
           <tr class="tercera_fila_tabla_clasificacion">
             <td class="celda">🥈2</td>
-            <td class="celda">Cristina Fernandez de Kirchner</td>
-            <td class="celda">750 XP</td>
+            <td class="celda">Mauricio Macri</td>
+            <td class="celda">3700 XP</td>
             <td class="celda">Zona de Ascenso</td>
           </tr>
           <tr class="cuarta_fila_tabla_clasificacion">
             <td class="celda">🥉3</td>
-            <td class="celda">Michael Jackson</td>
-            <td class="celda">650 XP</td>
+            <td class="celda">Mercedes Sosa</td>
+            <td class="celda">2800 XP</td>
             <td class="celda">Zona de Descenso</td>
           </tr>
         </tbody>
