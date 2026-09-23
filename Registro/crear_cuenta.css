@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d6deed;
+}
+
+main {
+    margin: 0 auto;
+    height: 100%;
+    width: 45%;
+    border: 0.5px solid black;
+    background-color: #e8f0ff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+form {   
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 5%;
+}
+
+h1, p, button {
+    color: #3b3b8f;
+}
+
+div {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+button {
+    color: white;
+    background-color: #3b3b8f;
+}
+
+input {
+    padding: 10px 31%;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.fechaDeNacimiento input {
+    padding: 10px 0px;
+}
+
+button {
+    padding: 15px 90px;
+    border-radius: 50px;
+}
+
