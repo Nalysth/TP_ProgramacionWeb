@@ -6,22 +6,68 @@
     <link rel="icon" href="../img/logo_sin_fondo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../css/navegador.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/recuperar.css">
-    <title>Cambiar telefono</title>
+    <title>Cambiar contraseña</title>
 </head>
 <body>
     <header>
-      <nav>
-        <a href="../index.html" class="titulo">GuanaTalk</a>
+      <nav class="navegador">
+        <a href="#" class="volver-inicio">
+          <h1>GuanaTalk</h1>
+        </a>
+        <section>
+          <ul class="opciones">
+            <li>
+              <a href="../html/pantallaPrincipal.html">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Cursos</span> 
+              </a>
+            </li>
+            <li>
+              <a href="../Perfil de usuario y ajustes/perfil_usuario.html">
+                <i class="fa-solid fa-user"></i>
+                <span>Perfil</span> 
+              </a>
+            </li>
+            <li>
+              <a href="../Ranking/html/ranking_liga_Plata.html">
+                <i class="fa-solid fa-star"></i>
+                <span>Ranking</span> 
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="racha">
+          <i class="fa-solid fa-fire"></i>
+          <h3>5 Días</h3>
+          <i class="fa-solid fa-bolt"></i>
+          <h3>350 XP</h3>
+
+          <details>
+            <summary class="salida">
+              <i class="fa-solid fa-bars"></i>
+            </summary>
+            <a href="../index.html" class="boton-cerrar">Cerrar Sesión</a>
+          </details>
+        </section>
       </nav>
     </header>
     <main>
-        <h1>Cambiar telefono</h1>
-        <p class="texto"></p>
+      <section class="flecha_y_titulo">
+          <a href="../Perfil de usuario y ajustes/perfil_usuario.html"><i class="fa-solid fa-chevron-left" style="color: #000000;"></i></a>
+          <h2>Cambiar Telefono</h2>
+      </section>
         <form action="perfil_usuario.html">
             <label for="contr">Nuevo telefono</label>
             <input type="tel" id="contr"required >
@@ -31,6 +77,10 @@
         </form>
     </main>
     <footer>
+      <h2>GuanaTalk</h2>  
+      <section class="columnas-footer">
+
+      
       <section class="info-footer">
         <h3>Informacion</h3>
         <ul>
@@ -48,6 +98,15 @@
           </li>
           <li><a href="https://x.com/?lang=es">Twitter</a></li>
         </ul>
+      </section>
+      <section class="info-footer">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#">Cursos</a></li>
+          <li><a href="../Perfil de usuario y ajustes/perfil_usuario.html">Perfil</a></li>
+          <li><a href="../Ranking/ranking.html">Ranking</a></li>
+        </ul>
+      </section>
       </section>
     </footer>
 </body>
