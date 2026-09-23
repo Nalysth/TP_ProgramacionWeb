@@ -183,3 +183,7 @@ select,option{
     justify-content: center;
     border-radius: 24px;
 }
+
+.nacionalidad{
+    display: none;
+}
