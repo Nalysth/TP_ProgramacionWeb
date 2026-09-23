@@ -82,4 +82,10 @@
         display: none;
         visibility: hidden;
     }
+    .popup{
+        font-size: 1.5em;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: 90% auto;
+    }
 }
