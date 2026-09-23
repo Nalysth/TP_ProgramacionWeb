@@ -1,8 +1,0 @@
-Vista 3: Mapa de Unidades y Lecciones (Detalle del Curso) 
-Muestra el árbol de aprendizaje del idioma seleccionado (ejemplo: Inglés). Requerimientos: 
-● Encabezado que identifique claramente el idioma seleccionado y la unidad actual. 
-● Estructura vertical u horizontal de nodos/niveles (Ejemplo: *Unidad 1: Saludos*, *Unidad 2: Comida*, 
-*Unidad 3: Viajes*). 
-● Cada nodo debe mostrar su estado (Completado, En Progreso, Bloqueado) mediante iconos visuales. 
-● Al presionar sobre una lección disponible (En Progreso), debe navegar a la Vista de Lección Interactiva. 
-● Barra de navegación consistente con el resto del sitio.

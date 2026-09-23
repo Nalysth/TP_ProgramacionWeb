@@ -1,65 +1,109 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    background-color: #d6deed;
+body{
+    font-family: "Montserrat", sans-serif;
 }
 
-main {
-    margin: 0 auto;
-    height: 100%;
-    width: 45%;
-    border: 0.5px solid black;
-    background-color: #e8f0ff;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+header{
+    background-color: rgb(59, 59, 143);
 }
 
-form {   
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+h1{
+    color: white;
+}
+
+.titulo{
+
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+}
+
+form{
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-left: 5%;
 }
 
-h1, p, button {
-    color: #3b3b8f;
+main{
+    width: 60%;
+    margin: 1em auto;
+    padding: 2em;
+    border-radius: 2em;
+    background-color: rgba(232, 240, 255);
+
+    
 }
 
-div {
-    margin: 0;
+form label{
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(59, 59, 143);
 }
 
-h1 {
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 5%;
+form input, .nacionalidad, button{
+    padding: 1em;
+    border-radius: 1em;
+    border: 2px solid rgb(59, 59, 143);
+    margin: 1em 0;
 }
-.boton {
+
+button{
+    padding: 1em;
+    border-radius: 1em;
+    margin: 1em 0;
+    background-color: rgb(59, 59, 143);
+    color: rgb(255, 213, 79);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+footer{
     display: flex;
     justify-content: center;
-    margin-bottom: 3%;
+    background-color: rgb(59, 59, 143);
+    gap: 5em;
+    padding: 2em;
 }
 
-button {
+.info-footer h3{
+    color:rgb(255, 213, 79);
+    font-size: 1.5em;
+}
+
+.info-footer a{
+    text-decoration: none;
     color: white;
-    background-color: #3b3b8f;
 }
 
-input {
-    padding: 10px 31%;
-    border-radius: 15px;
-    text-align: left;
+.info-footer ul{
+    list-style: none;
 }
 
-.fechaDeNacimiento input {
-    padding: 10px 0px;
+.info-footer li{
+    padding: 0.5em;
 }
 
-button {
-    padding: 15px 90px;
-    border-radius: 50px;
+@media screen and (max-width: 750px){
+   
+    h1{
+        font-size: 1.5em;
+    }
+
+    .boton-registro{
+        font-size: 0.6em;
+    }
+    
 }
 

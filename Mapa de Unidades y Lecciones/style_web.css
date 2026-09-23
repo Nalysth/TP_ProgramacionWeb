@@ -57,71 +57,73 @@
         border-radius: 5%;
         color: #ffffff;
 
-        /*se puede sacar
+  /*se puede sacar
         lo que hace es trasformar la targeta, estos son los valores de la transicion*/
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    
-    /*se puede sacar*/
-    /*Hover es una propiedad que es cuando el mause pasa por encima el objeto cambia
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/*se puede sacar*/
+/*Hover es una propiedad que es cuando el mause pasa por encima el objeto cambia
     en este caso lo que va a hacer es hacer un poco mas grande por la escala 
     y le da la sombra*/
-    .targeta:hover{
-        transform: scale(1.03);
-        box-shadow: 0 10px 20px #00000079;
-    }
+.targeta:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px #00000079;
+}
 
-    .sector_emoji{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 5em;
-    }
-    .texto_nombre_estado{
-        font-size: 1em;
-    }
-    .boton_iniciar{
+.sector_emoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+}
+.texto_nombre_estado {
+  font-size: 1em;
+}
+.boton_iniciar {
+  display: grid;
+  justify-self: center;
+  align-items: center;
 
-        display: grid;
-        justify-self: center;
-        align-items: center;
+  background-color: #ffd54f;
 
-        background-color: #ffd54f;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  height: 50%;
+  width: 91%;
 
-        text-align: center;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 1em;
-        height: 50%;
-        width: 91%;
-
-        border-radius:10px;
-        border: 1px solid;
-        box-shadow: 1px 3px black;
-
-    }
-    .estado1{
-        color: #51ff01;
-    }
-    .estado2{
-        color:#e9c600;
-    }
-    .estado3{
-        color:#ff0000 ;
-    }
-    .estado1,.estado2,.estado3,.boton_iniciar{
-        font-weight: bold;
-
-    }
-    #lex1{
-        border: 5px dashed;
-        border-color: #00ff22;
-    }
-    #lex2{
-        border: 5px dashed;
-        border-color: #ffd900;
-    }
-    #lex3{
-        border: 5px dashed;
-        border-color: #ff0a02;
-    }
+  border-radius: 10px;
+  border: 1px solid;
+  box-shadow: 1px 3px black;
+}
+.estado1 {
+  color: #51ff01;
+}
+.estado2 {
+  color: #e9c600;
+}
+.estado3 {
+  color: #ff0000;
+}
+.estado1,
+.estado2,
+.estado3,
+.boton_iniciar {
+  font-weight: bold;
+}
+#lex1 {
+  border: 5px dashed;
+  border-color: #00ff22;
+}
+#lex2 {
+  border: 5px dashed;
+  border-color: #ffd900;
+}
+#lex3 {
+  border: 5px dashed;
+  border-color: #ff0a02;
+}

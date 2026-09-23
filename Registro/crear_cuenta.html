@@ -1,135 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Crear Cuenta</title>
-    <link rel="stylesheet" href="crear_cuenta.css">
-</head>
-<body>
-    <main class="contenedor">
-        <h1><strong>Crear cuenta</strong></h1>
+    <link rel="stylesheet" href="crear_cuenta.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html" class="titulo">GuanaTalk</a>
+      </nav>
+    </header>
+    <main class="registro">
+      <form action="../html/pantallaPrincipal.html">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Juan" required />
 
-        <section class="formulario">
-            <form action="" method="get" id="formulario">
-                <div>
-                    <p><strong>Nombre de usuario:</strong></p>
-                    <label for="usuario">
-                        <input type="text" name="usuario" id="usuario" placeholder="Usuario" required>
-                    </label>
-                </div>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" placeholder="Perez" required />
 
-                <div>
-                    <p><strong>Email:</strong></p>
-                    <label for="email">
-                        <input type="email" name="email" id="email" placeholder="Email" required>
-                    </label>
-                </div>
+        <label for="usuario">Nombre Usuario</label>
+        <input type="text" id="usuario" placeholder="pepe" required />
 
-                <div>
-                    <p><strong>Contraseña:</strong></p>
-                    <label for="contraseña">
-                        <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required>
-                    </label>
-                </div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="nombre@.com" required />
 
-                <div>
-                    <p><strong>Confirmar contraseña:</strong></p>
-                    <label for="confirmar_contraseña">
-                        <input type="password" name="confirmar_contraseña" id="confirmar_contraseña" placeholder="Confirmar contraseña" required>
-                    </label>
-                </div>
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono" required />
 
-                <div class="fechaDeNacimiento">
-                    <p><strong>Fecha de nacimiento:</strong></p>
-                    <label for="fecha_nacimiento">
-                        <input list="dia" name="fecha_nacimiento" id="dia_nacimiento" placeholder="Dia" required>
-                        <input list="mes" name="fecha_nacimiento" id="mes_nacimiento" placeholder="Mes" required>
-                        <input list="Año" name="fecha_nacimiento" id="año_nacimiento" placeholder="Año" required>
-                    </label>
-                </div>
+        <label for="nacionalidad">Nacionalidad:</label>
 
-                <div>
-                    <p><strong>Nacionalidad:</strong></p>
-                    <label for="nacionalidad">
-                        <input list="nacionalidad" name="nacionalidad" id="seleccionar_nacionalidad" placeholder="Nacionalidad" required>
-                    </label>
-                </div>
+        <input
+          type="text"
+          id="nacionalidad"
+          name="nacionalidad"
+          list="nacionalidades"
+        />
 
-                <div>
-                    <p><strong>Telefono:</strong></p>
-                    <label for="telefono">
-                        <input type="number" name="teleforo" id="telefono" placeholder="Telefono" required>
-                    </label>
-                </div>
+        <datalist id="nacionalidades">
+          <option value="Argentina"></option>
+          <option value="Brasil"></option>
+          <option value="Chile"></option>
+          <option value="Uruguay"></option>
+        </datalist>
 
-                <div class="boton">
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
-            
-            <datalist id="nacionalidad">
-                <option value="Argentina"></option>
-                <option value="Chile"></option>
-                <option value="Uruguay"></option>
-                <option value="Colombia"></option>
-                <option value="Peru"></option>
-                <option value="Venezuela"></option>
-                <option value="Brasil"></option>
-                <option value="Ecuador"></option>
-            </datalist>
+        <label for="password">Contrasenia</label>
+        <input type="password" id="password" required />
 
-            <datalist id="dia">
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-                <option value="4"></option>
-                <option value="5"></option>
-                <option value="6"></option>
-                <option value="7"></option>
-                <option value="8"></option>
-                <option value="9"></option>
-                <option value="10"></option>
-                <option value="11"></option>
-                <option value="12"></option>
-                <option value="13"></option>
-                <option value="14"></option>
-                <option value="15"></option>
-                <option value="16"></option>
-                <option value="17"></option>
-                <option value="18"></option>
-                <option value="19"></option>
-                <option value="20"></option>
-                <option value="21"></option>
-                <option value="22"></option>
-                <option value="23"></option>
-                <option value="24"></option>
-                <option value="25"></option>
-                <option value="26"></option>
-                <option value="27"></option>
-                <option value="28"></option>
-                <option value="29"></option>
-                <option value="30"></option>
-                <option value="31"></option>
-            </datalist>
+        <label for="r-password">Repetir contrasenia</label>
+        <input type="password" id="r-password" required />
 
-            <datalist id="mes">
-                <option value="Enero"></option>
-                <option value="Febrero"></option>
-                <option value="Marzo"></option>
-                <option value="Abril"></option>
-                <option value="Mayo"></option>
-                <option value="Junio"></option>
-                <option value="Julio"></option>
-                <option value="Agosto"></option>
-                <option value="Septiembre"></option>
-                <option value="Octubre"></option>
-                <option value="Noviembre"></option>
-                <option value="Diciembre"></option>
-            </datalist>
-            
-        </section>
+        <button type="submit">Registrarse</button>
+      </form>
     </main>
-
-</body>
+    <footer>
+      <section class="info-footer">
+        <h3>Informacion</h3>
+        <ul>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Quiénes somos</a></li>
+          <li><a href="#">Preguntas frecuentes</a></li>
+        </ul>
+      </section>
+      <section class="info-footer">
+        <h3>Redes</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/">Instagram</a></li>
+          <li>
+            <a href="https://www.facebook.com/login/?locale=es_ES">Facebook</a>
+          </li>
+          <li><a href="https://x.com/?lang=es">Twitter</a></li>
+        </ul>
+      </section>
+    </footer>
+  </body>
 </html>
