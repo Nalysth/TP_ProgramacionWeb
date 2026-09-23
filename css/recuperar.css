@@ -38,8 +38,8 @@ form{
 }
 
 main{
-    width: 60%;
-    margin: 1em auto;
+    width: 40%;
+    margin: 6em auto;
     padding: 2em;
     border-radius: 2em;
     background-color: rgba(232, 240, 255);
@@ -53,7 +53,7 @@ form label{
     color: rgb(59, 59, 143);
 }
 
-form input, .nacionalidad, button{
+form input{
     padding: 1em;
     border-radius: 1em;
     border: 2px solid rgb(59, 59, 143);
@@ -97,5 +97,9 @@ footer{
     padding: 0.5em;
 }
 
-
+@media screen and (max-width: 750px){
+    main{
+        width: 70%;
+    }
+}
 
