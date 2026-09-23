@@ -24,8 +24,6 @@ main{
 
 
 }
-
-
 .foto_nombre_perfil{
     grid-column: 1;
     grid-row: 1;
@@ -40,7 +38,7 @@ main{
 }
 
 .foto_nombre_perfil h2{
-    color: rgb(255, 213, 79);
+    color: #ffd54f;
 }
 .bloque_foto_perfil{
     display: grid;
@@ -92,6 +90,7 @@ main{
     justify-content: center;
     align-items: center;
 
+    gap: 4%;
     height: 100%;
     border-radius: 26px;
     background-color: #ffffff;
@@ -113,6 +112,49 @@ main{
     align-self: center;
 }
 
+select,
+::picker(select){
+    appearance: base-select;
+}
+::picker(select){
+    border: none;
+    box-shadow: 1px 1px 5px #00000030;
+    border-radius: 0.3em;
+}
+
+::picker-icon{
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    color: #2a45a54a;
+}
+option::checkmark {
+    display: none;
+}
+option{
+    color: #2a45a5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: #2a45a5;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    height: 15%;
+    width: 75%;
+}
+select,option{
+    border: none;
+}
 .informacion_personal{
     grid-column: span 2;
     grid-row: 2;
