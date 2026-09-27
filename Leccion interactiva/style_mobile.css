@@ -6,7 +6,7 @@
     body{
         height: 100vh;
         display: grid;
-        grid-template-rows: 0.5fr 8fr;
+        grid-template-rows: 0.5fr 2fr;
     }
     header{
         grid-row: 1;
@@ -16,18 +16,16 @@
     main{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.3fr 0.5fr 1fr 4fr 1fr 1fr;
+        grid-template-rows: 0.5fr 1fr 4fr 1fr 1fr ;
     }
-    h2{
-        margin: 0;
-        padding: 0;
+    .contenedor_titulo{
+        height: 100%;
     }
     .titulo{
         font-size: 1em;
-        grid-row: 2;
     }
     .sector1_vidas_progreso{
-        grid-row: 3;
+        grid-row: 2;
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
@@ -44,11 +42,10 @@
         grid-row: 2;
     }
     .text_progreso{
-        display: none;
-        visibility: hidden;
+        font-size: 1em;
     }
     .sector2_contenido{
-        grid-row: 4;
+        grid-row: 3;
         height: 100%;
     }
     .titulo_sec2_cont{
@@ -58,8 +55,11 @@
         height: 100%;
         font-size: 1.2em;
     }
+    .text_area_respuesta{font-size: 1.2em;}
+    .text_area_respuesta::placeholder{font-size: 2em;}
+
     .sector3_palabras{
-        grid-row: 5;
+        grid-row: 4;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
@@ -68,7 +68,7 @@
         font-size: 1em;
     }
     .sector4_boton{
-        grid-row: 6;
+        grid-row: 5;
         display: inline;
         width: 100%;
     }
@@ -87,5 +87,9 @@
         background-position: bottom center;
         background-repeat: no-repeat;
         background-size: 90% auto;
+    }
+    .boton_close{
+        width: 95%;
+        height: 25%;
     }
 }

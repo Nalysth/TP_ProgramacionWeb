@@ -46,16 +46,16 @@
         grid-row: 2;
         font-size: 1em;
     }
-    #lex1{
-        grid-row: 1;
-
-    }
-    #lex2{
+    #lex1_ingles{
         grid-row: 2;
 
     }
-    #lex3{
+    #lex2_ingles{
         grid-row: 3;
+
+    }
+    #lex3_ingles,#lex2_aleman{
+        grid-row: 1;
 
     }
     .sector_emoji {

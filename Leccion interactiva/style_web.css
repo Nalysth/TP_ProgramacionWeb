@@ -8,36 +8,43 @@ html,body{
 }
 body{
     display: grid;
-    grid-template-rows: 1fr 6fr 1.5fr;
+    grid-template-rows: 0.5fr 4fr 1.5fr;
 }
+header{grid-row: 1;}
 main{
     grid-row: 2;
     display: grid;
-    grid-template-rows: 0.5fr 1fr 1fr 4fr 1fr 1fr;
+    grid-template-rows: auto auto 4fr 2fr auto;
     gap: 1%;
     padding: 1%;
 }
 footer{grid-row: 3; margin: 0; padding: 0;}
-.cruz{
+
+.contenedor_titulo{
     display: grid;
-    align-self: end;
-    justify-self: right;
-    text-decoration: none;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    grid-row: 1;
+}
+
+.titulo{
+    grid-column: 2;
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    text-align: center;
+}
+.cruz_cont {
+    grid-column: 3;
+    justify-self: end;
 }
 .cruz i{
-    color: #000000;
+    color: black;
+
 }
-.titulo{
-    padding: 0;
-    margin: 0;
-    display: grid;
-    justify-self: center;
-    align-self: center;
-    font-size: 2em;
-}
-header{grid-row: 1;}
 
 .sector1_vidas_progreso{
+    grid-row: 2;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr;
@@ -68,19 +75,30 @@ header{grid-row: 1;}
     box-shadow: 1px 2px 1px #03010156;    
     border-radius: 10px;
 }
-.barra_progreso{
+.barra_progreso_ingles,
+.barra_progreso_aleman,
+.barra_progreso_chino{
     border-radius:0.5em;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 60%;
     background-color: #87ff87;
+}
+.barra_progreso_aleman{
+    width: 15%;
+}
+.barra_progreso_chino{
+    width: 0.5%;
+}
+.barra_progreso_ingles{
+    width: 45%;
 }
 .text_progreso, .porcentaje{
     color: #627fff;
     font-weight: bold;
     font-size: 1.5em;
+    position: absolute;
 }
 .porcentaje{
     text-align: right;
@@ -90,10 +108,11 @@ header{grid-row: 1;}
     box-shadow: 1px 1px 5px #0000005b;
     border: 2px solid;
     border-color:white ;
-
+    
+    grid-row: 3;
     padding: 1%;
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 2fr;
 }
 .titulo_sec2_cont{
     font-size: 2em;
@@ -117,17 +136,23 @@ header{grid-row: 1;}
     border-radius: 1em;
     width: 100%;
     height: 100%;
+    font-size: 2em;
     resize: none;
+    text-align: center;
+
 }
-.text_area_respuesta::placeholder {
-    color: transparent;
+.text_area_respuesta::placeholder{
+    font-size: 1em;
+    text-align: center;
 }
+
 .sector3_palabras{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     gap: 1%;
     justify-content: center;
     align-items: center;
+    grid-row: 4;
 }
 .palabra{
     font-size: 1.5em;
@@ -145,6 +170,7 @@ header{grid-row: 1;}
     box-shadow: 0 5px 10px #00000079;
 }
 .sector4_boton{
+    grid-row: 5;
     display: grid;
     align-items: center;
     justify-content: end;
@@ -159,30 +185,38 @@ header{grid-row: 1;}
     border-radius: 10px;
     background-color: #87ff87;
 }
-
 .popup {
     font-size: 2em;
     position: fixed;
     margin: auto;
-
-    height: 25%;
-    width: 45%;
-    padding: 1.5em;
+    padding: 0.5em;
     border: none;
 
     border-radius: 1em;
-    text-align: center;
-    background-image: url("../img/tres.png");
+    text-align: right;
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 40% auto;
     
     box-shadow: 1px 1px 10px #0000002f;
 }
+.imgen_texto_conte{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.imagen_guana{
+    width: 50%;
+    height: 100%;
+}
 .popup::backdrop {
     background: #00000080;
 }
 .boton_close {
+    grid-row: 2;
+
     border-radius: 1em;
     background-color: white;
     font-size: 1em;

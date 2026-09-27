@@ -27,7 +27,7 @@
         grid-column: span 2;
         grid-row: 2;
     }
-    .targeta {
+    .targeta{
         margin: 0;
         padding: 2%;
         grid-template-columns: 1fr;
@@ -37,17 +37,18 @@
     .sector_emoji{
         font-size: 3em;
     }
-    #lex2{
-        grid-column: span 2;
-        grid-row: 1;
-    }
-    #lex1{
+
+    #lex1_ingles,#lex2_chino,#lex1_aleman{
         grid-column: 1;
         grid-row: 2;
     }
-    #lex3{
+    #lex2_ingles,#lex3_chino,#lex3_aleman{
         grid-column: 2;
         grid-row: 2;
+    }
+    #lex3_ingles,#lex1_chino,#lex2_aleman{
+        grid-column: span 2;
+        grid-row: 1;
     }
 
 }   
