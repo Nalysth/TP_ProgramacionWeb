@@ -159,18 +159,30 @@ select,option{
     grid-column: span 2;
     grid-row: 2;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    border-radius: 24px;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    border-radius: 1em;
     gap: 3%;
-    padding: 4em;
-    background-color: rgba(232, 240, 255,0.7);
+    padding: 3%;
+    background-color: #e8f0ffb3;
+    height: 100%;
 }
 .bloque_mail,.bloque_contraseña{
     font-size: 1em;
     display: grid;
     gap: 5%;
 }
-
+.eliminar_cuenta{
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 100%;
+    border-radius: 1em;
+}
+.tituloEliminarCuenta{
+    text-align: center;
+}
 .link_cambiar{
     text-decoration: none;
     background-color: rgb(59, 59, 143);
@@ -183,7 +195,52 @@ select,option{
     justify-content: center;
     border-radius: 24px;
 }
+.titulo_Dentro_Pop{
+    color: #a52a2a;
+}
+.botonPop{
+    background-color: #a52a2a;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 1em;
+    height: 80%;
+}
+.popup{
+    position: fixed;
+    margin: auto;
+    text-align: center;
+    border: none;
 
-.nacionalidad{
-    display: none;
+    padding: 2%;
+    height: 40%;
+    width: 70%;
+    border-radius: 1em;
+}
+.popup::backdrop{
+    background: #00000080;
+}
+.popup-contenedor{
+    height: 100%;
+}
+.contenedorpop{
+    font-size: 2em;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 5%;
+}
+.boton_close{
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    background-color: #a52a2a;
+    font-size: 1em;
+    border-radius: 1em;
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
 }

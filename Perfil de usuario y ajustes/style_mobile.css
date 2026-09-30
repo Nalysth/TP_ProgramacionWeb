@@ -8,7 +8,7 @@
     }
     main{
         grid-template-columns: 1fr;
-        grid-template-rows: 2fr 2fr 4fr;
+        grid-template-rows: 2fr 2fr 5fr;
     }
     .text_nombre{
         font-size: 2em;
@@ -26,9 +26,26 @@
         grid-row: 2;
     }
     .informacion_personal{
-        font-size: 0.5em;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        font-size: 0.7em;
         grid-column: 1;
         grid-row: 3;
+    }
+    .bloque_mail{
+        grid-row: 1;
+    }
+    .bloque_contraseña{
+        grid-row: 2;
+    }
+    .eliminar_cuenta{
+        grid-row: 3;
+        display: flex;
+        gap: 2%;
+    }
+    .botonPop{
+        width: 50%;
+        height: 20%;
     }
     .link_cambiar{
         width: 100%;
