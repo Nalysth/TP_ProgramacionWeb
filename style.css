@@ -248,6 +248,11 @@ footer{
         font-size: 1.3em;
     }
 
+    .cursos{
+        display: flex;
+        flex-direction: column;
+    }
+
     .curso img{
     width: 60%;
     border-radius: 0.5em;
