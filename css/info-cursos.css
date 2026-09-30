@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background-color: rgb(59, 59, 143);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    padding: 1em;
+    display: flex;
+    gap: 2em;
+}
+
+.bandera{
+    flex: 1;
+    height: 16em;
+    border-radius: 1em;
+    
+    margin-top: 2em;
+}
+
+.info-curso{
+    flex: 2;
+}
+
+.titulo{
+    text-decoration: none;
+    color: rgb(59, 59, 143);
+    font-size: 2em;
+    text-align: center;
+}
+
+.info1, .info2{
+    font-size: 1.1em;
+}
+
+.info1{
+    margin-top: 1em;
+    padding-bottom: 0.4em;
+}
+
+.info2{
+    margin-bottom: 1.5em;
+}
+.animaciones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.3em;
+    width: 80%;
+    margin: 1.5em auto;
+    
+}
+
+.animaciones article{
+    display: flex;
+    gap: 0.5em;
+}
+
+.animaciones i{
+    color: rgb(59, 59, 143);
+}
+
+.botones a{
+    background-color: rgb(59, 59, 143);
+    padding: 1em 1.5em;
+    border-radius: 1em;
+    color: white;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+.botones{
+    text-align: center;
+    margin: 3em 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 59, 143);
+    gap: 5em;
+    padding: 2em;
+}
+
+.info-footer h3{
+    color:rgb(255, 213, 79);
+    font-size: 1.5em;
+}
+
+.info-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.info-footer ul{
+    list-style: none;
+}
+
+.info-footer li{
+    padding: 0.5em;
+}
