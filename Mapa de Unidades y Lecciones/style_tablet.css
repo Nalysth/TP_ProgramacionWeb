@@ -30,7 +30,6 @@
     .targeta{
         margin: 0;
         padding: 2%;
-        grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr 1fr;
         height: 100%;
     }
@@ -49,6 +48,9 @@
     #lex3_ingles,#lex1_chino,#lex2_aleman{
         grid-column: span 2;
         grid-row: 1;
+    }
+    .boton_reset{
+        grid-row:4;
     }
 
 }   
