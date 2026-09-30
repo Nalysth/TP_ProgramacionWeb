@@ -23,8 +23,7 @@ nav{
     padding: 1em;
 }
 
-h1{
-    color: rgb(59, 59, 143);
+h2{
     text-align: center;
     
 }
@@ -116,16 +115,21 @@ footer{
 
 @media screen and (max-width: 750px){
     main{
-        width: 70%;
+        width: 90%;
         margin: 3em auto;
         padding: 3em;
     }
     .recu{
-        font-size: 1em;
+        font-size: 1.3em;
         white-space: nowrap;
     }
 
     .texto{
         font-size: 0.8em;
+        margin-bottom: 0.7em;
+    }
+
+    button{
+    margin: 0.1em 0;
     }
 }
