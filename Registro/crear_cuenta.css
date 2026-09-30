@@ -60,7 +60,7 @@ form input, .nacionalidad, button{
     margin: 1em 0;
 }
 
-button{
+button, .cancelar{
     padding: 1em;
     border-radius: 1em;
     margin: 1em 0;
@@ -69,6 +69,13 @@ button{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1em;
+}
+
+.cancelar{
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    color: white;
 }
 
 footer{
@@ -97,5 +104,11 @@ footer{
     padding: 0.5em;
 }
 
+
+@media screen and (max-width: 750px){
+    main{
+        width: 85%;
+    }
+}
 
 

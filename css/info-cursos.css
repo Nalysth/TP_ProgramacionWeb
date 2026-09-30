@@ -121,3 +121,32 @@ footer{
 .info-footer li{
     padding: 0.5em;
 }
+
+@media screen and (max-width: 750px){
+    .bandera{
+        width: 90%;
+        border-radius: 0.5em;
+        display: block;
+        margin: 0 auto;
+    }
+
+    main{
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .titulo{
+        padding-bottom: 0.3em;
+    }
+
+    .info1{
+        display: none;
+    }
+
+    .info2{
+        text-align: center;
+    }
+    .botones a{
+        margin-left: 0.5em;
+    }
+}
