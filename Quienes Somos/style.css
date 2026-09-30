@@ -1,0 +1,57 @@
+
+.quienes_somos_pagina {
+  display: flex;
+  flex-direction: row;       
+  justify-content: center;  
+  align-items: center;      
+  gap: 2rem;                
+  padding: 2rem 1rem;
+}
+
+.quienes_somos {
+  display: flex;
+  flex-direction: column;  
+  width: 100%;
+  max-width: 560px;
+  padding: 2rem 2.25rem 2.25rem;
+  background: #1158af;
+  border-radius: 3rem;
+  color: #fff;
+}
+
+.quienes_titulo {
+  margin: 0 0 1rem;
+  font-family: "Fredoka", "Trebuchet MS", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.quienes_somos p {
+  margin: 0 0 0.9rem;
+  font-size: 1rem;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.quienes_eslogan {
+  margin: 0.5rem 0 0;
+  font-family: "Fredoka", "Trebuchet MS", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffcc00;
+  text-align: center;
+}
+
+.boton_volver{
+
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.35rem 0.9rem;
+  background: transparent;
+  color: #fff;
+  font-size: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+}

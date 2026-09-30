@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+  .contacto-pagina,
+  .mensaje {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0.75rem;
+  }
+
+  .contacto-imagen {
+    width: 220px;
+  }
+
+  .contacto,
+  .mensaje_enviado {
+    max-width: 100%;
+    padding: 1.5rem 1.25rem 1.75rem;
+    border-radius: 2rem;
+  }
+
+  .contacto_titulo {
+    font-size: 1.8rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .fila {
+    flex-direction: column;
+  }
+
+  .gracias {
+    font-size: 1.6rem;
+  }
+
+  .brevedad {
+    font-size: 1.1rem;
+  }
+
+  .acciones {
+    flex-wrap: wrap;
+  }
+
+  .btn--enviar {
+    padding: 0.65rem 1.75rem;
+  }
+}

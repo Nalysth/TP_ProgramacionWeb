@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <body>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport"
+                content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="../css/navegador.css">
+            <link rel="stylesheet" href="../css/footer.css">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="style_tablet.css">
+            <link rel="stylesheet" href="style_mobile.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link
+                href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap"
+                rel="stylesheet">
+
+            <title>Contacto</title>
+        </head>
+        <body>
+            <header>
+                <nav class="navegador">
+                    <a href="#" class="volver-inicio">
+                        <h1>GuanaTalk</h1>
+                    </a>
+                </section>
+            </nav>
+        </header>
+        <main class="contacto-pagina">
+            <img class="contacto-imagen" src="../img/uno.png"
+                alt="guana">
+            <section class="contacto">
+                <h1 class="contacto_titulo">¡Contactate con Nosotros!</h1>
+
+                <form class="contacto_form" action="mensaje.enviado.html"
+                    method="post">
+                    <div class="campo">
+                        <input type="text" id="nombre" name="nombre"
+                            placeholder="Nombre y Apellidos" required>
+                    </div>
+
+                    <div class="fila">
+                        <div class="campo">
+                            <input type="email" id="email" name="email"
+                                placeholder="Email" required>
+                        </div>
+                        <div class="campo">
+                            <input type="tel" id="telefono" name="telefono"
+                                placeholder="Teléfono">
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <textarea id="mensaje" name="mensaje" rows="4"
+                            placeholder="Mensaje" required></textarea>
+                    </div>
+
+                    <div class="acciones">
+                        <button type="submit"
+                            class="btn btn--enviar">Enviar</button>
+                        <a href="../html/pantallaPrincipal.html"
+                            class="btn btn--cancelar">Cancelar</a>
+                    </div>
+                </form>
+
+            </section>
+        </main>
+
+        <footer>
+            <h2>GuanaTalk</h2>
+            <section class="columnas-footer">
+
+                <section class="info-footer">
+                    <h3>Informacion</h3>
+                    <ul>
+                        <li><a
+                                href="../Contacto/contacto.html">Contacto</a></li>
+                        <li><a
+                                href="../Quienes Somos/quienes_somos.html">Quiénes
+                                somos</a></li>
+                        <li><a
+                                href="../Preguntas/preguntas_frecuentes.html">Preguntas
+                                frecuentes</a></li>
+                    </ul>
+                </section>
+                <section class="info-footer">
+                    <h3>Redes</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.instagram.com/">Instagram</a></li>
+                        <li>
+                            <a
+                                href="https://www.facebook.com/login/?locale=es_ES">Facebook</a>
+                        </li>
+                        <li><a href="https://x.com/?lang=es">Twitter</a></li>
+                    </ul>
+                </section>
+                <section class="info-footer">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="#">Cursos</a></li>
+                        <li><a
+                                href="../Perfil de usuario y ajustes/perfil_usuario.html">Perfil</a></li>
+                        <li><a
+                                href="../Ranking/html/ranking_liga_Plata.html">Ranking</li>
+                        </ul>
+                    </section>
+                </section>
+            </footer>
+        </body>
+    </html>

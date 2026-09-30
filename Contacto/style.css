@@ -1,0 +1,164 @@
+
+.contacto-pagina {
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: center;
+ 
+  align-items: center;
+  
+  gap: 2rem;
+  
+  padding: 2rem 1rem;
+}
+
+.contacto-imagen {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 520px;
+  padding: 2rem 2rem 2.25rem;
+  background: #1158af;
+  border-radius: 3rem;
+  color: #fff;
+  text-align: center;
+}
+
+.contacto_titulo {
+  margin: 0 0 1.5rem;
+  font-family: "Fredoka", "Trebuchet MS", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.contacto_form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 100%;
+}
+
+.fila {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.fila .campo {
+  flex: 1;
+}
+
+.fila .campo:first-child {
+  flex: 2;
+}
+
+.campo input,
+.campo textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid #e3d6c0;
+  border-radius: 10px;
+  background: #fff;
+  font: inherit;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.campo textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+  outline: 3px solid #ffd000;
+  outline-offset: 1px;
+}
+
+.acciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+.btn--enviar {
+  padding: 0.7rem 2.5rem;
+  background: #ffcc00;
+  color: #5a3a00;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.btn--enviar:hover {
+  background: #ffd733;
+}
+
+.btn--cancelar {
+  padding: 0.35rem 0.9rem;
+  background: transparent;
+  color: #fff;
+  font-size: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+}
+
+.btn--cancelar:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.mensaje {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.mensaje_enviado {
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 520px;
+  padding: 2rem 2rem 2.25rem;
+  background: #1158af;
+  border-radius: 3rem;
+  color: #fff;
+  text-align: center;
+
+}
+
+.boton_volver {
+
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.35rem 0.9rem;
+  background: transparent;
+  color: #fff;
+  font-size: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+}
+
+.gracias {
+  font-family: "Fredoka", "Trebuchet MS", sans-serif;
+  font-size: 2.2rem;
+  margin: 0 0 1rem;
+}
