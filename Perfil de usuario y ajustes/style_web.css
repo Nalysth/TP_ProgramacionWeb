@@ -212,7 +212,7 @@ select,option{
     border: none;
 
     padding: 2%;
-    height: 40%;
+    height: 50%;
     width: 70%;
     border-radius: 1em;
 }
@@ -231,16 +231,30 @@ select,option{
     height: 100%;
     gap: 5%;
 }
-.boton_close{
+.botones_cont{
+    display: flex;
+    gap: 5%;
+}
+.botones{
     color: white;
     font-weight: bold;
     height: 100%;
     width: 100%;
-    background-color: #a52a2a;
+
     font-size: 1em;
     border-radius: 1em;
     a{
         text-decoration: none;
         color: #ffffff;
     }
+
+}
+.pregunta{
+    font-weight: bold;
+}
+#boton_eliminar{
+    background-color: #a52a2a;
+}
+#boton_cancelar{
+    background-color: green;
 }

@@ -69,12 +69,8 @@
         </section>
         <section class="estadisticas">
             <article class="stat1">
-                <h4>IDIOMA PREFERIDO</h4>
-                <select name="idiomas"id="idiomas-select" required>
-                    <option class="idioma" value="chino">CHINO</option>
-                    <option class="idioma" value="aleman">ALEMAN</option>
-                    <option class="idioma" value="ingles" selected>INGLES</option>
-                </select>
+                <h4>BEST IDIOMA!</h4>
+                <span class="stat_dato">INGLES</span>
             </article>
             <article class="stat2">
                 <h4>TIEMPO RECORD</h4>
@@ -100,7 +96,7 @@
                 <a href="cambiar_contraseña.html" class="link_cambiar">CAMBIAR CONTRASEÑA</a>
                 <h3>NICK</h3>
                 <span class="clave_dato">GUANA</span>
-                <a href="" class="link_cambiar">CAMBIAR NICK</a>
+                <a href="cambiar_nick.html" class="link_cambiar">CAMBIAR NOMBRE</a>
             </article>
             <article class="eliminar_cuenta">
                 <h3 class="tituloEliminarCuenta">ELIMINAR CUENTA</h3>
@@ -110,8 +106,12 @@
                         <div class="contenedorpop">
                             <h4 class="titulo_Dentro_Pop">ELIMINACION PERMANENTE DE CUENTA</h4>
                             <p>Usted esta a punto de eliminar permanente su cuenta, con sus cursos, lecciones y datos.</p>
-                            <span>¿Esta seguro de querer eliminar su cuenta permanentemente?</span>
-                            <button popovertarget="pop_cuenta" class="boton_close"><a href="../index.html">ELIMINAR</a></button>
+                            <span class="pregunta">¿Esta seguro de querer eliminar su cuenta permanentemente?</span>
+                            <article class="botones_cont">
+                                <button id="boton_cancelar" popovertarget="pop_cuenta" class="botones">CANCELAR</button>
+                                <button id="boton_eliminar" popovertarget="pop_cuenta" class="botones"><a href="../index.html">ELIMINAR</a></button>
+                            </article>
+
                         </div>
                     </article>
                 </article>

@@ -16,11 +16,11 @@ header{
 }
 main{
   grid-row: 2;
-  padding: 3%;
+  padding: 2%;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 0.5fr 6fr;
+  grid-template-rows: 1fr 0.5fr 6fr 1fr;
 }
 footer{
   grid-row: 3;
@@ -31,7 +31,8 @@ footer{
   align-items: center;
   justify-content: center;
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   gap: 2%;
 }
 .titulo{
@@ -57,6 +58,7 @@ footer{
   
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: repeat(3,1fr);
   border-radius: 1em;
   color: #030303;
   box-shadow: 1px 1px 15px #0000005d;
@@ -80,15 +82,17 @@ footer{
   align-items: center;
   justify-content: center;
   font-size: 5em;
+  grid-column: 2;
 }
 .texto_nombre_estado {
+  grid-column: 2;
   font-size: 1em;
 }
 .boton_iniciar,.boton_iniciarnt {
   display: grid;
   justify-self: center;
   align-items: center;
-
+  grid-column: 2;
   text-align: center;
   text-decoration: none;
   font-size: 1em;
@@ -119,4 +123,22 @@ footer{
 .boton_iniciar,.boton_iniciarnt,.texto_nombre_estado{
   font-weight: bold;
 }
+.boton_reset{
+  height: 100%;
+  padding: 1%;
+  display: grid;
+  align-items: center;
+  justify-content: start;
+}
+.boton_r_unidad{
+  padding: 0.5%;
+  height: 80%;
 
+  font-weight: bold;
+  border-radius: 0.5em;
+
+  background-color: #800202;
+  text-decoration: none;
+  color: #ffffff;
+
+}
