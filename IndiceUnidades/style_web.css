@@ -1,0 +1,47 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+header {
+    grid-row: 1;
+}
+main {
+    grid-row: 2;
+}
+footer {
+    grid-row: 3;
+}
+
+/* El contenedor que agrupa todas las tarjetas */
+#lista-unidades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   /* 3 columnas iguales */
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Cada tarjeta */
+.contenedorUnidad {
+    padding: 1.25rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.contenedorUnidad:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+/* El texto dentro de la tarjeta */
+.nombreUnidad {
+    font-weight: bold;
+    font-size: 1em;
+}
+#titulo {
+    display: block;
+    color: black;
+    text-align: center;
+    margin: 1rem 0;
+}

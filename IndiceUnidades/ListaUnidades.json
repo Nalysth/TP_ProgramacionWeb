@@ -1,0 +1,66 @@
+{
+  "Inglés": {
+    "nombre": "Inglés",
+    "unidades": [
+      { "id": 1, "titulo": "Greetings", "descripcion": "Saludos y presentaciones",
+        "lecciones": ["Hello and goodbye", "Introducing yourself", "Formal vs informal"] },
+      { "id": 2, "titulo": "Family", "descripcion": "Vocabulario de la familia",
+        "lecciones": ["Parents and siblings", "Extended family", "Describing your family"] },
+      { "id": 3, "titulo": "Numbers and Colors", "descripcion": "Números del 1 al 100 y colores",
+        "lecciones": ["Numbers 1 to 20", "Numbers 20 to 100", "Colors"] },
+      { "id": 4, "titulo": "Food and Drinks", "descripcion": "Comidas, bebidas y cómo pedir en un restaurante",
+        "lecciones": ["Common foods", "Drinks", "Ordering at a restaurant"] },
+      { "id": 5, "titulo": "Daily Routine", "descripcion": "Rutinas diarias y la hora",
+        "lecciones": ["Telling the time", "Morning routine", "Evening routine"] },
+      { "id": 6, "titulo": "The House", "descripcion": "Partes de la casa y objetos cotidianos",
+        "lecciones": ["Rooms of the house", "Furniture", "Household objects"] },
+      { "id": 7, "titulo": "Clothes and Shopping", "descripcion": "Ropa, precios y compras",
+        "lecciones": ["Clothing items", "Prices and money", "Shopping dialogues"] },
+      { "id": 8, "titulo": "Places in the City", "descripcion": "Lugares de la ciudad y cómo pedir direcciones",
+        "lecciones": ["Buildings and places", "Asking for directions", "Giving directions"] },
+      { "id": 9, "titulo": "Hobbies and Free Time", "descripcion": "Pasatiempos, deportes y actividades",
+        "lecciones": ["Sports", "Hobbies", "Weekend plans"] },
+      { "id": 10, "titulo": "Travel", "descripcion": "Viajes, transporte y hoteles",
+        "lecciones": ["Transportation", "At the airport", "Booking a hotel"] }
+    ]
+  },
+  "Alemán": {
+    "nombre": "Alemán",
+    "unidades": [
+      { "id": 1, "titulo": "Begrüßungen", "descripcion": "Saludos y presentaciones",
+        "lecciones": ["Hallo und Tschüss", "Sich vorstellen", "Du oder Sie"] },
+      { "id": 2, "titulo": "Familie", "descripcion": "Vocabulario de la familia",
+        "lecciones": ["Eltern und Geschwister", "Die erweiterte Familie", "Die eigene Familie beschreiben"] },
+      { "id": 3, "titulo": "Zahlen und Farben", "descripcion": "Números del 1 al 100 y colores",
+        "lecciones": ["Zahlen von 1 bis 20", "Zahlen von 20 bis 100", "Farben"] },
+      { "id": 4, "titulo": "Essen und Trinken", "descripcion": "Comidas, bebidas y cómo pedir en un restaurante",
+        "lecciones": ["Lebensmittel", "Getränke", "Im Restaurant bestellen"] },
+      { "id": 5, "titulo": "Tagesablauf", "descripcion": "Rutinas diarias y la hora",
+        "lecciones": ["Die Uhrzeit", "Der Morgen", "Der Abend"] },
+      { "id": 6, "titulo": "Das Haus", "descripcion": "Partes de la casa y objetos cotidianos",
+        "lecciones": ["Zimmer im Haus", "Möbel", "Gegenstände im Haushalt"] },
+      { "id": 7, "titulo": "Kleidung und Einkaufen", "descripcion": "Ropa, precios y compras",
+        "lecciones": ["Kleidungsstücke", "Preise und Geld", "Einkaufsgespräche"] },
+      { "id": 8, "titulo": "Orte in der Stadt", "descripcion": "Lugares de la ciudad y cómo pedir direcciones",
+        "lecciones": ["Gebäude und Orte", "Nach dem Weg fragen", "Den Weg beschreiben"] },
+      { "id": 9, "titulo": "Hobbys und Freizeit", "descripcion": "Pasatiempos, deportes y actividades",
+        "lecciones": ["Sport", "Hobbys", "Wochenendpläne"] },
+      { "id": 10, "titulo": "Reisen", "descripcion": "Viajes, transporte y hoteles",
+        "lecciones": ["Verkehrsmittel", "Am Flughafen", "Ein Hotel buchen"] }
+    ]
+  },
+  "ChinoMandarin": {
+    "nombre": "ChinoMandarin",
+    "unidades":[{"id": 1,"titulo": "自我介绍 (Presentaciones personales)","descripcion": "Saludos y presentaciones personales","lecciones": ["你好和再见 (Hola y adiós)","介绍自己 (Presentarse a uno mismo)","正式和非正式问候 (Saludos formales e informales)"]},
+      {"id": 2,"titulo": "家庭 (La familia)","descripcion": "Vocabulario de la familia","lecciones": ["父母和兄弟姐妹 (Padres y hermanos)","大家庭 (Familia extendida)","介绍自己的家人 (Describir a tu familia)"]},
+      {"id": 3,"titulo": "数字和颜色 (Números y colores)","descripcion": "Números del 1 al 100 y colores","lecciones": ["一到二十 (Números del 1 al 20)","二十到一百 (Números del 20 al 100)","颜色 (Colores)"]},
+      {"id": 4,"titulo": "食物和饮料 (Comidas y bebidas)","descripcion": "Comidas, bebidas y cómo pedir en un restaurante","lecciones": ["常见食物 (Comidas comunes)","饮料 (Bebidas)","在餐厅点餐 (Pedir en un restaurante)"]},
+      {"id": 5,"titulo": "日常生活 (La rutina diaria)","descripcion": "Rutinas diarias y la hora","lecciones": ["时间和钟点 (La hora)","早上的日常活动 (Rutina de la mañana)","晚上的日常活动 (Rutina de la noche)"]},
+      {"id": 6,"titulo": "房子 (La casa)","descripcion": "Partes de la casa y objetos cotidianos","lecciones": ["房间 (Habitaciones de la casa)","家具 (Muebles)","家居用品 (Objetos del hogar)"]},
+      {"id": 7,"titulo": "衣服和购物 (Ropa y compras)","descripcion": "Ropa, precios y compras","lecciones": ["衣服 (Prendas de vestir)","价格和钱 (Precios y dinero)","购物对话 (Diálogos de compras)"]},
+      {"id": 8,"titulo": "城市里的地方 (Lugares de la ciudad)","descripcion": "Lugares de la ciudad y cómo pedir direcciones","lecciones": ["建筑物和地点 (Edificios y lugares)","问路 (Preguntar cómo llegar)","指路 (Dar indicaciones)"]},
+      {"id": 9,"titulo": "爱好和休闲 (Pasatiempos y tiempo libre)","descripcion": "Pasatiempos, deportes y actividades","lecciones": ["运动 (Deportes)","爱好 (Pasatiempos)","周末计划 (Planes para el fin de semana)"]},
+      {"id": 10,"titulo": "旅行 (Viajes)","descripcion": "Viajes, transporte y hoteles","lecciones": ["交通工具 (Medios de transporte)","在机场 (En el aeropuerto)","预订酒店 (Reservar un hotel)"]}
+    ]
+  }
+}

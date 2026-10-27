@@ -1,0 +1,24 @@
+@media screen and (max-width: 700px){
+    #lista-unidades {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    }
+    .contenedorUnidad{
+        font-size: 1em;
+    }
+    .columnas-footer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1376px){
+    #lista-unidades{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contenedorUnidad{
+        font-size: 1.5em;
+    }
+}
