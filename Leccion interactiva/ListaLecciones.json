@@ -1,0 +1,452 @@
+{
+  "ing-1-1": {
+    "contenido": "Aprenderás saludos y despedidas habituales en inglés.",
+    "textoTraducir": "Hello! Good morning. Goodbye!",
+    "bancoPalabras": ["Hola", "Buenos", "días", "Adiós"]
+  },
+  "ing-1-2": {
+    "contenido": "Aprenderás a decir tu nombre y a preguntar cómo se llama otra persona.",
+    "textoTraducir": "Hi, my name is Emma. What is your name?",
+    "bancoPalabras": ["Hola", "mi", "nombre", "es", "Emma", "Cuál", "es", "tu", "nombre"]
+  },
+  "ing-1-3": {
+    "contenido": "Aprenderás a distinguir saludos formales e informales.",
+    "textoTraducir": "Good evening, Mr. Smith. How are you?",
+    "bancoPalabras": ["Buenas", "noches", "señor", "Smith", "Cómo", "está", "usted"]
+  },
+  "ing-2-1": {
+    "contenido": "Aprenderás vocabulario para hablar de padres y hermanos.",
+    "textoTraducir": "My mother and father have two children.",
+    "bancoPalabras": ["Mi", "madre", "y", "padre", "tienen", "dos", "hijos"]
+  },
+  "ing-2-2": {
+    "contenido": "Aprenderás palabras para nombrar a otros integrantes de la familia.",
+    "textoTraducir": "My grandmother lives with my aunt and uncle.",
+    "bancoPalabras": ["Mi", "abuela", "vive", "con", "mi", "tía", "y", "tío"]
+  },
+  "ing-2-3": {
+    "contenido": "Aprenderás a describir a los integrantes de tu familia.",
+    "textoTraducir": "My sister is kind and my brother is funny.",
+    "bancoPalabras": ["Mi", "hermana", "es", "amable", "y", "mi", "hermano", "divertido"]
+  },
+  "ing-3-1": {
+    "contenido": "Aprenderás los números del uno al veinte.",
+    "textoTraducir": "I have three books and twelve pencils.",
+    "bancoPalabras": ["Tengo", "tres", "libros", "y", "doce", "lápices"]
+  },
+  "ing-3-2": {
+    "contenido": "Aprenderás a reconocer y usar números mayores.",
+    "textoTraducir": "There are fifty students in the school.",
+    "bancoPalabras": ["Hay", "cincuenta", "estudiantes", "en", "la", "escuela"]
+  },
+  "ing-3-3": {
+    "contenido": "Aprenderás los nombres de los colores y cómo describir objetos.",
+    "textoTraducir": "The blue bag is next to the red chair.",
+    "bancoPalabras": ["El", "bolso", "azul", "está", "al", "lado", "de", "la", "silla", "roja"]
+  },
+  "ing-4-1": {
+    "contenido": "Aprenderás vocabulario de alimentos comunes.",
+    "textoTraducir": "I eat bread, cheese, and an apple for lunch.",
+    "bancoPalabras": ["Como", "pan", "queso", "y", "una", "manzana", "en", "el", "almuerzo"]
+  },
+  "ing-4-2": {
+    "contenido": "Aprenderás a nombrar bebidas y expresar qué te gusta tomar.",
+    "textoTraducir": "She drinks water and her brother drinks milk.",
+    "bancoPalabras": ["Ella", "bebe", "agua", "y", "su", "hermano", "leche"]
+  },
+  "ing-4-3": {
+    "contenido": "Aprenderás expresiones para pedir comida en un restaurante.",
+    "textoTraducir": "Could I have a chicken sandwich, please?",
+    "bancoPalabras": ["Podría", "pedir", "un", "sándwich", "de", "pollo", "por", "favor"]
+  },
+  "ing-5-1": {
+    "contenido": "Aprenderás a preguntar y decir la hora.",
+    "textoTraducir": "I get up at seven o'clock.",
+    "bancoPalabras": ["Me", "levanto", "a", "las", "siete", "en", "punto"]
+  },
+  "ing-5-2": {
+    "contenido": "Aprenderás a describir actividades de la mañana.",
+    "textoTraducir": "I take a shower and have breakfast every morning.",
+    "bancoPalabras": ["Me", "ducho", "y", "desayuno", "todas", "las", "mañanas"]
+  },
+  "ing-5-3": {
+    "contenido": "Aprenderás a hablar de actividades que hacés por la noche.",
+    "textoTraducir": "She reads a book before going to bed.",
+    "bancoPalabras": ["Ella", "lee", "un", "libro", "antes", "de", "irse", "a", "dormir"]
+  },
+  "ing-6-1": {
+    "contenido": "Aprenderás los nombres de las habitaciones de una casa.",
+    "textoTraducir": "The kitchen is next to the living room.",
+    "bancoPalabras": ["La", "cocina", "está", "al", "lado", "del", "living"]
+  },
+  "ing-6-2": {
+    "contenido": "Aprenderás vocabulario de muebles y cómo ubicarlos.",
+    "textoTraducir": "There is a sofa and a table in the living room.",
+    "bancoPalabras": ["Hay", "un", "sofá", "y", "una", "mesa", "en", "el", "living"]
+  },
+  "ing-6-3": {
+    "contenido": "Aprenderás a nombrar objetos cotidianos del hogar.",
+    "textoTraducir": "The keys are on the table.",
+    "bancoPalabras": ["Las", "llaves", "están", "sobre", "la", "mesa"]
+  },
+  "ing-7-1": {
+    "contenido": "Aprenderás vocabulario de prendas y accesorios.",
+    "textoTraducir": "He is wearing a black jacket and blue jeans.",
+    "bancoPalabras": ["Él", "lleva", "una", "campera", "negra", "y", "jeans", "azules"]
+  },
+  "ing-7-2": {
+    "contenido": "Aprenderás a preguntar precios y hablar de dinero.",
+    "textoTraducir": "How much is this shirt? It is twenty dollars.",
+    "bancoPalabras": ["Cuánto", "cuesta", "esta", "camisa", "Cuesta", "veinte", "dólares"]
+  },
+  "ing-7-3": {
+    "contenido": "Aprenderás expresiones para comprar ropa y conversar en una tienda.",
+    "textoTraducir": "I am looking for a small pair of shoes.",
+    "bancoPalabras": ["Estoy", "buscando", "un", "par", "de", "zapatos", "pequeños"]
+  },
+  "ing-8-1": {
+    "contenido": "Aprenderás a identificar edificios y lugares de una ciudad.",
+    "textoTraducir": "The library is across from the park.",
+    "bancoPalabras": ["La", "biblioteca", "está", "enfrente", "del", "parque"]
+  },
+  "ing-8-2": {
+    "contenido": "Aprenderás a preguntar cómo llegar a un lugar.",
+    "textoTraducir": "Excuse me, how can I get to the museum?",
+    "bancoPalabras": ["Disculpe", "cómo", "puedo", "llegar", "al", "museo"]
+  },
+  "ing-8-3": {
+    "contenido": "Aprenderás a dar indicaciones para llegar a distintos lugares.",
+    "textoTraducir": "Go straight and turn left at the bank.",
+    "bancoPalabras": ["Siga", "derecho", "y", "gire", "a", "la", "izquierda", "en", "el", "banco"]
+  },
+  "ing-9-1": {
+    "contenido": "Aprenderás vocabulario de deportes y actividades físicas.",
+    "textoTraducir": "They play basketball every Saturday.",
+    "bancoPalabras": ["Ellos", "juegan", "al", "básquet", "todos", "los", "sábados"]
+  },
+  "ing-9-2": {
+    "contenido": "Aprenderás a hablar de tus pasatiempos e intereses.",
+    "textoTraducir": "I enjoy drawing and listening to music.",
+    "bancoPalabras": ["Disfruto", "dibujar", "y", "escuchar", "música"]
+  },
+  "ing-9-3": {
+    "contenido": "Aprenderás a contar planes para el fin de semana.",
+    "textoTraducir": "We are going to visit our friends this weekend.",
+    "bancoPalabras": ["Vamos", "a", "visitar", "a", "nuestros", "amigos", "este", "fin", "de", "semana"]
+  },
+  "ing-10-1": {
+    "contenido": "Aprenderás vocabulario de medios de transporte.",
+    "textoTraducir": "I usually travel to work by train.",
+    "bancoPalabras": ["Generalmente", "viajo", "al", "trabajo", "en", "tren"]
+  },
+  "ing-10-2": {
+    "contenido": "Aprenderás expresiones útiles para orientarte en un aeropuerto.",
+    "textoTraducir": "Where is the check-in desk for flight 205?",
+    "bancoPalabras": ["Dónde", "está", "el", "mostrador", "de", "registro", "del", "vuelo", "205"]
+  },
+  "ing-10-3": {
+    "contenido": "Aprenderás a reservar una habitación y consultar servicios de un hotel.",
+    "textoTraducir": "I would like to book a double room for two nights.",
+    "bancoPalabras": ["Me", "gustaría", "reservar", "una", "habitación", "doble", "por", "dos", "noches"]
+  },
+  "ale-1-1": {
+    "contenido": "Aprenderás saludos y despedidas habituales en alemán.",
+    "textoTraducir": "Hallo! Guten Morgen. Auf Wiedersehen!",
+    "bancoPalabras": ["Hola", "Buenos", "días", "Hasta", "luego"]
+  },
+  "ale-1-2": {
+    "contenido": "Aprenderás a presentarte y decir tu nombre en alemán.",
+    "textoTraducir": "Hallo, ich heiße Anna. Wie heißt du?",
+    "bancoPalabras": ["Hola", "me", "llamo", "Anna", "Cómo", "te", "llamás"]
+  },
+  "ale-1-3": {
+    "contenido": "Aprenderás cuándo usar el trato informal du y el formal Sie.",
+    "textoTraducir": "Guten Tag, Frau Müller. Wie geht es Ihnen?",
+    "bancoPalabras": ["Buen", "día", "señora", "Müller", "Cómo", "está", "usted"]
+  },
+  "ale-2-1": {
+    "contenido": "Aprenderás vocabulario alemán para padres y hermanos.",
+    "textoTraducir": "Meine Mutter und mein Vater haben zwei Kinder.",
+    "bancoPalabras": ["Mi", "madre", "y", "mi", "padre", "tienen", "dos", "hijos"]
+  },
+  "ale-2-2": {
+    "contenido": "Aprenderás palabras para otros integrantes de la familia.",
+    "textoTraducir": "Meine Großeltern wohnen in Berlin.",
+    "bancoPalabras": ["Mis", "abuelos", "viven", "en", "Berlín"]
+  },
+  "ale-2-3": {
+    "contenido": "Aprenderás a describir cómo son los integrantes de tu familia.",
+    "textoTraducir": "Meine Schwester ist nett und mein Bruder ist lustig.",
+    "bancoPalabras": ["Mi", "hermana", "es", "amable", "y", "mi", "hermano", "divertido"]
+  },
+  "ale-3-1": {
+    "contenido": "Aprenderás los números del uno al veinte en alemán.",
+    "textoTraducir": "Ich habe drei Bücher und fünf Stifte.",
+    "bancoPalabras": ["Tengo", "tres", "libros", "y", "cinco", "lápices"]
+  },
+  "ale-3-2": {
+    "contenido": "Aprenderás a usar números mayores en situaciones cotidianas.",
+    "textoTraducir": "Das kostet fünfzig Euro.",
+    "bancoPalabras": ["Eso", "cuesta", "cincuenta", "euros"]
+  },
+  "ale-3-3": {
+    "contenido": "Aprenderás los nombres de los colores en alemán.",
+    "textoTraducir": "Das Auto ist rot und das Haus ist weiß.",
+    "bancoPalabras": ["El", "auto", "es", "rojo", "y", "la", "casa", "es", "blanca"]
+  },
+  "ale-4-1": {
+    "contenido": "Aprenderás vocabulario alemán de alimentos comunes.",
+    "textoTraducir": "Ich esse Brot, Käse und einen Apfel.",
+    "bancoPalabras": ["Como", "pan", "queso", "y", "una", "manzana"]
+  },
+  "ale-4-2": {
+    "contenido": "Aprenderás a nombrar bebidas y decir qué tomás.",
+    "textoTraducir": "Ich trinke Wasser und meine Schwester trinkt Tee.",
+    "bancoPalabras": ["Tomo", "agua", "y", "mi", "hermana", "toma", "té"]
+  },
+  "ale-4-3": {
+    "contenido": "Aprenderás expresiones para pedir comida en un restaurante.",
+    "textoTraducir": "Ich möchte eine Suppe, bitte.",
+    "bancoPalabras": ["Quisiera", "una", "sopa", "por", "favor"]
+  },
+  "ale-5-1": {
+    "contenido": "Aprenderás a preguntar y decir la hora en alemán.",
+    "textoTraducir": "Es ist sieben Uhr.",
+    "bancoPalabras": ["Son", "las", "siete", "en", "punto"]
+  },
+  "ale-5-2": {
+    "contenido": "Aprenderás a describir actividades de la mañana.",
+    "textoTraducir": "Am Morgen frühstücke ich und trinke Kaffee.",
+    "bancoPalabras": ["Por", "la", "mañana", "desayuno", "y", "tomo", "café"]
+  },
+  "ale-5-3": {
+    "contenido": "Aprenderás a hablar de actividades de la noche.",
+    "textoTraducir": "Am Abend lese ich ein Buch.",
+    "bancoPalabras": ["Por", "la", "noche", "leo", "un", "libro"]
+  },
+  "ale-6-1": {
+    "contenido": "Aprenderás los nombres de las habitaciones de una casa.",
+    "textoTraducir": "Das Schlafzimmer ist neben dem Badezimmer.",
+    "bancoPalabras": ["El", "dormitorio", "está", "al", "lado", "del", "baño"]
+  },
+  "ale-6-2": {
+    "contenido": "Aprenderás vocabulario alemán de muebles.",
+    "textoTraducir": "Der Tisch steht im Wohnzimmer.",
+    "bancoPalabras": ["La", "mesa", "está", "en", "el", "living"]
+  },
+  "ale-6-3": {
+    "contenido": "Aprenderás a nombrar objetos cotidianos del hogar.",
+    "textoTraducir": "Die Schlüssel liegen auf dem Tisch.",
+    "bancoPalabras": ["Las", "llaves", "están", "sobre", "la", "mesa"]
+  },
+  "ale-7-1": {
+    "contenido": "Aprenderás vocabulario de prendas de vestir.",
+    "textoTraducir": "Ich trage eine blaue Jacke.",
+    "bancoPalabras": ["Llevo", "una", "campera", "azul"]
+  },
+  "ale-7-2": {
+    "contenido": "Aprenderás a hablar de precios y dinero en alemán.",
+    "textoTraducir": "Das T-Shirt kostet zwanzig Euro.",
+    "bancoPalabras": ["La", "remera", "cuesta", "veinte", "euros"]
+  },
+  "ale-7-3": {
+    "contenido": "Aprenderás expresiones para comprar en una tienda.",
+    "textoTraducir": "Ich suche eine schwarze Hose.",
+    "bancoPalabras": ["Estoy", "buscando", "un", "pantalón", "negro"]
+  },
+  "ale-8-1": {
+    "contenido": "Aprenderás a identificar edificios y lugares de una ciudad.",
+    "textoTraducir": "Die Bank ist neben dem Bahnhof.",
+    "bancoPalabras": ["El", "banco", "está", "al", "lado", "de", "la", "estación"]
+  },
+  "ale-8-2": {
+    "contenido": "Aprenderás a preguntar cómo llegar a un lugar.",
+    "textoTraducir": "Entschuldigung, wo ist das Museum?",
+    "bancoPalabras": ["Disculpe", "dónde", "está", "el", "museo"]
+  },
+  "ale-8-3": {
+    "contenido": "Aprenderás a dar indicaciones para llegar a distintos lugares.",
+    "textoTraducir": "Gehen Sie geradeaus und dann nach links.",
+    "bancoPalabras": ["Siga", "todo", "derecho", "y", "después", "a", "la", "izquierda"]
+  },
+  "ale-9-1": {
+    "contenido": "Aprenderás vocabulario de deportes y actividades físicas.",
+    "textoTraducir": "Ich spiele jeden Samstag Fußball.",
+    "bancoPalabras": ["Juego", "al", "fútbol", "todos", "los", "sábados"]
+  },
+  "ale-9-2": {
+    "contenido": "Aprenderás a hablar de tus pasatiempos.",
+    "textoTraducir": "Mein Hobby ist Musik hören.",
+    "bancoPalabras": ["Mi", "pasatiempo", "es", "escuchar", "música"]
+  },
+  "ale-9-3": {
+    "contenido": "Aprenderás a contar planes para el fin de semana.",
+    "textoTraducir": "Am Wochenende besuche ich meine Freunde.",
+    "bancoPalabras": ["El", "fin", "de", "semana", "visito", "a", "mis", "amigos"]
+  },
+  "ale-10-1": {
+    "contenido": "Aprenderás vocabulario de medios de transporte.",
+    "textoTraducir": "Ich fahre mit dem Zug nach Berlin.",
+    "bancoPalabras": ["Viajo", "en", "tren", "a", "Berlín"]
+  },
+  "ale-10-2": {
+    "contenido": "Aprenderás expresiones útiles para orientarte en un aeropuerto.",
+    "textoTraducir": "Wo ist der Flughafen?",
+    "bancoPalabras": ["Dónde", "está", "el", "aeropuerto"]
+  },
+  "ale-10-3": {
+    "contenido": "Aprenderás a reservar una habitación de hotel.",
+    "textoTraducir": "Ich möchte ein Zimmer für zwei Nächte buchen.",
+    "bancoPalabras": ["Quisiera", "reservar", "una", "habitación", "por", "dos", "noches"]
+  },
+  "chi-1-1": {
+    "contenido": "Aprenderás saludos y despedidas habituales en chino mandarín.",
+    "textoTraducir": "你好！再见！",
+    "bancoPalabras": ["Hola", "Adiós"]
+  },
+  "chi-1-2": {
+    "contenido": "Aprenderás a decir tu nombre y a presentarte.",
+    "textoTraducir": "你好，我叫安娜。",
+    "bancoPalabras": ["Hola", "me", "llamo", "Anna"]
+  },
+  "chi-1-3": {
+    "contenido": "Aprenderás saludos formales e informales en chino.",
+    "textoTraducir": "您好！你好吗？",
+    "bancoPalabras": ["Hola", "Cómo", "está", "usted"]
+  },
+  "chi-2-1": {
+    "contenido": "Aprenderás vocabulario para hablar de padres y hermanos.",
+    "textoTraducir": "这是我的爸爸和妈妈。",
+    "bancoPalabras": ["Estos", "son", "mi", "papá", "y", "mi", "mamá"]
+  },
+  "chi-2-2": {
+    "contenido": "Aprenderás palabras para otros integrantes de la familia.",
+    "textoTraducir": "我有一个哥哥和一个奶奶。",
+    "bancoPalabras": ["Tengo", "un", "hermano", "mayor", "y", "una", "abuela"]
+  },
+  "chi-2-3": {
+    "contenido": "Aprenderás a describir a los integrantes de tu familia.",
+    "textoTraducir": "我的妈妈很友好。",
+    "bancoPalabras": ["Mi", "mamá", "es", "muy", "amable"]
+  },
+  "chi-3-1": {
+    "contenido": "Aprenderás los números del uno al veinte en chino mandarín.",
+    "textoTraducir": "我有三个苹果。",
+    "bancoPalabras": ["Tengo", "tres", "manzanas"]
+  },
+  "chi-3-2": {
+    "contenido": "Aprenderás a reconocer números mayores y cantidades.",
+    "textoTraducir": "这里有五十个学生。",
+    "bancoPalabras": ["Aquí", "hay", "cincuenta", "estudiantes"]
+  },
+  "chi-3-3": {
+    "contenido": "Aprenderás los nombres de los colores en chino mandarín.",
+    "textoTraducir": "我的书是红色的。",
+    "bancoPalabras": ["Mi", "libro", "es", "rojo"]
+  },
+  "chi-4-1": {
+    "contenido": "Aprenderás vocabulario de alimentos comunes.",
+    "textoTraducir": "我喜欢吃米饭和鸡肉。",
+    "bancoPalabras": ["Me", "gusta", "comer", "arroz", "y", "pollo"]
+  },
+  "chi-4-2": {
+    "contenido": "Aprenderás a nombrar bebidas y decir qué tomás.",
+    "textoTraducir": "我喝水和茶。",
+    "bancoPalabras": ["Tomo", "agua", "y", "té"]
+  },
+  "chi-4-3": {
+    "contenido": "Aprenderás expresiones para pedir comida en un restaurante.",
+    "textoTraducir": "请给我一碗面条。",
+    "bancoPalabras": ["Por", "favor", "deme", "un", "plato", "de", "fideos"]
+  },
+  "chi-5-1": {
+    "contenido": "Aprenderás a preguntar y decir la hora.",
+    "textoTraducir": "现在是七点。",
+    "bancoPalabras": ["Ahora", "son", "las", "siete"]
+  },
+  "chi-5-2": {
+    "contenido": "Aprenderás a describir actividades de la mañana.",
+    "textoTraducir": "我早上喝咖啡。",
+    "bancoPalabras": ["Por", "la", "mañana", "tomo", "café"]
+  },
+  "chi-5-3": {
+    "contenido": "Aprenderás a hablar de actividades de la noche.",
+    "textoTraducir": "我晚上看书。",
+    "bancoPalabras": ["Por", "la", "noche", "leo", "un", "libro"]
+  },
+  "chi-6-1": {
+    "contenido": "Aprenderás los nombres de las habitaciones de una casa.",
+    "textoTraducir": "我的卧室很大。",
+    "bancoPalabras": ["Mi", "dormitorio", "es", "grande"]
+  },
+  "chi-6-2": {
+    "contenido": "Aprenderás vocabulario de muebles.",
+    "textoTraducir": "客厅里有一张桌子。",
+    "bancoPalabras": ["En", "el", "living", "hay", "una", "mesa"]
+  },
+  "chi-6-3": {
+    "contenido": "Aprenderás a nombrar objetos cotidianos del hogar.",
+    "textoTraducir": "钥匙在桌子上。",
+    "bancoPalabras": ["Las", "llaves", "están", "sobre", "la", "mesa"]
+  },
+  "chi-7-1": {
+    "contenido": "Aprenderás vocabulario de prendas de vestir.",
+    "textoTraducir": "我喜欢这件蓝色的衣服。",
+    "bancoPalabras": ["Me", "gusta", "esta", "ropa", "azul"]
+  },
+  "chi-7-2": {
+    "contenido": "Aprenderás a hablar de precios y dinero.",
+    "textoTraducir": "这个苹果十块钱。",
+    "bancoPalabras": ["Esta", "manzana", "cuesta", "diez", "yuanes"]
+  },
+  "chi-7-3": {
+    "contenido": "Aprenderás expresiones para comprar en una tienda.",
+    "textoTraducir": "我想买一件衬衫。",
+    "bancoPalabras": ["Quiero", "comprar", "una", "camisa"]
+  },
+  "chi-8-1": {
+    "contenido": "Aprenderás a identificar edificios y lugares de una ciudad.",
+    "textoTraducir": "银行在学校旁边。",
+    "bancoPalabras": ["El", "banco", "está", "al", "lado", "de", "la", "escuela"]
+  },
+  "chi-8-2": {
+    "contenido": "Aprenderás a preguntar cómo llegar a un lugar.",
+    "textoTraducir": "请问，地铁站在哪里？",
+    "bancoPalabras": ["Disculpe", "dónde", "está", "la", "estación", "de", "metro"]
+  },
+  "chi-8-3": {
+    "contenido": "Aprenderás a dar indicaciones para llegar a distintos lugares.",
+    "textoTraducir": "一直走，然后向左转。",
+    "bancoPalabras": ["Siga", "todo", "derecho", "y", "después", "gire", "a", "la", "izquierda"]
+  },
+  "chi-9-1": {
+    "contenido": "Aprenderás vocabulario de deportes y actividades físicas.",
+    "textoTraducir": "我喜欢踢足球。",
+    "bancoPalabras": ["Me", "gusta", "jugar", "al", "fútbol"]
+  },
+  "chi-9-2": {
+    "contenido": "Aprenderás a hablar de tus pasatiempos e intereses.",
+    "textoTraducir": "我的爱好是听音乐。",
+    "bancoPalabras": ["Mi", "pasatiempo", "es", "escuchar", "música"]
+  },
+  "chi-9-3": {
+    "contenido": "Aprenderás a contar planes para el fin de semana.",
+    "textoTraducir": "周末我去看朋友。",
+    "bancoPalabras": ["El", "fin", "de", "semana", "voy", "a", "visitar", "a", "mis", "amigos"]
+  },
+  "chi-10-1": {
+    "contenido": "Aprenderás vocabulario de medios de transporte.",
+    "textoTraducir": "我坐火车去北京。",
+    "bancoPalabras": ["Voy", "a", "Pekín", "en", "tren"]
+  },
+  "chi-10-2": {
+    "contenido": "Aprenderás expresiones útiles para orientarte en un aeropuerto.",
+    "textoTraducir": "机场在哪里？",
+    "bancoPalabras": ["Dónde", "está", "el", "aeropuerto"]
+  },
+  "chi-10-3": {
+    "contenido": "Aprenderás a reservar una habitación de hotel.",
+    "textoTraducir": "我想预订一个房间。",
+    "bancoPalabras": ["Quiero", "reservar", "una", "habitación"]
+  }
+}

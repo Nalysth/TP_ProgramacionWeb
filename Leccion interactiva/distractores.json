@@ -1,0 +1,122 @@
+
+{
+  "ing-1-1": ["Buenas", "Tardes", "Hasta", "Pronto", "Bienvenido", "Señora"],
+  "ing-1-2": ["Apellido", "Mucho", "Gusto", "Ella", "Él", "Dónde"],
+  "ing-1-3": ["Buenos", "Días", "Hola", "Adiós", "Gracias", "Buenas"],
+
+  "ing-2-1": ["Hermana", "Abuelo", "Hija", "Primo", "Familia", "Tío"],
+  "ing-2-2": ["Hermano", "Primo", "Hija", "Padres", "Nieto", "Familia"],
+  "ing-2-3": ["Serio", "Inteligente", "Alto", "Bajo", "Amigable", "Joven"],
+
+  "ing-3-1": ["Cuatro", "Ocho", "Diez", "Veinte", "Cuadernos", "Lapiceras"],
+  "ing-3-2": ["Treinta", "Cuarenta", "Sesenta", "Cien", "Profesores", "Aulas"],
+  "ing-3-3": ["Verde", "Amarillo", "Negro", "Blanco", "Mesa", "Ventana"],
+
+  "ing-4-1": ["Leche", "Carne", "Arroz", "Naranja", "Cena", "Desayuno"],
+  "ing-4-2": ["Come", "Toma", "Jugo", "Café", "Padre", "Hermana"],
+  "ing-4-3": ["Quiero", "Necesito", "Hamburguesa", "Ensalada", "Bebida", "Cuenta"],
+
+  "ing-5-1": ["Ocho", "Nueve", "Diez", "Media", "Cuarto", "Minutos"],
+  "ing-5-2": ["Almuerzo", "Ceno", "Trabajo", "Despierto", "Noche", "Tarde"],
+  "ing-5-3": ["Escribe", "Cocina", "Cena", "Desayuna", "Temprano", "Tarde"],
+
+  "ing-6-1": ["Dormitorio", "Baño", "Jardín", "Garaje", "Comedor", "Oficina"],
+  "ing-6-2": ["Silla", "Cama", "Armario", "Lámpara", "Alfombra", "Estante"],
+  "ing-6-3": ["Teléfono", "Reloj", "Puerta", "Ventana", "Llave", "Sofá"],
+
+  "ing-7-1": ["Pantalón", "Vestido", "Sombrero", "Zapatos", "Camisa", "Bufanda"],
+  "ing-7-2": ["Precio", "Barato", "Caro", "Treinta", "Pesos", "Descuento"],
+  "ing-7-3": ["Vender", "Pagar", "Grande", "Mediano", "Campera", "Vestido"],
+
+  "ing-8-1": ["Hospital", "Banco", "Escuela", "Museo", "Estación", "Tienda"],
+  "ing-8-2": ["Cuándo", "Por qué", "Cerca", "Lejos", "Seguir", "Derecha"],
+  "ing-8-3": ["Derecha", "Atrás", "Adelante", "Cruce", "Semáforo", "Avenida"],
+
+  "ing-9-1": ["Natación", "Tenis", "Fútbol", "Correr", "Bailar", "Gimnasio"],
+  "ing-9-2": ["Cantar", "Bailar", "Leer", "Cocinar", "Pintar", "Viajar"],
+  "ing-9-3": ["Ayer", "Mañana", "Hoy", "Trabajo", "Escuela", "Vacaciones"],
+
+  "ing-10-1": ["Avión", "Colectivo", "Auto", "Barco", "Bicicleta", "Subte"],
+  "ing-10-2": ["Equipaje", "Pasaporte", "Puerta", "Maleta", "Asiento", "Terminal"],
+  "ing-10-3": ["Individual", "Suite", "Desayuno", "Recepción", "Equipaje", "Reserva"],
+
+  "ale-1-1": ["Buenas", "Tardes", "Adiós", "Bienvenido", "Gracias", "Por favor"],
+  "ale-1-2": ["Apellido", "Mucho", "Gusto", "Ella", "Él", "Dónde"],
+  "ale-1-3": ["Buenos", "Días", "Hola", "Adiós", "Gracias", "Señor"],
+
+  "ale-2-1": ["Hermana", "Abuelo", "Hija", "Primo", "Familia", "Tío"],
+  "ale-2-2": ["Hermano", "Padre", "Madre", "Nieto", "Tía", "Primo"],
+  "ale-2-3": ["Serio", "Inteligente", "Alto", "Bajo", "Amigable", "Joven"],
+
+  "ale-3-1": ["Cuatro", "Ocho", "Diez", "Veinte", "Cuadernos", "Lapiceras"],
+  "ale-3-2": ["Treinta", "Cuarenta", "Sesenta", "Cien", "Dólares", "Pesos"],
+  "ale-3-3": ["Verde", "Amarillo", "Negro", "Azul", "Gris", "Marrón"],
+
+  "ale-4-1": ["Leche", "Carne", "Arroz", "Naranja", "Cena", "Desayuno"],
+  "ale-4-2": ["Agua", "Jugo", "Café", "Leche", "Padre", "Hermano"],
+  "ale-4-3": ["Quiero", "Necesito", "Hamburguesa", "Ensalada", "Bebida", "Cuenta"],
+
+  "ale-5-1": ["Ocho", "Nueve", "Diez", "Media", "Cuarto", "Minutos"],
+  "ale-5-2": ["Almuerzo", "Ceno", "Trabajo", "Despierto", "Noche", "Tarde"],
+  "ale-5-3": ["Escribo", "Cocino", "Cena", "Desayuno", "Temprano", "Tarde"],
+
+  "ale-6-1": ["Cocina", "Comedor", "Garaje", "Jardín", "Oficina", "Living"],
+  "ale-6-2": ["Silla", "Cama", "Armario", "Lámpara", "Alfombra", "Estante"],
+  "ale-6-3": ["Teléfono", "Reloj", "Puerta", "Ventana", "Llave", "Sofá"],
+
+  "ale-7-1": ["Pantalón", "Vestido", "Sombrero", "Zapatos", "Camisa", "Bufanda"],
+  "ale-7-2": ["Precio", "Barato", "Caro", "Treinta", "Pesos", "Descuento"],
+  "ale-7-3": ["Vender", "Pagar", "Grande", "Mediano", "Campera", "Vestido"],
+
+  "ale-8-1": ["Hospital", "Escuela", "Museo", "Parque", "Tienda", "Aeropuerto"],
+  "ale-8-2": ["Cuándo", "Por qué", "Cerca", "Lejos", "Seguir", "Derecha"],
+  "ale-8-3": ["Derecha", "Atrás", "Adelante", "Cruce", "Semáforo", "Avenida"],
+
+  "ale-9-1": ["Natación", "Tenis", "Básquet", "Correr", "Bailar", "Gimnasio"],
+  "ale-9-2": ["Cantar", "Bailar", "Leer", "Cocinar", "Pintar", "Viajar"],
+  "ale-9-3": ["Ayer", "Mañana", "Hoy", "Trabajo", "Escuela", "Vacaciones"],
+
+  "ale-10-1": ["Avión", "Colectivo", "Auto", "Barco", "Bicicleta", "Subte"],
+  "ale-10-2": ["Equipaje", "Pasaporte", "Puerta", "Maleta", "Asiento", "Terminal"],
+  "ale-10-3": ["Individual", "Suite", "Desayuno", "Recepción", "Equipaje", "Reserva"],
+
+  "chi-1-1": ["Buenos días", "Buenas tardes", "Hasta luego", "Gracias", "Por favor", "Bienvenido"],
+  "chi-1-2": ["Apellido", "Mucho", "Gusto", "Ella", "Él", "Dónde"],
+  "chi-1-3": ["Buenos días", "Buenas noches", "Adiós", "Gracias", "Por favor", "Bienvenido"],
+
+  "chi-2-1": ["Hermana", "Abuelo", "Hija", "Primo", "Familia", "Tío"],
+  "chi-2-2": ["Padre", "Madre", "Hermana", "Tío", "Primo", "Nieto"],
+  "chi-2-3": ["Serio", "Inteligente", "Alto", "Bajo", "Amigable", "Joven"],
+
+  "chi-3-1": ["Cuatro", "Ocho", "Diez", "Veinte", "Peras", "Naranjas"],
+  "chi-3-2": ["Treinta", "Cuarenta", "Sesenta", "Cien", "Profesores", "Aulas"],
+  "chi-3-3": ["Verde", "Amarillo", "Negro", "Blanco", "Mesa", "Ventana"],
+
+  "chi-4-1": ["Leche", "Carne", "Pan", "Naranja", "Cena", "Desayuno"],
+  "chi-4-2": ["Leche", "Jugo", "Café", "Agua", "Comida", "Cena"],
+  "chi-4-3": ["Quiero", "Necesito", "Hamburguesa", "Ensalada", "Bebida", "Cuenta"],
+
+  "chi-5-1": ["Ocho", "Nueve", "Diez", "Media", "Cuarto", "Minutos"],
+  "chi-5-2": ["Almuerzo", "Ceno", "Trabajo", "Despierto", "Noche", "Tarde"],
+  "chi-5-3": ["Escribo", "Cocino", "Cena", "Desayuno", "Temprano", "Tarde"],
+
+  "chi-6-1": ["Cocina", "Comedor", "Garaje", "Jardín", "Oficina", "Living"],
+  "chi-6-2": ["Silla", "Cama", "Armario", "Lámpara", "Alfombra", "Estante"],
+  "chi-6-3": ["Teléfono", "Reloj", "Puerta", "Ventana", "Llave", "Sofá"],
+
+  "chi-7-1": ["Pantalón", "Vestido", "Sombrero", "Zapatos", "Camisa", "Bufanda"],
+  "chi-7-2": ["Veinte", "Treinta", "Cincuenta", "Pesos", "Dólares", "Barato"],
+  "chi-7-3": ["Vender", "Pagar", "Pantalón", "Vestido", "Zapatos", "Sombrero"],
+
+  "chi-8-1": ["Hospital", "Museo", "Parque", "Estación", "Tienda", "Aeropuerto"],
+  "chi-8-2": ["Cuándo", "Por qué", "Cerca", "Lejos", "Seguir", "Derecha"],
+  "chi-8-3": ["Derecha", "Atrás", "Adelante", "Cruce", "Semáforo", "Avenida"],
+
+  "chi-9-1": ["Natación", "Tenis", "Básquet", "Correr", "Bailar", "Gimnasio"],
+  "chi-9-2": ["Cantar", "Bailar", "Leer", "Cocinar", "Pintar", "Viajar"],
+  "chi-9-3": ["Ayer", "Mañana", "Hoy", "Trabajo", "Escuela", "Vacaciones"],
+
+  "chi-10-1": ["Avión", "Colectivo", "Auto", "Barco", "Bicicleta", "Subte"],
+  "chi-10-2": ["Equipaje", "Pasaporte", "Puerta", "Maleta", "Asiento", "Terminal"],
+  "chi-10-3": ["Individual", "Suite", "Desayuno", "Recepción", "Equipaje", "Reserva"]
+}
