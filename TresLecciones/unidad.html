@@ -3,7 +3,7 @@
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <title>MAPA DE UNIDADES INGLES</title>
+        <title>UNIDAD SELECCIONADA</title>
 
         <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/navegador.css">
@@ -65,46 +65,20 @@
             </nav>
         </header>
         <main>
-            <h2 class="titulo">INGLES - UNIDAD 4</h2>
-            <h3 class="segundo_titulo">PASADO SIMPLE Y PASADO CONTINUO</h3>
-            <section class="sector_targetas">
-                <article class="targeta" id="lex1_ingles">
-                    <section class="sector_emoji">
-                        ✅
-                    </section>
-                    <section class="texto_nombre_estado">
-                        <p>LECCION 1</p>
-                        <p>Past Simple</p>
-                        <p class="estado_completada">COMPLETADA</p>
-                    </section>
-                    <a href="" class="boton_iniciarnt">iniciar</a>
-                </article>
-                <article class="targeta" id="lex2_ingles">
-                    <section class="sector_emoji">
-                        ✅
-                    </section>
-                    <section class="texto_nombre_estado">
-                        <p>LECCION 2</p>
-                        <p>Past Continuous</p>
-                        <p class="estado_completada">COMPLETADA</p>
-                    </section>
-                    <a href="" class="boton_iniciarnt">iniciar</a>
-                </article>
-
-                <article class="targeta" id="lex3_ingles">
-                    <section class="sector_emoji">
-                        🤔
-                    </section>
-                    <section class="texto_nombre_estado">
-                        <p>LECCION 3</p>
-                        <p>Past Simple & Past Continuous</p>
-                        <p class="estado_en_curso">EN CURSO</p>
-                    </section>
-                    <a href="../Leccion interactiva/leccion_ingles.html" class="boton_iniciar">iniciar</a>
-                </article>
+            <section class="botonatras-y-indiceUnidades">
+            <button class="boton-retroceso" onclick="history.back()">
+                <i class="fa-solid fa-arrow-left"></i> Volver
+            </button>
+            <a id="btn-indice" href="../IndiceUnidades/indiceUnidades.html" class="sector-indice">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Índice de unidades</span>
+             </a>
             </section>
+            <h2 class="titulo_nombre" id="titulo"></h2>
+            <h3 class="segundo_titulo" id="subtitulo"></h3>
+            <section class="sector_targetas" id="lista-lecciones"></section>
             <section class="boton_reset">
-                <a href="../Mapa de Unidades y Lecciones/unidad_ingles_lex_reset.html"><button class="boton_r_unidad">Empezar de nuevo las lecciones</button></a>
+                <button class="boton_r_unidad" id="btn-reset">Empezar de nuevo las lecciones</button>
             </section>
         </main>
         <footer>
@@ -133,10 +107,13 @@
                     <ul>
                     <li><a href="#">Cursos</a></li>
                     <li><a href="../Perfil de usuario y ajustes/perfil_usuario.html">Perfil</a></li>
-                    <li><a href="../Ranking/html/ranking_liga_Plata.html">Ranking</li>
+                    <li><a href="../Ranking/html/ranking_liga_Plata.html">Ranking</a></li>
                     </ul>
                 </section>
             </section>
         </footer>
+        <script src="auth-temporal.js"></script>
+        <script src="progreso.js"></script>
+        <script src="../TresLecciones/unidad.js"></script>
     </body>
 </html>

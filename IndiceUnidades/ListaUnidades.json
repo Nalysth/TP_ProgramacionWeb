@@ -1,0 +1,317 @@
+{
+  "Inglés": {
+    "nombre": "Inglés",
+    "unidades": [
+      {
+        "id": 1,
+        "titulo": "Greetings",
+        "descripcion": "Saludos y presentaciones",
+        "lecciones": [
+          { "idLex": "ing-1-1", "titulo": "Hello and goodbye" },
+          { "idLex": "ing-1-2", "titulo": "Introducing yourself" },
+          { "idLex": "ing-1-3", "titulo": "Formal vs informal" }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Family",
+        "descripcion": "Vocabulario de la familia",
+        "lecciones": [
+          { "idLex": "ing-2-1", "titulo": "Parents and siblings" },
+          { "idLex": "ing-2-2", "titulo": "Extended family" },
+          { "idLex": "ing-2-3", "titulo": "Describing your family" }
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Numbers and Colors",
+        "descripcion": "Números del 1 al 100 y colores",
+        "lecciones": [
+          { "idLex": "ing-3-1", "titulo": "Numbers 1 to 20" },
+          { "idLex": "ing-3-2", "titulo": "Numbers 20 to 100" },
+          { "idLex": "ing-3-3", "titulo": "Colors" }
+        ]
+      },
+      {
+        "id": 4,
+        "titulo": "Food and Drinks",
+        "descripcion": "Comidas, bebidas y cómo pedir en un restaurante",
+        "lecciones": [
+          { "idLex": "ing-4-1", "titulo": "Common foods" },
+          { "idLex": "ing-4-2", "titulo": "Drinks" },
+          { "idLex": "ing-4-3", "titulo": "Ordering at a restaurant" }
+        ]
+      },
+      {
+        "id": 5,
+        "titulo": "Daily Routine",
+        "descripcion": "Rutinas diarias y la hora",
+        "lecciones": [
+          { "idLex": "ing-5-1", "titulo": "Telling the time" },
+          { "idLex": "ing-5-2", "titulo": "Morning routine" },
+          { "idLex": "ing-5-3", "titulo": "Evening routine" }
+        ]
+      },
+      {
+        "id": 6,
+        "titulo": "The House",
+        "descripcion": "Partes de la casa y objetos cotidianos",
+        "lecciones": [
+          { "idLex": "ing-6-1", "titulo": "Rooms of the house" },
+          { "idLex": "ing-6-2", "titulo": "Furniture" },
+          { "idLex": "ing-6-3", "titulo": "Household objects" }
+        ]
+      },
+      {
+        "id": 7,
+        "titulo": "Clothes and Shopping",
+        "descripcion": "Ropa, precios y compras",
+        "lecciones": [
+          { "idLex": "ing-7-1", "titulo": "Clothing items" },
+          { "idLex": "ing-7-2", "titulo": "Prices and money" },
+          { "idLex": "ing-7-3", "titulo": "Shopping dialogues" }
+        ]
+      },
+      {
+        "id": 8,
+        "titulo": "Places in the City",
+        "descripcion": "Lugares de la ciudad y cómo pedir direcciones",
+        "lecciones": [
+          { "idLex": "ing-8-1", "titulo": "Buildings and places" },
+          { "idLex": "ing-8-2", "titulo": "Asking for directions" },
+          { "idLex": "ing-8-3", "titulo": "Giving directions" }
+        ]
+      },
+      {
+        "id": 9,
+        "titulo": "Hobbies and Free Time",
+        "descripcion": "Pasatiempos, deportes y actividades",
+        "lecciones": [
+          { "idLex": "ing-9-1", "titulo": "Sports" },
+          { "idLex": "ing-9-2", "titulo": "Hobbies" },
+          { "idLex": "ing-9-3", "titulo": "Weekend plans" }
+        ]
+      },
+      {
+        "id": 10,
+        "titulo": "Travel",
+        "descripcion": "Viajes, transporte y hoteles",
+        "lecciones": [
+          { "idLex": "ing-10-1", "titulo": "Transportation" },
+          { "idLex": "ing-10-2", "titulo": "At the airport" },
+          { "idLex": "ing-10-3", "titulo": "Booking a hotel" }
+        ]
+      }
+    ]
+  },
+  "Alemán": {
+    "nombre": "Alemán",
+    "unidades": [
+      {
+        "id": 1,
+        "titulo": "Begrüßungen",
+        "descripcion": "Saludos y presentaciones",
+        "lecciones": [
+          { "idLex": "ale-1-1", "titulo": "Hallo und Tschüss" },
+          { "idLex": "ale-1-2", "titulo": "Sich vorstellen" },
+          { "idLex": "ale-1-3", "titulo": "Du oder Sie" }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Familie",
+        "descripcion": "Vocabulario de la familia",
+        "lecciones": [
+          { "idLex": "ale-2-1", "titulo": "Eltern und Geschwister" },
+          { "idLex": "ale-2-2", "titulo": "Die erweiterte Familie" },
+          { "idLex": "ale-2-3", "titulo": "Die eigene Familie beschreiben" }
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Zahlen und Farben",
+        "descripcion": "Números del 1 al 100 y colores",
+        "lecciones": [
+          { "idLex": "ale-3-1", "titulo": "Zahlen von 1 bis 20" },
+          { "idLex": "ale-3-2", "titulo": "Zahlen von 20 bis 100" },
+          { "idLex": "ale-3-3", "titulo": "Farben" }
+        ]
+      },
+      {
+        "id": 4,
+        "titulo": "Essen und Trinken",
+        "descripcion": "Comidas, bebidas y cómo pedir en un restaurante",
+        "lecciones": [
+          { "idLex": "ale-4-1", "titulo": "Lebensmittel" },
+          { "idLex": "ale-4-2", "titulo": "Getränke" },
+          { "idLex": "ale-4-3", "titulo": "Im Restaurant bestellen" }
+        ]
+      },
+      {
+        "id": 5,
+        "titulo": "Tagesablauf",
+        "descripcion": "Rutinas diarias y la hora",
+        "lecciones": [
+          { "idLex": "ale-5-1", "titulo": "Die Uhrzeit" },
+          { "idLex": "ale-5-2", "titulo": "Der Morgen" },
+          { "idLex": "ale-5-3", "titulo": "Der Abend" }
+        ]
+      },
+      {
+        "id": 6,
+        "titulo": "Das Haus",
+        "descripcion": "Partes de la casa y objetos cotidianos",
+        "lecciones": [
+          { "idLex": "ale-6-1", "titulo": "Zimmer im Haus" },
+          { "idLex": "ale-6-2", "titulo": "Möbel" },
+          { "idLex": "ale-6-3", "titulo": "Gegenstände im Haushalt" }
+        ]
+      },
+      {
+        "id": 7,
+        "titulo": "Kleidung und Einkaufen",
+        "descripcion": "Ropa, precios y compras",
+        "lecciones": [
+          { "idLex": "ale-7-1", "titulo": "Kleidungsstücke" },
+          { "idLex": "ale-7-2", "titulo": "Preise und Geld" },
+          { "idLex": "ale-7-3", "titulo": "Einkaufsgespräche" }
+        ]
+      },
+      {
+        "id": 8,
+        "titulo": "Orte in der Stadt",
+        "descripcion": "Lugares de la ciudad y cómo pedir direcciones",
+        "lecciones": [
+          { "idLex": "ale-8-1", "titulo": "Gebäude und Orte" },
+          { "idLex": "ale-8-2", "titulo": "Nach dem Weg fragen" },
+          { "idLex": "ale-8-3", "titulo": "Den Weg beschreiben" }
+        ]
+      },
+      {
+        "id": 9,
+        "titulo": "Hobbys und Freizeit",
+        "descripcion": "Pasatiempos, deportes y actividades",
+        "lecciones": [
+          { "idLex": "ale-9-1", "titulo": "Sport" },
+          { "idLex": "ale-9-2", "titulo": "Hobbys" },
+          { "idLex": "ale-9-3", "titulo": "Wochenendpläne" }
+        ]
+      },
+      {
+        "id": 10,
+        "titulo": "Reisen",
+        "descripcion": "Viajes, transporte y hoteles",
+        "lecciones": [
+          { "idLex": "ale-10-1", "titulo": "Verkehrsmittel" },
+          { "idLex": "ale-10-2", "titulo": "Am Flughafen" },
+          { "idLex": "ale-10-3", "titulo": "Ein Hotel buchen" }
+        ]
+      }
+    ]
+  },
+  "ChinoMandarin": {
+    "nombre": "ChinoMandarin",
+    "unidades": [
+      {
+        "id": 1,
+        "titulo": "自我介绍 ",
+        "descripcion": "Saludos y presentaciones personales",
+        "lecciones": [
+          { "idLex": "chi-1-1", "titulo": "你好和再见 (Hola y adiós)" },
+          { "idLex": "chi-1-2", "titulo": "介绍自己 (Presentarse a uno mismo)" },
+          { "idLex": "chi-1-3", "titulo": "正式和非正式问候 (Saludos formales e informales)" }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "家庭",
+        "descripcion": "Vocabulario de la familia",
+        "lecciones": [
+          { "idLex": "chi-2-1", "titulo": "父母和兄弟姐妹 (Padres y hermanos)" },
+          { "idLex": "chi-2-2", "titulo": "大家庭 (Familia extendida)" },
+          { "idLex": "chi-2-3", "titulo": "介绍自己的家人 (Describir a tu familia)" }
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "数字和颜色",
+        "descripcion": "Números del 1 al 100 y colores",
+        "lecciones": [
+          { "idLex": "chi-3-1", "titulo": "一到二十 (Números del 1 al 20)" },
+          { "idLex": "chi-3-2", "titulo": "二十到一百 (Números del 20 al 100)" },
+          { "idLex": "chi-3-3", "titulo": "颜色 (Colores)" }
+        ]
+      },
+      {
+        "id": 4,
+        "titulo": "食物和饮料",
+        "descripcion": "Comidas, bebidas y cómo pedir en un restaurante",
+        "lecciones": [
+          { "idLex": "chi-4-1", "titulo": "常见食物 (Comidas comunes)" },
+          { "idLex": "chi-4-2", "titulo": "饮料 (Bebidas)" },
+          { "idLex": "chi-4-3", "titulo": "在餐厅点餐 (Pedir en un restaurante)" }
+        ]
+      },
+      {
+        "id": 5,
+        "titulo": "日常生活",
+        "descripcion": "Rutinas diarias y la hora",
+        "lecciones": [
+          { "idLex": "chi-5-1", "titulo": "时间和钟点 (La hora)" },
+          { "idLex": "chi-5-2", "titulo": "早上的日常活动 (Rutina de la mañana)" },
+          { "idLex": "chi-5-3", "titulo": "晚上的日常活动 (Rutina de la noche)" }
+        ]
+      },
+      {
+        "id": 6,
+        "titulo": "房子",
+        "descripcion": "Partes de la casa y objetos cotidianos",
+        "lecciones": [
+          { "idLex": "chi-6-1", "titulo": "房间 (Habitaciones de la casa)" },
+          { "idLex": "chi-6-2", "titulo": "家具 (Muebles)" },
+          { "idLex": "chi-6-3", "titulo": "家居用品 (Objetos del hogar)" }
+        ]
+      },
+      {
+        "id": 7,
+        "titulo": "衣服和购物",
+        "descripcion": "Ropa, precios y compras",
+        "lecciones": [
+          { "idLex": "chi-7-1", "titulo": "衣服 (Prendas de vestir)" },
+          { "idLex": "chi-7-2", "titulo": "价格和钱 (Precios y dinero)" },
+          { "idLex": "chi-7-3", "titulo": "购物对话 (Diálogos de compras)" }
+        ]
+      },
+      {
+        "id": 8,
+        "titulo": "城市里的地方",
+        "descripcion": "Lugares de la ciudad y cómo pedir direcciones",
+        "lecciones": [
+          { "idLex": "chi-8-1", "titulo": "建筑物和地点 (Edificios y lugares)" },
+          { "idLex": "chi-8-2", "titulo": "问路 (Preguntar cómo llegar)" },
+          { "idLex": "chi-8-3", "titulo": "指路 (Dar indicaciones)" }
+        ]
+      },
+      {
+        "id": 9,
+        "titulo": "爱好和休闲",
+        "descripcion": "Pasatiempos, deportes y actividades",
+        "lecciones": [
+          { "idLex": "chi-9-1", "titulo": "运动 (Deportes)" },
+          { "idLex": "chi-9-2", "titulo": "爱好 (Pasatiempos)" },
+          { "idLex": "chi-9-3", "titulo": "周末计划 (Planes para el fin de semana)" }
+        ]
+      },
+      {
+        "id": 10,
+        "titulo": "旅行",
+        "descripcion": "Viajes, transporte y hoteles",
+        "lecciones": [
+          { "idLex": "chi-10-1", "titulo": "交通工具 (Medios de transporte)" },
+          { "idLex": "chi-10-2", "titulo": "在机场 (En el aeropuerto)" },
+          { "idLex": "chi-10-3", "titulo": "预订酒店 (Reservar un hotel)" }
+        ]
+      }
+    ]
+  }
+}

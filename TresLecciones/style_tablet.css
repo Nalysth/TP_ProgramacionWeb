@@ -10,8 +10,8 @@
     main{
         grid-row: 2;
     }
-        footer{
-        grid-row: 3;
+    .botonatras-y-indiceUnidades{
+        gap: 60%;
     }
     .sector_targetas{
         display: grid;
@@ -20,37 +20,34 @@
         gap: 3%;
     } 
     .titulo{
-        grid-row: 1;
+        grid-row: 2;
 
     }
     .segundo_titulo {
-        grid-column: span 2;
-        grid-row: 2;
+        grid-column: 1 / 2;
+        grid-row: 3;
     }
     .targeta{
         margin: 0;
         padding: 2%;
-        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
         height: 100%;
     }
     .sector_emoji{
-        font-size: 3em;
+        font-size: 1em;
     }
 
-    #lex1_ingles,#lex2_chino,#lex1_aleman{
-        grid-column: 1;
-        grid-row: 2;
+    .boton_reset{
+        grid-row:5;
     }
-    #lex2_ingles,#lex3_chino,#lex3_aleman{
-        grid-column: 2;
-        grid-row: 2;
+    #lista-lecciones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
-    #lex3_ingles,#lex1_chino,#lex2_aleman{
-        grid-column: span 2;
+
+    .leccion-actual {
+        grid-column: 1 / span 2;
         grid-row: 1;
     }
-    .boton_reset{
-        grid-row:4;
-    }
-
 }   
