@@ -66,15 +66,15 @@
     <main>
       <section class="flecha_y_titulo">
           <a href="../Perfil de usuario y ajustes/perfil_usuario.html"><i class="fa-solid fa-chevron-left" style="color: #000000;"></i></a>
-        <h2 class="recu">Cambiar contraseña</h2>
+          <h2 id="tituloFormulario"></h2>
       </section>
-      <form action="perfil_usuario.html">
-          <label for="contr">Nueva contraseña</label>
-          <input type="password" id="contr"required >
-          <label for="conf_contr">Confirmar contraseña</label>
-          <input type="password" id="conf_contr" required>
-          <button type="submit">Enviar</button>
-      </form>
+        <form id="formulario" action="perfil_usuario.html">
+            <label id="primerDato" for="primerCampo"></label>
+            <input type="" id="primerCampo"required >
+            <label id="segundoDato" for="segundoCampo"></label>
+            <input type="" id="segundoCampo" required>
+            <button type="submit" id="btnEnviar">Enviar</button>
+        </form>
     </main>
     <footer>
       <h2>GuanaTalk</h2>  
@@ -109,5 +109,7 @@
       </section>
       </section>
     </footer>
+
+    <script src="cambiarDatos.js"></script>
 </body>
 </html>

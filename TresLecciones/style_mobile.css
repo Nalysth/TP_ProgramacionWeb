@@ -17,7 +17,7 @@
     main{
         height: 100%;
         display: grid;
-        grid-template-rows: 0.5fr 0.5fr 0.5fr 5fr 0.5fr;
+        grid-template-rows: repeat(4, auto);
         grid-template-columns: 1fr;
 
     }
@@ -25,7 +25,7 @@
         grid-row: 2;
     }
     .sector_targetas{
-        grid-row: 4;
+        grid-row: 3;
         height: 100%;
         display: grid;
         grid-template-columns: 1fr; 
@@ -62,6 +62,12 @@
     }
     footer{
         display: none;
+    }
+    .boton-retroceso, .sector-indice{
+        font-size: 0.8em;
+    }
+    .boton_reset{
+        grid-row: 4;
     }
 }
    

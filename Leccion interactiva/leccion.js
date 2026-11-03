@@ -7,7 +7,7 @@ const idLex = params.get("idLex");
 
 const RUTA_CONTENIDO = "../Leccion interactiva/ListaLecciones.json";
 const RUTA_UNIDADES = "../IndiceUnidades/ListaUnidades.json";
-const RUTA_RESPUESTAS = "../Leccion interactiva/respuestasCorrectas.json";
+const RUTA_RESPUESTAS = "../Leccion interactiva/RespuestasCorrectas.json";
 const RUTA_DISTRACTORES = "../Leccion interactiva/distractores.json";
 
 
@@ -135,6 +135,7 @@ async function cargarLeccion() {
         actualizarProgreso();
 
         mostrarBanco();
+
         mostrarRespuesta();
 
         iniciarTemporizador();
@@ -235,7 +236,7 @@ function comprobarRespuesta() {
         .join(" ");
 
     if (normalizar(respuestaUsuarioTexto) === respuestaCorrecta) {
-        completarLeccion();
+        terminarLeccion();
     } else {
         mostrarError();
     }
@@ -261,16 +262,18 @@ function mostrarError() {
     }, 650);
 }
 
-function completarLeccion() {
+function terminarLeccion() {
     finalizada = true;
     clearInterval(temporizador);
 
     sessionStorage.removeItem(claveTiempo);
 
-    guardarLeccion(usuario, idLex, 100);
+    // Guarda el progreso y suma puntos y racha (viene de puntos.js)
+    const resultado = completarLeccion(usuario, idLex, 100);
     actualizarProgreso(100);
 
-    mensajeModal.textContent = "¡RESPUESTA CORRECTA!";
+    mensajeModal.textContent =
+        `¡RESPUESTA CORRECTA! +${resultado.puntosGanados} puntos | Racha: ${resultado.racha} 🔥`;
     modal.showPopover();
 }
 
@@ -319,7 +322,7 @@ function abandonarLeccion(mensaje) {
     clearInterval(temporizador);
 
     reiniciarLeccion(usuario, idLex);
-
+    quitarPuntosUnidad(usuario, [idLex]);
     alert(mensaje);
     volverAUnidad();
 }

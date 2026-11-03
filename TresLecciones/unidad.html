@@ -73,13 +73,16 @@
                 <i class="fa-solid fa-book-open"></i>
                 <span>Índice de unidades</span>
              </a>
-            </section>
             <h2 class="titulo_nombre" id="titulo"></h2>
+            </section>
             <h3 class="segundo_titulo" id="subtitulo"></h3>
             <section class="sector_targetas" id="lista-lecciones"></section>
             <section class="boton_reset">
-                <button class="boton_r_unidad" id="btn-reset">Empezar de nuevo las lecciones</button>
+                <button class="boton_r_unidad" id="btn-reset">Reiniciar todas las lecciones</button>
+                <p>⭐ Puntos: <span id="puntos"></span> | 🔥 Racha: <span id="racha"></span></p>
+                <button id="btn-siguiente" class="siguienteUnidad">Ir a la siguiente unidad</button> 
             </section>
+            
         </main>
         <footer>
         <h2>GuanaTalk</h2>  
@@ -112,8 +115,10 @@
                 </section>
             </section>
         </footer>
+        <!--<script src="../js/usuarios.js"></script>-->
         <script src="auth-temporal.js"></script>
         <script src="progreso.js"></script>
+        <script src="../Leccion interactiva/puntos.js"></script>
         <script src="../TresLecciones/unidad.js"></script>
     </body>
 </html>

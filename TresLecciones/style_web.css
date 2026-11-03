@@ -23,7 +23,7 @@ html, body {
 body {
   height: 100%;
   display: grid;
-  grid-template-rows: 0.5fr 8fr 0.5;
+  grid-template-rows: 0.5fr 8fr auto;
   background-color: #F3F8FC;
   color: #293B4A;
 }
@@ -38,22 +38,23 @@ main {
   padding: 2%;
   height: 100%;
   display: grid;
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(4, auto);
   gap: 2%;
 }
 
 footer {
+  height: 70%;  
   grid-row: 3;
 }
 .botonatras-y-indiceUnidades{
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 70%;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 .boton-retroceso {
   width: 100%;
   display: inline-flex;
   align-items: center;
+  justify-content: start;
   border: 1px solid var(--borde);
   border-radius: 1em;
   color: var(--blanco);
@@ -80,6 +81,7 @@ footer {
   color: var(--blanco);
   text-decoration: none;
   transition: 0.2s;
+  grid-column: 3;
 }
 
 .sector-indice:hover {
@@ -92,7 +94,7 @@ footer {
 }
 
 .sector_targetas {
-  grid-row: 4;
+  grid-row: 3;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -102,6 +104,8 @@ footer {
 }
 
 .titulo_nombre {
+  grid-row: 1;
+  grid-column: 2;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -109,7 +113,7 @@ footer {
 }
 
 .segundo_titulo {
-  padding: 1%;
+  padding:1em;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -124,7 +128,6 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100%;
   width: 100%;
   display: grid;
   grid-template-rows: repeat(4, 1fr);
@@ -192,7 +195,7 @@ footer {
   background-color: #E3EBF1;
 }
 .boton_r_unidad {
-  padding: 0.5%;
+  padding: 0.5em;
   height: 100%;
   font-weight: normal;
   border-radius: 0.5em;
@@ -222,4 +225,18 @@ footer {
 .estado_completada, .estado_en_curso, .estado_no_iniciada {
   font-weight: bold;
 }
-
+.boton_reset{
+  height: 100%;
+  grid-row: 4;
+  padding: 0.3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.siguienteUnidad{
+  padding: 0.5em;
+  background-color: #39a84f;
+  border-bottom: none;
+  color: white;
+  border-radius: 0.5em;
+  border-color:#39a84f;
+}
