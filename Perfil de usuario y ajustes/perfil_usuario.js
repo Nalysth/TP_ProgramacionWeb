@@ -1,3 +1,4 @@
+iniciarDatos('/footers-y-headers/headerCompleto.html' , '/footers-y-headers/footerSinRedes.html');
 // Traigo todos los datos necesarios:
 const email = document.getElementById("mailDato")
 const telefono = document.getElementById("telDato")

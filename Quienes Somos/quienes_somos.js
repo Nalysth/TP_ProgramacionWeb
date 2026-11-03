@@ -1,0 +1,1 @@
+iniciarDatos('/footers-y-headers/headerSimple.html', '/footers-y-headers/footerCompleto.html');
