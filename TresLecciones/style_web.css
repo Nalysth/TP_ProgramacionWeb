@@ -187,7 +187,7 @@ footer {
 }
 
 .boton_iniciar:hover {
-  background-color: #245675;
+  background-color: var(--verde);
 }
 
 .boton_iniciarnt {
