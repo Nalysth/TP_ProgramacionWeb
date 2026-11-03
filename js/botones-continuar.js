@@ -22,7 +22,7 @@ async function configurarContinuar() {
   const botones = document.querySelectorAll(".btn-continuar");
   if (botones.length === 0) return;
 
-  const usuario = obtenerUsuarioActual();
+  const usuario = obtenerUsuarioActivo();
   const cursos = await fetch(RUTA_UNIDADES).then((r) => r.json());
 
   botones.forEach((boton) => {

@@ -13,7 +13,7 @@ const RUTA_DISTRACTORES = "../Leccion interactiva/distractores.json";
 
 const TIEMPO_INICIAL = 90;
 
-const usuario = obtenerUsuarioActual();
+const usuario = obtenerUsuarioActivo();
 
 let tiempoRestante = TIEMPO_INICIAL;
 let temporizador = null;
@@ -44,7 +44,7 @@ const botonEnviar = document.getElementById("btn-enviar");
 const botonAbandonar = document.getElementById("btn-arrepentirse");
 const botonCerrarModal = document.getElementById("btn-cerrar-modal");
 
-const claveTiempo = `tiempo_${usuario}_${idLex}`;
+const claveTiempo = `tiempo_${usuario.id}_${idLex}`;
 
 function normalizar(texto) {
     return texto

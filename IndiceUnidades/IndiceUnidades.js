@@ -3,13 +3,24 @@ const idioma = params.get("idioma");
 
 document.getElementById("titulo").textContent = `Índice: ${idioma}`;
 
+
 async function mostrarUnidades() {
   const respuesta = await fetch("../IndiceUnidades/ListaUnidades.json");
   const cursos = await respuesta.json();
 
-  const curso = cursos[idioma];
+  const idiomas = {
+      "Inglés": "Inglés",
+      "Alemán": "Alemán",
+      "ChinoMandarin": "ChinoMandarin"
+  };
+  const curso = cursos[idiomas[idioma]]; 
+
   const lista = document.getElementById("lista-unidades");
-  const usuario = obtenerUsuarioActual();
+  const usuario = obtenerUsuarioActivo();
+  console.log("Idioma recibido:", idioma);
+
+  console.log("Claves del JSON:", Object.keys(cursos));
+  console.log("Curso encontrado:", curso);
 
   lista.innerHTML = curso.unidades.map((u) => {
     const porcentaje = calcularPorcentajeUnidad(usuario, u);
