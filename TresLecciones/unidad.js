@@ -56,9 +56,6 @@ const stats = obtenerStats(usuario);
 document.getElementById("puntos").textContent = stats.puntos;
 document.getElementById("racha").textContent = stats.racha;
 
-  console.log("Idioma detectado:", idioma);
-  console.log("Enlace del índice:", botonIndice.href);
-
   // Normaliza: acepta lecciones como texto o como objeto { idLex, titulo }
   const lecciones = unidad.lecciones.map((l, i) => ({
     idLex: typeof l === "string" ? `${idioma}-${unidad.id}-${i + 1}` : l.idLex,

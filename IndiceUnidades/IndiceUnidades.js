@@ -17,10 +17,6 @@ async function mostrarUnidades() {
 
   const lista = document.getElementById("lista-unidades");
   const usuario = obtenerUsuarioActivo();
-  console.log("Idioma recibido:", idioma);
-
-  console.log("Claves del JSON:", Object.keys(cursos));
-  console.log("Curso encontrado:", curso);
 
   lista.innerHTML = curso.unidades.map((u) => {
     const porcentaje = calcularPorcentajeUnidad(usuario, u);
