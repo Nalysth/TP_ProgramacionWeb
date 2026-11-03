@@ -48,7 +48,7 @@ async function mostrarLecciones() {
   document.getElementById("subtitulo").textContent =
     unidad.descripcion.toUpperCase();
   document.getElementById("btn-indice").href =
-    `../IndiceUnidades/IndiceUnidades.html?idioma=${encodeURIComponent(idioma)}`;
+    `../IndiceUnidades/indiceUnidades.html?idioma=${encodeURIComponent(idioma)}`;
 
   // Normaliza: acepta lecciones como texto o como objeto { idLex, titulo }
   const lecciones = unidad.lecciones.map((l, i) => ({
