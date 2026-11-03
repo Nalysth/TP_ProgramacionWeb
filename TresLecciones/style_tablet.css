@@ -1,53 +1,8 @@
 @media screen and (min-width: 701px) and (max-width: 1023px) {
-    body{
-        height: 100%;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 8fr 1fr;
-    }
-    header{
-        grid-row: 1;
-    }
-    main{
-        grid-row: 2;
-    }
-    .botonatras-y-indiceUnidades{
-        gap: 60%;
-    }
-    .sector_targetas{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows:1fr 1fr;
-        gap: 3%;
-    } 
-    .titulo{
-        grid-row: 2;
-
-    }
-    .segundo_titulo {
-        grid-column: 1 / 2;
-        grid-row: 3;
-    }
-    .targeta{
-        margin: 0;
-        padding: 2%;
-        grid-template-rows: repeat(4, 1fr);
-        height: 100%;
-    }
-    .sector_emoji{
-        font-size: 1em;
-    }
-
-    .boton_reset{
-        grid-row:5;
-    }
-    #lista-lecciones {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-
-    .leccion-actual {
-        grid-column: 1 / span 2;
-        grid-row: 1;
-    }
+  .boton_reset{
+    grid-row: 4;
+  }
+  footer h2{
+    display: none;
+  }
 }   

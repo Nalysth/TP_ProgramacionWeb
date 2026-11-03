@@ -21,6 +21,10 @@ async function mostrarLecciones() {
 
   const usuario = obtenerUsuarioActual();
 
+  const stats = obtenerStats(usuario);
+  document.getElementById("puntos").textContent = stats.puntos;
+  document.getElementById("racha").textContent = stats.racha;
+
   document.getElementById("titulo").textContent =
     `${curso.nombre.toUpperCase()} - UNIDAD ${unidad.id}`;
   document.getElementById("subtitulo").textContent =
@@ -83,12 +87,33 @@ const href = `${PAGINA_LECCION}?idioma=${encodeURIComponent(idioma)}` +
         </article>`;
   }).join("");
 
-  // Reiniciar todas las lecciones de la unidad
-  document.getElementById("btn-reset").onclick = () => {
-    if (!confirm("¿Seguro que querés empezar de nuevo esta unidad?")) return;
-    lecciones.forEach((l) => guardarLeccion(usuario, l.idLex, 0));
-    mostrarLecciones();
+
+document.getElementById("btn-reset").onclick = () => {
+  if (!confirm("¿Seguro? Vas a perder los puntos de esta unidad y tu racha.")) return;
+  lecciones.forEach((l) => guardarLeccion(usuario, l.idLex, 0));
+
+  console.log("ids a reiniciar:", lecciones.map((l) => l.idLex));
+  console.log("ganadas antes:", obtenerStats(usuario).ganadas);
+
+  quitarPuntosUnidad(usuario, lecciones.map((l) => l.idLex));
+  romperRacha();
+  mostrarLecciones();
+};
+  // Botón "siguiente unidad"
+  const botonSiguiente = document.getElementById("btn-siguiente");
+  const posicion = curso.unidades.findIndex((u) => u.id == unidadId);
+  const siguiente = curso.unidades[posicion + 1];
+
+  if (siguiente) {
+    botonSiguiente.style.display = "";
+    botonSiguiente.onclick = () => {
+      window.location.href =
+        `unidad.html?idioma=${encodeURIComponent(idioma)}&unidad=${siguiente.id}`;
+    };
+  } else {
+    botonSiguiente.style.display = "none"; // es la última unidad
   };
 }
+
 
 mostrarLecciones();
