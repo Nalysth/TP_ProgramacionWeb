@@ -7,7 +7,7 @@ const idLex = params.get("idLex");
 
 const RUTA_CONTENIDO = "../Leccion interactiva/ListaLecciones.json";
 const RUTA_UNIDADES = "../IndiceUnidades/ListaUnidades.json";
-const RUTA_RESPUESTAS = "../Leccion interactiva/respuestasCorrectas.json";
+const RUTA_RESPUESTAS = "../Leccion interactiva/RespuestasCorrectas.json";
 const RUTA_DISTRACTORES = "../Leccion interactiva/distractores.json";
 
 
