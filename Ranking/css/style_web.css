@@ -165,3 +165,29 @@ main {
   object-fit: cover;
   flex-shrink: 0;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 59, 143);
+    gap: 5em;
+    padding: 2em;
+}
+
+.info-footer h3{
+    color:rgb(255, 213, 79);
+    font-size: 1.5em;
+}
+
+.info-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.info-footer ul{
+    list-style: none;
+}
+
+.info-footer li{
+    padding: 0.5em;
+}
