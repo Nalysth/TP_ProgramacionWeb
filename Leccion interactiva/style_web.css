@@ -408,3 +408,10 @@ main {
     background-color: var(--verde-claro);
     transform: translateX(-3px);
 }
+
+.puntos-leccion {
+    grid-column: 2;
+    color: var(--verde-oscuro);
+    font-weight: 600;
+    font-size: 0.85rem;
+}
