@@ -1,3 +1,5 @@
+(function () {
+
 const params = new URLSearchParams(window.location.search);
 
 const idioma = params.get("idioma");
@@ -356,3 +358,5 @@ botonCerrarModal.addEventListener("click", () => {
 });
 document.getElementById("btn-volver").addEventListener("click", pausarYVolver);
 cargarLeccion();
+
+})();
