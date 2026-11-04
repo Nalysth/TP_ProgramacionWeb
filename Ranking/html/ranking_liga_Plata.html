@@ -26,7 +26,49 @@
 
   </head>
   <body>
-     <header id="header"></header>
+     <header>
+      <nav class="navegador">
+  <a href="#" class="volver-inicio">
+    <h1>GuanaTalk</h1>
+  </a>
+  <section>
+    <ul class="opciones">
+      <li>
+        <a href="../html/pantallaPrincipal.html">
+          <i class="fa-solid fa-book-open"></i>
+          <span>Cursos</span> 
+        </a>
+      </li>
+      <li>
+        <a href="../Perfil de usuario y ajustes/perfil_usuario.html">
+          <i class="fa-solid fa-user"></i>
+          <span>Perfil</span> 
+        </a>
+      </li>
+      <li>
+        <a href="../Ranking/html/ranking_liga_Plata.html">
+          <i class="fa-solid fa-star"></i>
+          <span>Ranking</span> 
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="racha">
+    <i class="fa-solid fa-fire"></i>
+    <h3 id="rachaActual"></h3>
+    <i class="fa-solid fa-bolt"></i>
+    <h3 id="xpHoy"></h3>
+
+    <details>
+      <summary class="salida">
+        <i class="fa-solid fa-bars"></i>
+      </summary>
+      <a href="../index.html" id="btnCerrarSesion" class="boton-cerrar">Cerrar Sesión</a>
+    </details>
+  </section>
+</nav>
+     </header>
     <main>
   <section class="cabezera_clasificacion">
     <div class="contenedor_botones_liga">
@@ -45,13 +87,11 @@
     </thead>
     <tbody class="cuerpo_tabla_clasificacion" id="cuerpo-tabla"></tbody>
   </table>
-</main>
-    <footer id="footer"></footer> 
+</main> 
 
     <script src="/js/usuarios.js"></script>
     <script src="/footers-y-headers/mandarTexto.js"></script>
     <script src="../../js/ranking.js"></script>
-    <script src="../js/ranking.js"></script>
   </body>
 
 </html>

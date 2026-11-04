@@ -1,1 +1,0 @@
-cargarHeaderYFooterConDatos('/footers-y-headers/headerCompleto.html', '/footers-y-headers/footerCompleto.html');
