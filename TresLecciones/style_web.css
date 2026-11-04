@@ -311,3 +311,6 @@ footer {
     border-radius: 0.5em;
     border-color: #39a84f;
 }
+.nomostrar{
+    display: none;
+}
