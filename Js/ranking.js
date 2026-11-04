@@ -44,7 +44,7 @@ function crearCeldaEstudiante (usuario, esActivo) {
   img.className = "avatar-estudiante";
 
   const nombre = document.createElement("span");
-  nombre.textContent = usuario.nombre + (esActivo ? " (Tú)" : "");
+  nombre.textContent = usuario.nombre + (esActivo ? "" : "");
 
   contenedor.appendChild(img);
   contenedor.appendChild(nombre);
