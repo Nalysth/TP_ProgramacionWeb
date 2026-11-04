@@ -24,10 +24,10 @@ const datos = {
     }
 }
     
-    // busco el dato en la url para llevarlo al array de datos y asi modificar la pagina depenfiendo de la opcion:
-    const parametroDeDato = new URLSearchParams(window.location.search);
-    const seccionActual = parametroDeDato.get('seccion');
-    const configuracion = datos[seccionActual];
+// busco el dato en la url para llevarlo al array de datos y asi modificar la pagina depenfiendo de la opcion:
+const parametroDeDato = new URLSearchParams(window.location.search);
+const seccionActual = parametroDeDato.get('seccion');
+const configuracion = datos[seccionActual];
     
 // Traigo los datos necesarios para configurar la pagina:
 const tituloPrincipal = document.getElementById("tituloFormulario");

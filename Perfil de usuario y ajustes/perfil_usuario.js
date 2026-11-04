@@ -3,7 +3,7 @@ cargarHeaderYFooterConDatos('/footers-y-headers/headerCompleto.html', '/footers-
 
 // Traigo todos los datos necesarios:
 const nickGrande = document.querySelector('.text_nombre')
-const tiempoRecord = document.getElementById('stat_tiempo_record');
+const maximaCantidadXP = document.getElementById('stat_max_xp');
 const mejorRacha = document.getElementById('mejor_racha');
 
 const email = document.getElementById("emailDato")
@@ -11,11 +11,11 @@ const telefono = document.getElementById("telDato")
 const contraseña = document.getElementById("contraseñaDato")
 const nick = document.getElementById("nickDato")
 
-// Establesco los datos a partir del localStorage:
 const usuarioActual = obtenerUsuarioActivo();
 
+// Establesco los datos a partir del localStorage:
 nickGrande.textContent = usuarioActual.usuario.toUpperCase();
-tiempoRecord.textContent = usuarioActual.progreso.racha;
+maximaCantidadXP.textContent = usuarioActual.progreso.puntos;
 mejorRacha.textContent = usuarioActual.progreso.mejorRacha;
 
 email.textContent = usuarioActual.email;

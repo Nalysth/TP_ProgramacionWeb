@@ -13,12 +13,16 @@ async function iniciarDatos(archivoHeader, archivoFooter) {
 
 // Una vez que el header y footer esten cargardos, los datos de la racha y puntos se suben
 async function cargarHeaderYFooterConDatos(archivoHeader, archivoFooter) {
-    await iniciarDatos('/footers-y-headers/headerCompleto.html' , '/footers-y-headers/footerSinRedes.html');
+    await iniciarDatos(archivoHeader , archivoFooter);
     
     const rachaActual = document.getElementById('rachaActual');
-    const puntos = document.getElementById('puntosActuales');
-    const usuarioActualHeader = obtenerUsuarioActivo();
+    const puntos = document.getElementById('xpHoy');
 
     rachaActual.textContent = usuarioActual.progreso.racha;
     puntos.textContent = usuarioActual.progreso.puntos + ' XP';
+    
+    const btnCerrarSesion = document.getElementById('btnCerrarSesion');
+    btnCerrarSesion.addEventListener('click', () => {
+        localStorage.removeItem('usuarioActivo');
+    })
 }
