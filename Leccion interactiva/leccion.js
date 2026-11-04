@@ -1,4 +1,3 @@
-
 const params = new URLSearchParams(window.location.search);
 
 const idioma = params.get("idioma");
@@ -10,10 +9,17 @@ const RUTA_UNIDADES = "../IndiceUnidades/ListaUnidades.json";
 const RUTA_RESPUESTAS = "../Leccion interactiva/RespuestasCorrectas.json";
 const RUTA_DISTRACTORES = "../Leccion interactiva/distractores.json";
 
+const xpHoy = document.getElementById('xpHoy');
+const rachaActual = document.getElementById('rachaActual'); 
+
 
 const TIEMPO_INICIAL = 90;
 
 const usuario = obtenerUsuarioActivo();
+
+xpHoy.textContent = usuario.progreso.xpHoy ?? 0;
+rachaActual.textContent = usuario.progreso.rachaActual ?? 0;
+
 
 let tiempoRestante = TIEMPO_INICIAL;
 let temporizador = null;
