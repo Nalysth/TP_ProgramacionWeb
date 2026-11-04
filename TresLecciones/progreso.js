@@ -24,3 +24,11 @@ function reiniciarLeccion(usuario, idLex) {
 function reiniciarUnidad(usuario, lecciones) {
     lecciones.forEach(l => reiniciarLeccion(usuario, l.idLex));
 }
+
+const xpHoy = document.getElementById('xpHoy');
+const rachaActual = document.getElementById('rachaActual');
+
+const usuario = obtenerUsuarioActivo();
+
+xpHoy.textContent = usuario.progreso.xpHoy ?? 0;
+rachaActual.textContent = usuario.progreso.rachaActual ?? 0;
