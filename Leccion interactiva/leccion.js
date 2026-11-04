@@ -17,7 +17,7 @@ const TIEMPO_INICIAL = 90;
 
 const usuario = obtenerUsuarioActivo();
 
-xpHoy.textContent = usuario.progreso.xpHoy ?? 0;
+xpHoy.textContent = usuario.progreso.xpHoy ?? 0; 
 rachaActual.textContent = usuario.progreso.rachaActual ?? 0;
 
 
