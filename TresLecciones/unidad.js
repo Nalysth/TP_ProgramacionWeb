@@ -139,16 +139,3 @@ document.getElementById("racha").textContent = stats.racha;
 
 }
 mostrarLecciones();
-
-function volverAOrigen() {
-    const params = new URLSearchParams(window.location.search);
-    const origen = params.get("origen");
-    const idioma = params.get("idioma");
-
-    if (origen === "indice") {
-        window.location.href =
-            `../IndiceUnidades/indiceUnidades.html?idioma=${encodeURIComponent(idioma)}`;
-    } else {
-        window.location.href = "../html/pantallaPrincipal.html";
-    }
-}
