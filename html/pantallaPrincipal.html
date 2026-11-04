@@ -49,10 +49,11 @@
         </section>
 
         <section class="racha">
-          <i class="fa-solid fa-fire"></i>
-          <h3>5 Días</h3>
-          <i class="fa-solid fa-bolt"></i>
-          <h3>1500 XP</h3>
+            <i class="fa-solid fa-fire"></i>
+    <h3><span id="rachaNav">0</span> Racha</h3>
+
+    <i class="fa-solid fa-bolt"></i>
+    <h3 id="puntosNav">0 XP</h3>
 
           <details>
             <summary class="salida">
@@ -65,7 +66,7 @@
     </header>
     <main>
       <article class="banner">
-        <h2>¡Hola, Jennifer!</h2>
+        <h2 id="saludo">¡Hola, !</h2>
         <p>Sigue aprendiendo, cada paso te acerca a tus metas</p>
       </article>
       <section>
@@ -76,56 +77,90 @@
       </section>
       <section class="cursos-estadisticas">
         <section class="tarjeta-cursos">
-          <article class="curso">
-            <img src="../img/ingles.jpg" alt="ingles" />
-            <h3>Inglés</h3>
-            <p><span>Progreso:</span> 45%</p>
-            <p><span>Nivel:</span> Intermedio(B1)</p>
-            <a class="btn-continuar" href="../TresLecciones/unidad.html?idioma=Inglés">
-             Continuar 
-             <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </article>
-          <article class="curso">
-            <img src="../img/aleman.png" alt="aleman" />
-            <h3>Alemán</h3>
-            <p><span>Progreso:</span> 15%</p>
-            <p><span>Nivel:</span> Principiante(A1)</p>
-            <a class="btn-continuar" href="../TresLecciones/unidad.html?idioma=Alemán">
-              Continuar
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </article>
-          <article class="curso">
-            <img src="../img/chino.jpg" alt="chino" />
-            <h3>Chino Mandarín</h3>
-            <p><span>Progreso:</span> 0%</p>
-            <p><span>Nivel:</span> Inicial</p>
-            <a class="btn-continuar" href="../TresLecciones/unidad.html?idioma=ChinoMandarin">
-              Continuar
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </article>
-        </section>
+
+    <article class="curso" data-idioma="Inglés">
+        <img src="../img/ingles.jpg" alt="Inglés">
+        <h3>Inglés</h3>
+
+        <p>
+            <span>Progreso:</span>
+            <span class="valor-progreso">0%</span>
+        </p>
+
+        <p>
+            <span>Nivel:</span>
+            <span class="valor-nivel">Intermedio (B1)</span>
+        </p>
+
+        <a class="btn-continuar"
+           href="../TresLecciones/unidad.html?idioma=Inglés">
+            <span class="texto-accion">Comenzar</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </article>
+
+    <article class="curso" data-idioma="Alemán">
+        <img src="../img/aleman.png" alt="Alemán">
+        <h3>Alemán</h3>
+
+        <p>
+            <span>Progreso:</span>
+            <span class="valor-progreso">0%</span>
+        </p>
+
+        <p>
+            <span>Nivel:</span>
+            <span class="valor-nivel">Principiante (A1)</span>
+        </p>
+
+        <a class="btn-continuar"
+           href="../TresLecciones/unidad.html?idioma=Alemán">
+            <span class="texto-accion">Comenzar</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </article>
+
+    <article class="curso" data-idioma="ChinoMandarin">
+        <img src="../img/chino.jpg" alt="Chino Mandarín">
+        <h3>Chino Mandarín</h3>
+
+        <p>
+            <span>Progreso:</span>
+            <span class="valor-progreso">0%</span>
+        </p>
+
+        <p>
+            <span>Nivel:</span>
+            <span class="valor-nivel">Inicial</span>
+        </p>
+
+        <a class="btn-continuar"
+           href="../TresLecciones/unidad.html?idioma=ChinoMandarin">
+            <span class="texto-accion">Comenzar</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </article>
+
+</section>
         <section class="estadisticas">
           <article class="titulo-estadistica">
             <i class="fa-solid fa-chart-simple"></i>
             <h3>Estadísticas</h3>
           </article>
           <article class="datos-estadisticas">
-            <i class="fa-solid fa-fire"></i>
-            <h4>Racha</h4>
-            <p>5 Días</p>
+    <i class="fa-solid fa-fire"></i>
+    <h4>Racha</h4>
+    <p id="rachaEstadistica">0</p>
 
-            <i class="fa-solid fa-trophy"></i>
-            <h4>Liga Bronce</h4>
+    <i class="fa-solid fa-trophy"></i>
+    <h4>Liga Bronce</h4>
 
-            <i class="fa-solid fa-bullseye"></i>
-            <h4>Meta Diaria</h4>
-            <p>50 XP/día</p>
+    <i class="fa-solid fa-bullseye"></i>
+    <h4>Meta Diaria</h4>
+    <p id="metaDiaria">0/50 XP</p>
 
-            <p class="mensaje">¡Grandes logros te esperan!</p>
-          </article>
+    <p class="mensaje">¡Grandes logros te esperan!</p>
+</article>
         </section>
       </section>
     </main>
@@ -166,5 +201,6 @@
     <script src="../js/usuarios.js"></script>
     <script src="../TresLecciones/progreso.js"></script>
     <script src="../js/botones-continuar.js"></script>
+    <script src="../js/pantallaPrincipal.js"></script>
   </body>
 </html>

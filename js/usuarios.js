@@ -25,3 +25,21 @@ function obtenerUsuarioActivo() {
 
     return usuario;
 }
+
+function guardarUsuario(usuario) {
+    const usuariosGuardados =
+        JSON.parse(localStorage.getItem("usuarios")) || [];
+
+    const indice = usuariosGuardados.findIndex(
+        u => u.email === usuario.email
+    );
+
+    if (indice !== -1) {
+        usuariosGuardados[indice] = usuario;
+
+        localStorage.setItem(
+            "usuarios",
+            JSON.stringify(usuariosGuardados)
+        );
+    }
+}

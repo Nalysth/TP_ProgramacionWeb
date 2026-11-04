@@ -46,6 +46,15 @@ function completarLeccion(usuario, idLec, porcentaje) {
     stats.puntos += puntosGanados;
     stats.ganadas[idLec] = puntosGanados;
 
+    const hoy = fechaActualXP();
+
+if (usuario.progreso.fechaXP !== hoy) {
+    usuario.progreso.fechaXP = hoy;
+    usuario.progreso.xpHoy = 0;
+}
+
+usuario.progreso.xpHoy += puntosGanados;
+
     guardarStats(usuario, stats);
 
     return {
@@ -80,4 +89,14 @@ function quitarPuntosUnidad(usuario, idLexs) {
     guardarStats(usuario, stats);
 
     return restados;
+}
+
+function fechaActualXP() {
+    const hoy = new Date();
+
+    const anio = hoy.getFullYear();
+    const mes = String(hoy.getMonth() + 1).padStart(2, "0");
+    const dia = String(hoy.getDate()).padStart(2, "0");
+
+    return `${anio}-${mes}-${dia}`;
 }
