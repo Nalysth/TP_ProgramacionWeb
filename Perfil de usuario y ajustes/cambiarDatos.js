@@ -1,14 +1,7 @@
-iniciarDatos('/footers-y-headers/headerCompleto.html', '/footers-y-headers/footerCompleto.html'); 
+cargarHeaderYFooterConDatos('/footers-y-headers/headerCompleto.html', '/footers-y-headers/footerCompleto.html'); 
     
 // Creo un array con los datos que voy a necesitar:
 const datos = { 
-    "mail": {
-        titulo: "Cambiar Mail",
-        primerTituloLabel: "Nuevo Email",
-        segundoTituloLabel: "Confirmar Email",
-        tipoInput: "email",
-        storaKey: "mail"
-    },
     "contraseña": {
         titulo: "Cambiar Contraseña",
         primerTituloLabel: "Nueva Contraseña",
@@ -66,12 +59,6 @@ formulario.addEventListener("submit", (e) => {
     
 // Usando un switch, dependiendo de la opcion del dato, manda el tipo de dato correspondiende al localStorage:
 switch(seccionActual){
-case 'mail':
-    if(verificarDatos(primerCampo.value, segundoCampo.value)){
-    } else{
-        e.preventDefault();
-    }
-    break;
 case 'contraseña':
     if(verificarDatos(primerCampo.value, segundoCampo.value)){
         usuarioActual.contraseña = primerCampo.value;
