@@ -1,28 +1,18 @@
+// Inicio el header y el foooter:
 iniciarDatos('/footers-y-headers/headerCompleto.html' , '/footers-y-headers/footerSinRedes.html');
+
 // Traigo todos los datos necesarios:
 const email = document.getElementById("mailDato")
 const telefono = document.getElementById("telDato")
 const contraseña = document.getElementById("contraseñaDato")
 const nick = document.getElementById("nickDato")
+const nickGrande = document.querySelector('.text_nombre')
 
-// Hardcoreo los datos personales:
-if(!localStorage.getItem('mail')){
-    localStorage.setItem("mail", "guanaTalk_oficial@gmail.com")
-}
+// Establesco los datos a partir del localStorage:
+const usuarioActual = obtenerUsuarioActivo();
 
-if(!localStorage.getItem('contraseña')){
-    localStorage.setItem('contraseña', 12345)
-}
+nickGrande.textContent = usuarioActual.usuario.toUpperCase();
 
-if(!localStorage.getItem('nick')){
-    localStorage.setItem('nick', 'Guana89')
-}
-
-if(!localStorage.getItem('telefono')){
-    localStorage.setItem('telefono', 11223344)
-}
-
-// Establesco los datos a partir del localStorage: 
-email.textContent = localStorage.getItem("mail");
-telefono.textContent = localStorage.getItem('telefono');
-nick.textContent = localStorage.getItem('nick');
+email.textContent = usuarioActual.email;
+telefono.textContent = usuarioActual.telefono;
+nick.textContent = usuarioActual.usuario;
