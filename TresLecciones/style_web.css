@@ -1,3 +1,4 @@
+
 :root {
     --verde: #4646af;
     --verde-oscuro: #3b3b8f;
@@ -10,144 +11,153 @@
     --blanco: #FFFFFF;
     --rojo: #E66B6B;
 }
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
-  height: 100dvh;
+    height: 100dvh;
 }
 
 body {
-  height: 100%;
-  display: grid;
-  grid-template-rows: 0.5fr 8fr auto;
-  background-color: #F3F8FC;
-  color: #293B4A;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.5fr 8fr auto;
+    background-color: var(--fondo);
+    color: #293B4A;
 }
 
 header {
-  grid-row: 1;
+    grid-row: 1;
 }
 
-
 main {
-  grid-row: 2;
-  padding: 2%;
-  height: 100%;
-  display: grid;
-  grid-template-rows: repeat(4, auto);
-  gap: 2%;
+    grid-row: 2;
+    padding: 2%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    gap: 2%;
 }
 
 footer {
-  height: 70%;  
-  grid-row: 3;
+    height: 70%;
+    grid-row: 3;
 }
-.botonatras-y-indiceUnidades{
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+
+/* NAVEGACIÓN */
+
+.botonatras-y-indiceUnidades {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
+
 .boton-retroceso {
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: start;
-  border: 1px solid var(--borde);
-  border-radius: 1em;
-  color: var(--blanco);
-  font-size: 1em;
-  cursor: pointer;
-  transition: 0.2s;
-  background: var(--verde);
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid var(--borde);
+    border-radius: 1em;
+    color: var(--blanco);
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.2s;
+    background: var(--verde);
 }
-.boton-retroceso:hover {
-  background: var(--gris);
-}
+
 .boton-retroceso:hover {
     background: var(--gris);
 }
 
 .sector-indice {
-  width: 100% ;
-  align-items: center;
-  display: flex;
-  justify-self: end;  
-  border: 1px solid var(--borde);
-  border-radius: 1em;
-  background: var(--verde);
-  color: var(--blanco);
-  text-decoration: none;
-  transition: 0.2s;
-  grid-column: 3;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-self: end;
+    border: 1px solid var(--borde);
+    border-radius: 1em;
+    background: var(--verde);
+    color: var(--blanco);
+    text-decoration: none;
+    transition: 0.2s;
+    grid-column: 3;
 }
 
 .sector-indice:hover {
     background: var(--gris);
     transform: translateY(-2px);
 }
-.nombreleccion {
-  font-style: oblique;
-  font-weight: normal;
-}
 
-.sector_targetas {
-  grid-row: 3;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2%;
+/* TÍTULOS */
+
+.nombreleccion {
+    font-style: oblique;
+    font-weight: normal;
 }
 
 .titulo_nombre {
-  grid-row: 1;
-  grid-column: 2;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  color: #245675;
+    grid-row: 1;
+    grid-column: 2;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #245675;
 }
 
 .segundo_titulo {
-  padding:1em;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  display: grid;
-  border-bottom: 1px solid #D5E3ED;
-  width: 100%;
-  font-weight: lighter;
-  color: #718596;
+    padding: 1em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    border-bottom: 1px solid var(--borde);
+    width: 100%;
+    font-weight: lighter;
+    color: var(--gris);
 }
 
+/* CONTENEDOR DE TARJETAS */
+
+.sector_targetas {
+    grid-row: 3;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+}
+
+/* TARJETAS */
+
 .targeta {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: auto 1fr auto;
-  border-radius: 1em;
-  color: #293B4A;
-  background-color: #FFFFFF;
-  border: 1px solid #D5E3ED;
-  box-shadow: 1px 1px 15px #2456751a;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: auto 1fr auto;
+    border-radius: 1em;
+    color: #293B4A;
+    background-color: var(--blanco);
+    border: 1px solid var(--borde);
+    box-shadow: 1px 1px 15px #2456751a;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .leccion {
-  grid-column: 2;
-  grid-row: 1;
+    grid-column: 2;
+    grid-row: 1;
 }
 
 .targeta:hover {
-  transform: scale(1);
-  box-shadow: 0 10px 20px #24567530;
+    transform: scale(1);
+    box-shadow: 0 10px 20px #24567530;
 }
 
 .sector_emoji {
@@ -159,84 +169,145 @@ footer {
 }
 
 .texto_nombre_estado {
-  grid-column: 2;
-  font-size: 1em;
+    grid-column: 2;
+    font-size: 1em;
 }
 
 .texto_nombre_estado .nombreleccion {
-  font-size: small;
+    font-size: small;
 }
 
-.boton_iniciar, .boton_iniciarnt{
-  display: grid;
-  justify-self: center;
-  align-items: center;
-  grid-column: 2;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1em;
-  height: 50%;
-  width: 90%;
-  border-radius: 10px;
-  transition: 0.2s;
+/* BOTONES DE LAS LECCIONES */
+
+.boton_iniciar,
+.boton_iniciarnt {
+    display: grid;
+    justify-self: center;
+    align-items: center;
+    grid-column: 2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    height: 50%;
+    width: 90%;
+    border-radius: 10px;
+    transition: 0.2s;
 }
 
 .boton_iniciar {
-  background-color: #F3A64A;
-  color: #FFFFFF;
+    background-color: var(--naranja);
+    color: var(--blanco);
 }
 
 .boton_iniciar:hover {
-  background-color: var(--verde);
+    background-color: var(--verde);
 }
 
 .boton_iniciarnt {
-  color: #718596;
-  background-color: #E3EBF1;
+    color: var(--gris);
+    background-color: #E3EBF1;
 }
+
+/* ESTADOS DE LAS LECCIONES */
+
+.estado_completada {
+    color: #39a84f;
+}
+
+.estado_en_curso {
+    color: #E6A23C;
+}
+
+.estado_no_iniciada {
+    color: #D9534F;
+}
+
+.estado_completada,
+.estado_en_curso,
+.estado_no_iniciada {
+    font-weight: bold;
+}
+
+/* TARJETAS DE LECCIONES COMPLETADAS */
+
+.targeta.leccion-completada {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.targeta.leccion-completada .leccion {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.targeta.leccion-completada .sector_emoji {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.targeta.leccion-completada .texto_nombre_estado {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+/* PUNTOS OBTENIDOS */
+
+.targeta.leccion-completada .puntos-leccion {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+    color: var(--verde-oscuro);
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+/* BOTÓN REPETIR */
+
+.targeta.leccion-completada .boton_iniciarnt {
+    grid-column: 1;
+    grid-row: 5;
+    width: 90%;
+    height: auto;
+    min-height: 2.3rem;
+    justify-self: center;
+}
+
+/* BOTÓN REINICIAR UNIDAD */
+
 .boton_r_unidad {
-  padding: 0.5em;
-  height: 100%;
-  font-weight: normal;
-  border-radius: 0.5em;
-  background-color: #D9534F;
-  text-decoration: none;
-  color: #FFFFFF;
-  border: 1px solid #C74743;
-  transition: 0.2s;
+    padding: 0.5em;
+    height: 100%;
+    font-weight: normal;
+    border-radius: 0.5em;
+    background-color: #D9534F;
+    text-decoration: none;
+    color: var(--blanco);
+    border: 1px solid #C74743;
+    transition: 0.2s;
 }
 
 .boton_r_unidad:hover {
-  background-color: #B83B38;
+    background-color: #B83B38;
 }
 
-.estado_completada, .sector_emoji i{
-  color: #39a84f;
+/* SECCIÓN INFERIOR */
+
+.boton_reset {
+    height: 100%;
+    grid-row: 4;
+    padding: 0.3rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
-.estado_en_curso, .sector_emoji i{
-  color: #E6A23C;
-}
-
-.estado_no_iniciada, .sector_emoji i{
-  color: #D9534F;
-}
-
-.estado_completada, .estado_en_curso, .estado_no_iniciada {
-  font-weight: bold;
-}
-.boton_reset{
-  height: 100%;
-  grid-row: 4;
-  padding: 0.3rem;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-}
-.siguienteUnidad{
-  padding: 0.5em;
-  background-color: #39a84f;
-  border-bottom: none;
-  color: white;
-  border-radius: 0.5em;
-  border-color:#39a84f;
+.siguienteUnidad {
+    padding: 0.5em;
+    background-color: #39a84f;
+    border-bottom: none;
+    color: var(--blanco);
+    border-radius: 0.5em;
+    border-color: #39a84f;
 }

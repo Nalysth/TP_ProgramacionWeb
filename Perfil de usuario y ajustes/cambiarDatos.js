@@ -1,6 +1,5 @@
 cargarHeaderYFooterConDatos('/footers-y-headers/headerCompleto.html', '/footers-y-headers/footerCompleto.html'); 
     
-// Creo un array con los datos que voy a necesitar:
 const datos = { 
     "contraseña": {
         titulo: "Cambiar Contraseña",
@@ -24,23 +23,23 @@ const datos = {
     }
 }
     
-// busco el dato en la url para llevarlo al array de datos y asi modificar la pagina depenfiendo de la opcion:
-const parametroDeDato = new URLSearchParams(window.location.search);
-const seccionActual = parametroDeDato.get('seccion');
-const configuracion = datos[seccionActual];
+    // busco el dato en la url para que entre al switch y cambiar el dato
+    const parametroDeDato = new URLSearchParams(window.location.search);
+    const seccionActual = parametroDeDato.get('seccion');
+    const configuracion = datos[seccionActual];
     
-// Traigo los datos necesarios para configurar la pagina:
+
 const tituloPrincipal = document.getElementById("tituloFormulario");
 const primerLabel = document.getElementById("primerDato");
 const segundoLabel = document.getElementById("segundoDato");
 const primerCampo = document.getElementById("primerCampo");
 const segundoCampo = document.getElementById("segundoCampo");
 
-// Inscribo los datos en las etiquetas en el html
+
 tituloPrincipal.textContent = configuracion.titulo;
 primerLabel.textContent = configuracion.primerTituloLabel;
 primerCampo.type = configuracion.tipoInput;
-// Verifico si el tipo de dato es igual a nick, ya que ahi solamente se usa un solo label:
+
 if(seccionActual === 'nick'){
     segundoLabel.style.display = 'none';
     segundoCampo.style.display = 'none';
@@ -54,10 +53,9 @@ if(seccionActual === 'nick'){
 const formulario = document.getElementById("formulario");
 const usuarioActual = obtenerUsuarioActivo();
 
-// Con el formulario, creo el evento al enviar el formulario:
 formulario.addEventListener("submit", (e) => {
     
-// Usando un switch, dependiendo de la opcion del dato, manda el tipo de dato correspondiende al localStorage:
+// switch = dependiend del dato que se mando por la url va a entrar un caso hace la V y usa la funicon para poder mandarlo al LS
 switch(seccionActual){
 case 'contraseña':
     if(verificarDatos(primerCampo.value, segundoCampo.value)){
@@ -82,7 +80,7 @@ case 'telefono':
 }
 })
 
-// Creo una funcionar para no repetir codigo:
+// Creo una funcionar para verificar que sean iguales
 function verificarDatos(a, b){
     return(a === b)
 }

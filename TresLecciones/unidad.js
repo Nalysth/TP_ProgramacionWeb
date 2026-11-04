@@ -98,18 +98,31 @@ document.getElementById("racha").textContent = stats.racha;
     const href = `${PAGINA_LECCION}?idioma=${encodeURIComponent(idioma)}` +
                  `&unidad=${unidad.id}&idLex=${encodeURIComponent(l.idLex)}`;
 
-    return `
-      <article class="targeta ${i === indiceDestacado ? "leccion-actual" : ""}">
+                 const puntosGanados = stats.ganadas?.[l.idLex] ?? 0;
+
+const mostrarPuntos = porcentaje === 100
+    ? `<p class="puntos-leccion">⭐ Puntos obtenidos: ${puntosGanados} XP</p>`
+    : "";
+
+   return `
+    <article class="targeta ${porcentaje === 100 ? "leccion-completada" : ""} ${i === indiceDestacado ? "leccion-actual" : ""}">
+
         <p class="leccion">LECCION ${i + 1}</p>
+
         <section class="sector_emoji">
-          <i class="fa-solid ${icono}" style="color: ${colorIcono};"></i>
+            <i class="fa-solid ${icono}" style="color: ${colorIcono};"></i>
         </section>
+
         <section class="texto_nombre_estado">
-          <p class="nombreleccion">${l.titulo}</p>
-          <p class="${estadoClase}">${estadoTexto}</p>
+            <p class="nombreleccion">${l.titulo}</p>
+            <p class="${estadoClase}">${estadoTexto}</p>
         </section>
+
+        ${mostrarPuntos}
+
         <a href="${href}" class="${botonClase}">${botonTexto}</a>
-      </article>`;
+
+    </article>`;
   }).join("");
 
   // Reiniciar la unidad: borra el progreso, resta los puntos y rompe la racha

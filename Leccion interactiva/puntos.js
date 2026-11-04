@@ -38,6 +38,7 @@ function completarLeccion(usuario, idLec, porcentaje) {
     }
 
     stats.racha += 1;
+    // hace la mejor racha con la funcion
     stats.mejorRacha = Math.max(stats.mejorRacha, stats.racha);
 
     const mult = multiplicador(stats.racha);

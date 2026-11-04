@@ -322,7 +322,11 @@ function abandonarLeccion(mensaje) {
     clearInterval(temporizador);
 
     reiniciarLeccion(usuario, idLex);
+    //esto
     quitarPuntosUnidad(usuario, [idLex]);
+    //por esto
+    //reiniciarLeccion(usuario, idLex);
+    //romperRacha(usuario);
     alert(mensaje);
     volverAUnidad();
 }
