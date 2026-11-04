@@ -312,5 +312,5 @@ footer {
     border-color: #39a84f;
 }
 .nomostrar{
-    display: none;
+    visibility: hidden;
 }
