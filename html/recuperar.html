@@ -22,9 +22,11 @@
     <main>
         <h2 class="recu">Recuperar contraseña</h2>
         <p class="texto">Te llagara un codigo de verificacion</p>
-        <form action="../index.html">
+        <form action="../index.html" id="form">
+          
             <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="nombre@.com" required >
+            <input type="email" id="email" placeholder="nombre@.com"  >
+            <span id="mensaje"></span>
             <button type="submit">Enviar</button>
             <a href="../index.html" class="cancelar">Cancelar</a>
         </form>
@@ -49,5 +51,7 @@
         </ul>
       </section>
     </footer>
+    <script src="../js/usuarios.js"></script>
+<script src="../js/recuperar.js"></script>
   </body>
 </html>
