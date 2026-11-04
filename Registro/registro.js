@@ -1,5 +1,3 @@
-iniciarDatos('/footers-y-headers/headerSimple.html', '/footers-y-headers/footerSinMenu.html');
-
 const nombre = document.getElementById("nombre");
 const usuario = document.getElementById("usuario");
 const email = document.getElementById("email");
