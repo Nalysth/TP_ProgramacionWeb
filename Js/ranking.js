@@ -5,7 +5,6 @@ const LIGAS = [
   { clave: "oro",    nombre: "Liga de Oro",    medalla: "🥇", minimo: 300, maximo: Infinity, destino: "Liga de Diamante" }
 ];
 
-const FOTO = "../img/foto_avatar";
 const MEDALLAS = ["🥇", "🥈", "🥉"];
 const CLASES_FILA = [
   "segunda_fila_tabla_clasificacion",
@@ -38,15 +37,9 @@ function crearCeldaEstudiante (usuario, esActivo) {
   const contenedor = document.createElement("div");
   contenedor.className = "celda-estudiante";
 
-  const img = document.createElement("img");
-  img.src = usuario.avatar || FOTO;
-  img.alt = "Foto de " + usuario.nombre;
-  img.className = "avatar-estudiante";
-
   const nombre = document.createElement("span");
-  nombre.textContent = usuario.nombre + (esActivo ? "" : "");
+  nombre.textContent = usuario.nombre;
 
-  contenedor.appendChild(img);
   contenedor.appendChild(nombre);
   return crearCelda(contenedor);
 }
@@ -102,7 +95,7 @@ function mostrarRanking() {
   const emailActivo = localStorage.getItem("usuarioActivo");
   const usuarioActivo = usuarios.find(u => u.email === emailActivo);
 
-  // 1) ¿Qué liga mostrar? La de la URL; si no hay, la del usuario activo; si no, bronce.
+  // QUE LIGA MUESTRA
   let clave = new URLSearchParams(window.location.search).get("liga");
   if (!LIGAS.some(liga => liga.clave === clave)) {
     clave = usuarioActivo
