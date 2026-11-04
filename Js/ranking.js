@@ -38,15 +38,10 @@ function crearCeldaEstudiante (usuario, esActivo) {
   const contenedor = document.createElement("div");
   contenedor.className = "celda-estudiante";
 
-  const img = document.createElement("img");
-  img.src = usuario.avatar || FOTO;
-  img.alt = "Foto de " + usuario.nombre;
-  img.className = "avatar-estudiante";
 
   const nombre = document.createElement("span");
   nombre.textContent = usuario.nombre + (esActivo ? "" : "");
 
-  contenedor.appendChild(img);
   contenedor.appendChild(nombre);
   return crearCelda(contenedor);
 }
