@@ -50,7 +50,7 @@ const botonEnviar = document.getElementById("btn-enviar");
 const botonAbandonar = document.getElementById("btn-arrepentirse");
 const botonCerrarModal = document.getElementById("btn-cerrar-modal");
 
-const claveTiempo = `tiempo_${usuario.id}_${idLex}`;
+const claveTiempo = tiempo_${usuario.id}_${idLex};
 
 function normalizar(texto) {
     return texto
@@ -122,7 +122,7 @@ async function cargarLeccion() {
             l => l.idLex === idLex
         ) + 1;
 
-        tituloLeccion.textContent = `${unidad.titulo} - Lección ${numeroLeccion}`;        
+        tituloLeccion.textContent = ${unidad.titulo} - Lección ${numeroLeccion};        
         textoTraducir.textContent = datosLeccion.textoTraducir;
 
         bancoPalabras = [
@@ -279,7 +279,7 @@ function terminarLeccion() {
     actualizarProgreso(100);
 
     mensajeModal.textContent =
-        `¡RESPUESTA CORRECTA! +${resultado.puntosGanados} puntos | Racha: ${resultado.racha} 🔥`;
+        ¡RESPUESTA CORRECTA! +${resultado.puntosGanados} puntos | Racha: ${resultado.racha} 🔥;
     modal.showPopover();
 }
 
@@ -294,7 +294,7 @@ function actualizarProgreso() {
     const segundos = tiempoTranscurrido % 60;
 
     tiempoHTML.textContent =
-        `${String(minutos).padStart(2, "0")}:${String(segundos).padStart(2, "0")} / 01:30`;
+        ${String(minutos).padStart(2, "0")}:${String(segundos).padStart(2, "0")} / 01:30;
 }
 
 function iniciarTemporizador() {
