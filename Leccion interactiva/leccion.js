@@ -9,16 +9,16 @@ const RUTA_UNIDADES = "../IndiceUnidades/ListaUnidades.json";
 const RUTA_RESPUESTAS = "../Leccion interactiva/RespuestasCorrectas.json";
 const RUTA_DISTRACTORES = "../Leccion interactiva/distractores.json";
 
-const xpHoy = document.getElementById('xpHoy');
-const rachaActual = document.getElementById('rachaActual'); 
+const elXpHoy = document.getElementById('xpHoy');
+const elRachaActual = document.getElementById('rachaActual');
 
 
 const TIEMPO_INICIAL = 90;
 
 const usuario = obtenerUsuarioActivo();
 
-rachaActual.textContent = usuario.progreso.racha ?? 0;
-xpHoy.textContent = usuario.progreso.puntos ?? 0;
+if (elRachaActual) elRachaActual.textContent = usuario.progreso.racha ?? 0;
+if (elXpHoy) elXpHoy.textContent = usuario.progreso.puntos ?? 0;
 
 
 let tiempoRestante = TIEMPO_INICIAL;
