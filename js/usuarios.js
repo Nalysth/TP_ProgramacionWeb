@@ -36,7 +36,7 @@ function obtenerUsuarioActivo() {
     const email = localStorage.getItem("usuarioActivo");
 
     if (!email) {
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
         return null;
     }
 
@@ -48,7 +48,7 @@ function obtenerUsuarioActivo() {
     );
 
     if (!usuario) {
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
         return null;
     }
 

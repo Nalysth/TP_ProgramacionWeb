@@ -55,9 +55,7 @@ async function configurarContinuar() {
     const destino = enCurso.length > 0
       ? enCurso[enCurso.length - 1]
       : estado.find((e) => !e.completada) || estado[0];
-
-    boton.href = `${PAGINA_UNIDAD}?idioma=${encodeURIComponent(idioma)}&unidad=${destino.id}`;
-  });
+      boton.href = `${PAGINA_UNIDAD}?idioma=${encodeURIComponent(idioma)}&unidad=${destino.id}&origen=principal`;  });
 }
 
 configurarContinuar();

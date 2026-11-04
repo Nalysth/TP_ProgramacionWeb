@@ -35,8 +35,8 @@ async function mostrarUnidades() {
   lista.querySelectorAll(".contenedorUnidad").forEach((boton) => {
     boton.addEventListener("click", () => {
       window.location.href =
-        `../TresLecciones/unidad.html?idioma=${encodeURIComponent(idioma)}&unidad=${boton.dataset.id}`;
-    });
+        `../TresLecciones/unidad.html?idioma=${encodeURIComponent(idioma)}&unidad=${boton.dataset.id}&origen=indice`;    
+      });
   });
 }
 function calcularPorcentajeUnidad(usuario, unidad) {
