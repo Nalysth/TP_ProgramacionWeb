@@ -85,6 +85,7 @@ button{
     align-items: center;
 }
 
+
 @media screen and (max-width: 750px){
     main{
         width: 70%;

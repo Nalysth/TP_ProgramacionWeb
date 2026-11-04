@@ -12,8 +12,7 @@
 
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <title>GuanaTalk</title>
   </head>
   <body>
@@ -28,19 +27,20 @@
         <article class="form-titulo">
           <h2>GuanaTalk</h2>
           <h3>Aprende idiomas, conecta con el mundo</h3>
-          <form action="html/pantallaPrincipal.html" class="form-inicio">
+          <form action="html/pantallaPrincipal.html" class="form-inicio" id="form">
+            <span id="mensaje"></span>
             <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="nombre@.com" required />
+            <input type="email" id="email" placeholder="nombre@.com" />
 
             <label for="contrasenia">Contrasenia:</label>
-            <input type="password" id="contrasenia" placeholder="contrasenia"  required/>
+            <input type="password" id="contrasenia" placeholder="contrasenia" />
 
             <button type="submit" class="boton-form">Iniciar sesión</button>
             <a href="html/recuperar.html">¿Olvidaste tu contrasenia?</a>
           </form>
         </article>
       </section>
-      <h2 class="sub-titulo">Elige un curso para empezar</h2>
+      <h2 class="sub-titulo">¡Bienvenido/a! ¿Qué idioma querés aprender?</h2>
       <section class="cursos">
         <a href="html/info-ingles.html" class="curso">
           <img src="img/ingles.jpg" alt="ingles" />
@@ -123,5 +123,7 @@
         </ul>
       </section>
     </footer>
+    <script src="js/usuarios.js"></script>
+    <script src="js/login.js"></script>
   </body>
 </html>
